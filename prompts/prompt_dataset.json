@@ -1,0 +1,802 @@
+[
+  {
+    "prompt_id": "T01_P0_python",
+    "task_id": "T01",
+    "task_name": "CRUD REST API",
+    "key_pattern": "Layered architecture",
+    "language": "python",
+    "prompt_level": "P0",
+    "prompt": "You are a software engineer. Write a complete, working implementation in Python.\n\nTask: Implement a complete CRUD REST API for managing a library of books. The system should support creating, reading (single and list), updating, and deleting books. Each book has: id (auto-generated), title, author, isbn, published_year, and genre. Include proper error handling for not-found and validation errors. Use in-memory storage (dictionary/map).\n\nProvide the complete source code. Include all necessary classes, functions, and imports.",
+    "prompt_word_count": 74
+  },
+  {
+    "prompt_id": "T01_P1_python",
+    "task_id": "T01",
+    "task_name": "CRUD REST API",
+    "key_pattern": "Layered architecture",
+    "language": "python",
+    "prompt_level": "P1",
+    "prompt": "You are a software engineer. Write a complete, working implementation in Python.\n\nTask: Implement a complete CRUD REST API for managing a library of books. The system should support creating, reading (single and list), updating, and deleting books. Each book has: id (auto-generated), title, author, isbn, published_year, and genre. Include proper error handling for not-found and validation errors. Use in-memory storage (dictionary/map).\n\nArchitectural Requirements:\n- Apply separation of concerns: separate business logic from data access and presentation/API\n- Organize code into distinct, cohesive modules or classes with single responsibilities\n- Use meaningful, descriptive names for all classes, methods, and variables\n- Keep functions/methods focused and short (prefer < 20 lines per method)\n- Group related functionality together\n\nProvide the complete source code. Include all necessary classes, functions, and imports.",
+    "prompt_word_count": 129
+  },
+  {
+    "prompt_id": "T01_P2_python",
+    "task_id": "T01",
+    "task_name": "CRUD REST API",
+    "key_pattern": "Layered architecture",
+    "language": "python",
+    "prompt_level": "P2",
+    "prompt": "You are a software engineer. Write a complete, working implementation in Python.\n\nTask: Implement a complete CRUD REST API for managing a library of books. The system should support creating, reading (single and list), updating, and deleting books. Each book has: id (auto-generated), title, author, isbn, published_year, and genre. Include proper error handling for not-found and validation errors. Use in-memory storage (dictionary/map).\n\nArchitectural Requirements:\n- Apply separation of concerns: separate business logic from data access and presentation/API\n- Organize code into distinct, cohesive modules or classes with single responsibilities\n- Use meaningful, descriptive names for all classes, methods, and variables\n- Keep functions/methods focused and short (prefer < 20 lines per method)\n- Group related functionality together\n\nDesign Pattern Requirements:\n- Use the Repository pattern for all data access operations (abstract storage behind an interface)\n- Use the Factory pattern for creating complex objects\n- Use the Strategy pattern where multiple algorithms or behaviors are interchangeable\n- Define interfaces/abstract base classes for all major component boundaries\n- Apply Dependency Injection: pass dependencies through constructors, not hard-coded instantiation\n\nProvide the complete source code. Include all necessary classes, functions, and imports.",
+    "prompt_word_count": 189
+  },
+  {
+    "prompt_id": "T01_P3_python",
+    "task_id": "T01",
+    "task_name": "CRUD REST API",
+    "key_pattern": "Layered architecture",
+    "language": "python",
+    "prompt_level": "P3",
+    "prompt": "You are a software engineer. Write a complete, working implementation in Python.\n\nTask: Implement a complete CRUD REST API for managing a library of books. The system should support creating, reading (single and list), updating, and deleting books. Each book has: id (auto-generated), title, author, isbn, published_year, and genre. Include proper error handling for not-found and validation errors. Use in-memory storage (dictionary/map).\n\nArchitectural Requirements:\n- Apply separation of concerns: separate business logic from data access and presentation/API\n- Organize code into distinct, cohesive modules or classes with single responsibilities\n- Use meaningful, descriptive names for all classes, methods, and variables\n- Keep functions/methods focused and short (prefer < 20 lines per method)\n- Group related functionality together\n\nDesign Pattern Requirements:\n- Use the Repository pattern for all data access operations (abstract storage behind an interface)\n- Use the Factory pattern for creating complex objects\n- Use the Strategy pattern where multiple algorithms or behaviors are interchangeable\n- Define interfaces/abstract base classes for all major component boundaries\n- Apply Dependency Injection: pass dependencies through constructors, not hard-coded instantiation\n\nClean Architecture Requirements:\n- Organize code into 4 layers: Entities (domain models), Use Cases (application logic), Interface Adapters (controllers, presenters, gateways), Frameworks & Drivers (external tools)\n- Dependencies must point inward: outer layers depend on inner layers, never the reverse\n- Use Data Transfer Objects (DTOs) for data crossing layer boundaries\n\nSOLID Principles (apply ALL five):\n- Single Responsibility Principle: each class has exactly one reason to change\n- Open/Closed Principle: classes are open for extension, closed for modification\n- Liskov Substitution: subtypes must be substitutable for their base types\n- Interface Segregation: prefer many small interfaces over one large interface\n- Dependency Inversion: depend on abstractions, not concretions\n\nProvide the complete source code. Include all necessary classes, functions, and imports.",
+    "prompt_word_count": 298
+  },
+  {
+    "prompt_id": "T01_P0_java",
+    "task_id": "T01",
+    "task_name": "CRUD REST API",
+    "key_pattern": "Layered architecture",
+    "language": "java",
+    "prompt_level": "P0",
+    "prompt": "You are a software engineer. Write a complete, working implementation in Java.\n\nTask: Implement a complete CRUD REST API for managing a library of books. The system should support creating, reading (single and list), updating, and deleting books. Each book has: id (auto-generated), title, author, isbn, published_year, and genre. Include proper error handling for not-found and validation errors. Use in-memory storage (dictionary/map).\n\nProvide the complete source code. Include all necessary classes, functions, and imports.",
+    "prompt_word_count": 74
+  },
+  {
+    "prompt_id": "T01_P1_java",
+    "task_id": "T01",
+    "task_name": "CRUD REST API",
+    "key_pattern": "Layered architecture",
+    "language": "java",
+    "prompt_level": "P1",
+    "prompt": "You are a software engineer. Write a complete, working implementation in Java.\n\nTask: Implement a complete CRUD REST API for managing a library of books. The system should support creating, reading (single and list), updating, and deleting books. Each book has: id (auto-generated), title, author, isbn, published_year, and genre. Include proper error handling for not-found and validation errors. Use in-memory storage (dictionary/map).\n\nArchitectural Requirements:\n- Apply separation of concerns: separate business logic from data access and presentation/API\n- Organize code into distinct, cohesive modules or classes with single responsibilities\n- Use meaningful, descriptive names for all classes, methods, and variables\n- Keep functions/methods focused and short (prefer < 20 lines per method)\n- Group related functionality together\n\nProvide the complete source code. Include all necessary classes, functions, and imports.",
+    "prompt_word_count": 129
+  },
+  {
+    "prompt_id": "T01_P2_java",
+    "task_id": "T01",
+    "task_name": "CRUD REST API",
+    "key_pattern": "Layered architecture",
+    "language": "java",
+    "prompt_level": "P2",
+    "prompt": "You are a software engineer. Write a complete, working implementation in Java.\n\nTask: Implement a complete CRUD REST API for managing a library of books. The system should support creating, reading (single and list), updating, and deleting books. Each book has: id (auto-generated), title, author, isbn, published_year, and genre. Include proper error handling for not-found and validation errors. Use in-memory storage (dictionary/map).\n\nArchitectural Requirements:\n- Apply separation of concerns: separate business logic from data access and presentation/API\n- Organize code into distinct, cohesive modules or classes with single responsibilities\n- Use meaningful, descriptive names for all classes, methods, and variables\n- Keep functions/methods focused and short (prefer < 20 lines per method)\n- Group related functionality together\n\nDesign Pattern Requirements:\n- Use the Repository pattern for all data access operations (abstract storage behind an interface)\n- Use the Factory pattern for creating complex objects\n- Use the Strategy pattern where multiple algorithms or behaviors are interchangeable\n- Define interfaces/abstract base classes for all major component boundaries\n- Apply Dependency Injection: pass dependencies through constructors, not hard-coded instantiation\n\nProvide the complete source code. Include all necessary classes, functions, and imports.",
+    "prompt_word_count": 189
+  },
+  {
+    "prompt_id": "T01_P3_java",
+    "task_id": "T01",
+    "task_name": "CRUD REST API",
+    "key_pattern": "Layered architecture",
+    "language": "java",
+    "prompt_level": "P3",
+    "prompt": "You are a software engineer. Write a complete, working implementation in Java.\n\nTask: Implement a complete CRUD REST API for managing a library of books. The system should support creating, reading (single and list), updating, and deleting books. Each book has: id (auto-generated), title, author, isbn, published_year, and genre. Include proper error handling for not-found and validation errors. Use in-memory storage (dictionary/map).\n\nArchitectural Requirements:\n- Apply separation of concerns: separate business logic from data access and presentation/API\n- Organize code into distinct, cohesive modules or classes with single responsibilities\n- Use meaningful, descriptive names for all classes, methods, and variables\n- Keep functions/methods focused and short (prefer < 20 lines per method)\n- Group related functionality together\n\nDesign Pattern Requirements:\n- Use the Repository pattern for all data access operations (abstract storage behind an interface)\n- Use the Factory pattern for creating complex objects\n- Use the Strategy pattern where multiple algorithms or behaviors are interchangeable\n- Define interfaces/abstract base classes for all major component boundaries\n- Apply Dependency Injection: pass dependencies through constructors, not hard-coded instantiation\n\nClean Architecture Requirements:\n- Organize code into 4 layers: Entities (domain models), Use Cases (application logic), Interface Adapters (controllers, presenters, gateways), Frameworks & Drivers (external tools)\n- Dependencies must point inward: outer layers depend on inner layers, never the reverse\n- Use Data Transfer Objects (DTOs) for data crossing layer boundaries\n\nSOLID Principles (apply ALL five):\n- Single Responsibility Principle: each class has exactly one reason to change\n- Open/Closed Principle: classes are open for extension, closed for modification\n- Liskov Substitution: subtypes must be substitutable for their base types\n- Interface Segregation: prefer many small interfaces over one large interface\n- Dependency Inversion: depend on abstractions, not concretions\n\nProvide the complete source code. Include all necessary classes, functions, and imports.",
+    "prompt_word_count": 298
+  },
+  {
+    "prompt_id": "T02_P0_python",
+    "task_id": "T02",
+    "task_name": "Authentication system",
+    "key_pattern": "Security + sessions",
+    "language": "python",
+    "prompt_level": "P0",
+    "prompt": "You are a software engineer. Write a complete, working implementation in Python.\n\nTask: Implement a user authentication system with registration, login, logout, and session management. Users have: id, username, email, hashed_password, created_at. Support password hashing (use hashlib/bcrypt simulation), token-based session creation, session validation, and session expiration (30 min). Include rate limiting for login attempts (max 5 per minute per user).\n\nProvide the complete source code. Include all necessary classes, functions, and imports.",
+    "prompt_word_count": 72
+  },
+  {
+    "prompt_id": "T02_P1_python",
+    "task_id": "T02",
+    "task_name": "Authentication system",
+    "key_pattern": "Security + sessions",
+    "language": "python",
+    "prompt_level": "P1",
+    "prompt": "You are a software engineer. Write a complete, working implementation in Python.\n\nTask: Implement a user authentication system with registration, login, logout, and session management. Users have: id, username, email, hashed_password, created_at. Support password hashing (use hashlib/bcrypt simulation), token-based session creation, session validation, and session expiration (30 min). Include rate limiting for login attempts (max 5 per minute per user).\n\nArchitectural Requirements:\n- Apply separation of concerns: separate business logic from data access and presentation/API\n- Organize code into distinct, cohesive modules or classes with single responsibilities\n- Use meaningful, descriptive names for all classes, methods, and variables\n- Keep functions/methods focused and short (prefer < 20 lines per method)\n- Group related functionality together\n\nProvide the complete source code. Include all necessary classes, functions, and imports.",
+    "prompt_word_count": 127
+  },
+  {
+    "prompt_id": "T02_P2_python",
+    "task_id": "T02",
+    "task_name": "Authentication system",
+    "key_pattern": "Security + sessions",
+    "language": "python",
+    "prompt_level": "P2",
+    "prompt": "You are a software engineer. Write a complete, working implementation in Python.\n\nTask: Implement a user authentication system with registration, login, logout, and session management. Users have: id, username, email, hashed_password, created_at. Support password hashing (use hashlib/bcrypt simulation), token-based session creation, session validation, and session expiration (30 min). Include rate limiting for login attempts (max 5 per minute per user).\n\nArchitectural Requirements:\n- Apply separation of concerns: separate business logic from data access and presentation/API\n- Organize code into distinct, cohesive modules or classes with single responsibilities\n- Use meaningful, descriptive names for all classes, methods, and variables\n- Keep functions/methods focused and short (prefer < 20 lines per method)\n- Group related functionality together\n\nDesign Pattern Requirements:\n- Use the Repository pattern for all data access operations (abstract storage behind an interface)\n- Use the Factory pattern for creating complex objects\n- Use the Strategy pattern where multiple algorithms or behaviors are interchangeable\n- Define interfaces/abstract base classes for all major component boundaries\n- Apply Dependency Injection: pass dependencies through constructors, not hard-coded instantiation\n\nProvide the complete source code. Include all necessary classes, functions, and imports.",
+    "prompt_word_count": 187
+  },
+  {
+    "prompt_id": "T02_P3_python",
+    "task_id": "T02",
+    "task_name": "Authentication system",
+    "key_pattern": "Security + sessions",
+    "language": "python",
+    "prompt_level": "P3",
+    "prompt": "You are a software engineer. Write a complete, working implementation in Python.\n\nTask: Implement a user authentication system with registration, login, logout, and session management. Users have: id, username, email, hashed_password, created_at. Support password hashing (use hashlib/bcrypt simulation), token-based session creation, session validation, and session expiration (30 min). Include rate limiting for login attempts (max 5 per minute per user).\n\nArchitectural Requirements:\n- Apply separation of concerns: separate business logic from data access and presentation/API\n- Organize code into distinct, cohesive modules or classes with single responsibilities\n- Use meaningful, descriptive names for all classes, methods, and variables\n- Keep functions/methods focused and short (prefer < 20 lines per method)\n- Group related functionality together\n\nDesign Pattern Requirements:\n- Use the Repository pattern for all data access operations (abstract storage behind an interface)\n- Use the Factory pattern for creating complex objects\n- Use the Strategy pattern where multiple algorithms or behaviors are interchangeable\n- Define interfaces/abstract base classes for all major component boundaries\n- Apply Dependency Injection: pass dependencies through constructors, not hard-coded instantiation\n\nClean Architecture Requirements:\n- Organize code into 4 layers: Entities (domain models), Use Cases (application logic), Interface Adapters (controllers, presenters, gateways), Frameworks & Drivers (external tools)\n- Dependencies must point inward: outer layers depend on inner layers, never the reverse\n- Use Data Transfer Objects (DTOs) for data crossing layer boundaries\n\nSOLID Principles (apply ALL five):\n- Single Responsibility Principle: each class has exactly one reason to change\n- Open/Closed Principle: classes are open for extension, closed for modification\n- Liskov Substitution: subtypes must be substitutable for their base types\n- Interface Segregation: prefer many small interfaces over one large interface\n- Dependency Inversion: depend on abstractions, not concretions\n\nProvide the complete source code. Include all necessary classes, functions, and imports.",
+    "prompt_word_count": 296
+  },
+  {
+    "prompt_id": "T02_P0_java",
+    "task_id": "T02",
+    "task_name": "Authentication system",
+    "key_pattern": "Security + sessions",
+    "language": "java",
+    "prompt_level": "P0",
+    "prompt": "You are a software engineer. Write a complete, working implementation in Java.\n\nTask: Implement a user authentication system with registration, login, logout, and session management. Users have: id, username, email, hashed_password, created_at. Support password hashing (use hashlib/bcrypt simulation), token-based session creation, session validation, and session expiration (30 min). Include rate limiting for login attempts (max 5 per minute per user).\n\nProvide the complete source code. Include all necessary classes, functions, and imports.",
+    "prompt_word_count": 72
+  },
+  {
+    "prompt_id": "T02_P1_java",
+    "task_id": "T02",
+    "task_name": "Authentication system",
+    "key_pattern": "Security + sessions",
+    "language": "java",
+    "prompt_level": "P1",
+    "prompt": "You are a software engineer. Write a complete, working implementation in Java.\n\nTask: Implement a user authentication system with registration, login, logout, and session management. Users have: id, username, email, hashed_password, created_at. Support password hashing (use hashlib/bcrypt simulation), token-based session creation, session validation, and session expiration (30 min). Include rate limiting for login attempts (max 5 per minute per user).\n\nArchitectural Requirements:\n- Apply separation of concerns: separate business logic from data access and presentation/API\n- Organize code into distinct, cohesive modules or classes with single responsibilities\n- Use meaningful, descriptive names for all classes, methods, and variables\n- Keep functions/methods focused and short (prefer < 20 lines per method)\n- Group related functionality together\n\nProvide the complete source code. Include all necessary classes, functions, and imports.",
+    "prompt_word_count": 127
+  },
+  {
+    "prompt_id": "T02_P2_java",
+    "task_id": "T02",
+    "task_name": "Authentication system",
+    "key_pattern": "Security + sessions",
+    "language": "java",
+    "prompt_level": "P2",
+    "prompt": "You are a software engineer. Write a complete, working implementation in Java.\n\nTask: Implement a user authentication system with registration, login, logout, and session management. Users have: id, username, email, hashed_password, created_at. Support password hashing (use hashlib/bcrypt simulation), token-based session creation, session validation, and session expiration (30 min). Include rate limiting for login attempts (max 5 per minute per user).\n\nArchitectural Requirements:\n- Apply separation of concerns: separate business logic from data access and presentation/API\n- Organize code into distinct, cohesive modules or classes with single responsibilities\n- Use meaningful, descriptive names for all classes, methods, and variables\n- Keep functions/methods focused and short (prefer < 20 lines per method)\n- Group related functionality together\n\nDesign Pattern Requirements:\n- Use the Repository pattern for all data access operations (abstract storage behind an interface)\n- Use the Factory pattern for creating complex objects\n- Use the Strategy pattern where multiple algorithms or behaviors are interchangeable\n- Define interfaces/abstract base classes for all major component boundaries\n- Apply Dependency Injection: pass dependencies through constructors, not hard-coded instantiation\n\nProvide the complete source code. Include all necessary classes, functions, and imports.",
+    "prompt_word_count": 187
+  },
+  {
+    "prompt_id": "T02_P3_java",
+    "task_id": "T02",
+    "task_name": "Authentication system",
+    "key_pattern": "Security + sessions",
+    "language": "java",
+    "prompt_level": "P3",
+    "prompt": "You are a software engineer. Write a complete, working implementation in Java.\n\nTask: Implement a user authentication system with registration, login, logout, and session management. Users have: id, username, email, hashed_password, created_at. Support password hashing (use hashlib/bcrypt simulation), token-based session creation, session validation, and session expiration (30 min). Include rate limiting for login attempts (max 5 per minute per user).\n\nArchitectural Requirements:\n- Apply separation of concerns: separate business logic from data access and presentation/API\n- Organize code into distinct, cohesive modules or classes with single responsibilities\n- Use meaningful, descriptive names for all classes, methods, and variables\n- Keep functions/methods focused and short (prefer < 20 lines per method)\n- Group related functionality together\n\nDesign Pattern Requirements:\n- Use the Repository pattern for all data access operations (abstract storage behind an interface)\n- Use the Factory pattern for creating complex objects\n- Use the Strategy pattern where multiple algorithms or behaviors are interchangeable\n- Define interfaces/abstract base classes for all major component boundaries\n- Apply Dependency Injection: pass dependencies through constructors, not hard-coded instantiation\n\nClean Architecture Requirements:\n- Organize code into 4 layers: Entities (domain models), Use Cases (application logic), Interface Adapters (controllers, presenters, gateways), Frameworks & Drivers (external tools)\n- Dependencies must point inward: outer layers depend on inner layers, never the reverse\n- Use Data Transfer Objects (DTOs) for data crossing layer boundaries\n\nSOLID Principles (apply ALL five):\n- Single Responsibility Principle: each class has exactly one reason to change\n- Open/Closed Principle: classes are open for extension, closed for modification\n- Liskov Substitution: subtypes must be substitutable for their base types\n- Interface Segregation: prefer many small interfaces over one large interface\n- Dependency Inversion: depend on abstractions, not concretions\n\nProvide the complete source code. Include all necessary classes, functions, and imports.",
+    "prompt_word_count": 296
+  },
+  {
+    "prompt_id": "T03_P0_python",
+    "task_id": "T03",
+    "task_name": "File management system",
+    "key_pattern": "I/O + error handling",
+    "language": "python",
+    "prompt_level": "P0",
+    "prompt": "You are a software engineer. Write a complete, working implementation in Python.\n\nTask: Implement a file management system that supports uploading, downloading, listing, and deleting files with metadata tracking. Each file record has: id, filename, size_bytes, mime_type, upload_date, checksum. Simulate file storage with in-memory byte arrays. Include proper error handling for file-not-found, size limits (max 10MB), and duplicate detection via checksum.\n\nProvide the complete source code. Include all necessary classes, functions, and imports.",
+    "prompt_word_count": 73
+  },
+  {
+    "prompt_id": "T03_P1_python",
+    "task_id": "T03",
+    "task_name": "File management system",
+    "key_pattern": "I/O + error handling",
+    "language": "python",
+    "prompt_level": "P1",
+    "prompt": "You are a software engineer. Write a complete, working implementation in Python.\n\nTask: Implement a file management system that supports uploading, downloading, listing, and deleting files with metadata tracking. Each file record has: id, filename, size_bytes, mime_type, upload_date, checksum. Simulate file storage with in-memory byte arrays. Include proper error handling for file-not-found, size limits (max 10MB), and duplicate detection via checksum.\n\nArchitectural Requirements:\n- Apply separation of concerns: separate business logic from data access and presentation/API\n- Organize code into distinct, cohesive modules or classes with single responsibilities\n- Use meaningful, descriptive names for all classes, methods, and variables\n- Keep functions/methods focused and short (prefer < 20 lines per method)\n- Group related functionality together\n\nProvide the complete source code. Include all necessary classes, functions, and imports.",
+    "prompt_word_count": 128
+  },
+  {
+    "prompt_id": "T03_P2_python",
+    "task_id": "T03",
+    "task_name": "File management system",
+    "key_pattern": "I/O + error handling",
+    "language": "python",
+    "prompt_level": "P2",
+    "prompt": "You are a software engineer. Write a complete, working implementation in Python.\n\nTask: Implement a file management system that supports uploading, downloading, listing, and deleting files with metadata tracking. Each file record has: id, filename, size_bytes, mime_type, upload_date, checksum. Simulate file storage with in-memory byte arrays. Include proper error handling for file-not-found, size limits (max 10MB), and duplicate detection via checksum.\n\nArchitectural Requirements:\n- Apply separation of concerns: separate business logic from data access and presentation/API\n- Organize code into distinct, cohesive modules or classes with single responsibilities\n- Use meaningful, descriptive names for all classes, methods, and variables\n- Keep functions/methods focused and short (prefer < 20 lines per method)\n- Group related functionality together\n\nDesign Pattern Requirements:\n- Use the Repository pattern for all data access operations (abstract storage behind an interface)\n- Use the Factory pattern for creating complex objects\n- Use the Strategy pattern where multiple algorithms or behaviors are interchangeable\n- Define interfaces/abstract base classes for all major component boundaries\n- Apply Dependency Injection: pass dependencies through constructors, not hard-coded instantiation\n\nProvide the complete source code. Include all necessary classes, functions, and imports.",
+    "prompt_word_count": 188
+  },
+  {
+    "prompt_id": "T03_P3_python",
+    "task_id": "T03",
+    "task_name": "File management system",
+    "key_pattern": "I/O + error handling",
+    "language": "python",
+    "prompt_level": "P3",
+    "prompt": "You are a software engineer. Write a complete, working implementation in Python.\n\nTask: Implement a file management system that supports uploading, downloading, listing, and deleting files with metadata tracking. Each file record has: id, filename, size_bytes, mime_type, upload_date, checksum. Simulate file storage with in-memory byte arrays. Include proper error handling for file-not-found, size limits (max 10MB), and duplicate detection via checksum.\n\nArchitectural Requirements:\n- Apply separation of concerns: separate business logic from data access and presentation/API\n- Organize code into distinct, cohesive modules or classes with single responsibilities\n- Use meaningful, descriptive names for all classes, methods, and variables\n- Keep functions/methods focused and short (prefer < 20 lines per method)\n- Group related functionality together\n\nDesign Pattern Requirements:\n- Use the Repository pattern for all data access operations (abstract storage behind an interface)\n- Use the Factory pattern for creating complex objects\n- Use the Strategy pattern where multiple algorithms or behaviors are interchangeable\n- Define interfaces/abstract base classes for all major component boundaries\n- Apply Dependency Injection: pass dependencies through constructors, not hard-coded instantiation\n\nClean Architecture Requirements:\n- Organize code into 4 layers: Entities (domain models), Use Cases (application logic), Interface Adapters (controllers, presenters, gateways), Frameworks & Drivers (external tools)\n- Dependencies must point inward: outer layers depend on inner layers, never the reverse\n- Use Data Transfer Objects (DTOs) for data crossing layer boundaries\n\nSOLID Principles (apply ALL five):\n- Single Responsibility Principle: each class has exactly one reason to change\n- Open/Closed Principle: classes are open for extension, closed for modification\n- Liskov Substitution: subtypes must be substitutable for their base types\n- Interface Segregation: prefer many small interfaces over one large interface\n- Dependency Inversion: depend on abstractions, not concretions\n\nProvide the complete source code. Include all necessary classes, functions, and imports.",
+    "prompt_word_count": 297
+  },
+  {
+    "prompt_id": "T03_P0_java",
+    "task_id": "T03",
+    "task_name": "File management system",
+    "key_pattern": "I/O + error handling",
+    "language": "java",
+    "prompt_level": "P0",
+    "prompt": "You are a software engineer. Write a complete, working implementation in Java.\n\nTask: Implement a file management system that supports uploading, downloading, listing, and deleting files with metadata tracking. Each file record has: id, filename, size_bytes, mime_type, upload_date, checksum. Simulate file storage with in-memory byte arrays. Include proper error handling for file-not-found, size limits (max 10MB), and duplicate detection via checksum.\n\nProvide the complete source code. Include all necessary classes, functions, and imports.",
+    "prompt_word_count": 73
+  },
+  {
+    "prompt_id": "T03_P1_java",
+    "task_id": "T03",
+    "task_name": "File management system",
+    "key_pattern": "I/O + error handling",
+    "language": "java",
+    "prompt_level": "P1",
+    "prompt": "You are a software engineer. Write a complete, working implementation in Java.\n\nTask: Implement a file management system that supports uploading, downloading, listing, and deleting files with metadata tracking. Each file record has: id, filename, size_bytes, mime_type, upload_date, checksum. Simulate file storage with in-memory byte arrays. Include proper error handling for file-not-found, size limits (max 10MB), and duplicate detection via checksum.\n\nArchitectural Requirements:\n- Apply separation of concerns: separate business logic from data access and presentation/API\n- Organize code into distinct, cohesive modules or classes with single responsibilities\n- Use meaningful, descriptive names for all classes, methods, and variables\n- Keep functions/methods focused and short (prefer < 20 lines per method)\n- Group related functionality together\n\nProvide the complete source code. Include all necessary classes, functions, and imports.",
+    "prompt_word_count": 128
+  },
+  {
+    "prompt_id": "T03_P2_java",
+    "task_id": "T03",
+    "task_name": "File management system",
+    "key_pattern": "I/O + error handling",
+    "language": "java",
+    "prompt_level": "P2",
+    "prompt": "You are a software engineer. Write a complete, working implementation in Java.\n\nTask: Implement a file management system that supports uploading, downloading, listing, and deleting files with metadata tracking. Each file record has: id, filename, size_bytes, mime_type, upload_date, checksum. Simulate file storage with in-memory byte arrays. Include proper error handling for file-not-found, size limits (max 10MB), and duplicate detection via checksum.\n\nArchitectural Requirements:\n- Apply separation of concerns: separate business logic from data access and presentation/API\n- Organize code into distinct, cohesive modules or classes with single responsibilities\n- Use meaningful, descriptive names for all classes, methods, and variables\n- Keep functions/methods focused and short (prefer < 20 lines per method)\n- Group related functionality together\n\nDesign Pattern Requirements:\n- Use the Repository pattern for all data access operations (abstract storage behind an interface)\n- Use the Factory pattern for creating complex objects\n- Use the Strategy pattern where multiple algorithms or behaviors are interchangeable\n- Define interfaces/abstract base classes for all major component boundaries\n- Apply Dependency Injection: pass dependencies through constructors, not hard-coded instantiation\n\nProvide the complete source code. Include all necessary classes, functions, and imports.",
+    "prompt_word_count": 188
+  },
+  {
+    "prompt_id": "T03_P3_java",
+    "task_id": "T03",
+    "task_name": "File management system",
+    "key_pattern": "I/O + error handling",
+    "language": "java",
+    "prompt_level": "P3",
+    "prompt": "You are a software engineer. Write a complete, working implementation in Java.\n\nTask: Implement a file management system that supports uploading, downloading, listing, and deleting files with metadata tracking. Each file record has: id, filename, size_bytes, mime_type, upload_date, checksum. Simulate file storage with in-memory byte arrays. Include proper error handling for file-not-found, size limits (max 10MB), and duplicate detection via checksum.\n\nArchitectural Requirements:\n- Apply separation of concerns: separate business logic from data access and presentation/API\n- Organize code into distinct, cohesive modules or classes with single responsibilities\n- Use meaningful, descriptive names for all classes, methods, and variables\n- Keep functions/methods focused and short (prefer < 20 lines per method)\n- Group related functionality together\n\nDesign Pattern Requirements:\n- Use the Repository pattern for all data access operations (abstract storage behind an interface)\n- Use the Factory pattern for creating complex objects\n- Use the Strategy pattern where multiple algorithms or behaviors are interchangeable\n- Define interfaces/abstract base classes for all major component boundaries\n- Apply Dependency Injection: pass dependencies through constructors, not hard-coded instantiation\n\nClean Architecture Requirements:\n- Organize code into 4 layers: Entities (domain models), Use Cases (application logic), Interface Adapters (controllers, presenters, gateways), Frameworks & Drivers (external tools)\n- Dependencies must point inward: outer layers depend on inner layers, never the reverse\n- Use Data Transfer Objects (DTOs) for data crossing layer boundaries\n\nSOLID Principles (apply ALL five):\n- Single Responsibility Principle: each class has exactly one reason to change\n- Open/Closed Principle: classes are open for extension, closed for modification\n- Liskov Substitution: subtypes must be substitutable for their base types\n- Interface Segregation: prefer many small interfaces over one large interface\n- Dependency Inversion: depend on abstractions, not concretions\n\nProvide the complete source code. Include all necessary classes, functions, and imports.",
+    "prompt_word_count": 297
+  },
+  {
+    "prompt_id": "T04_P0_python",
+    "task_id": "T04",
+    "task_name": "Notification system",
+    "key_pattern": "Observer pattern",
+    "language": "python",
+    "prompt_level": "P0",
+    "prompt": "You are a software engineer. Write a complete, working implementation in Python.\n\nTask: Implement a notification system that supports multiple notification channels (email, SMS, push notification). Users can subscribe/unsubscribe to specific event types (order_placed, payment_received, shipping_update). When an event occurs, all subscribers for that event type receive notifications via their preferred channels. Include a notification log and retry mechanism for failed deliveries (max 3 retries).\n\nProvide the complete source code. Include all necessary classes, functions, and imports.",
+    "prompt_word_count": 77
+  },
+  {
+    "prompt_id": "T04_P1_python",
+    "task_id": "T04",
+    "task_name": "Notification system",
+    "key_pattern": "Observer pattern",
+    "language": "python",
+    "prompt_level": "P1",
+    "prompt": "You are a software engineer. Write a complete, working implementation in Python.\n\nTask: Implement a notification system that supports multiple notification channels (email, SMS, push notification). Users can subscribe/unsubscribe to specific event types (order_placed, payment_received, shipping_update). When an event occurs, all subscribers for that event type receive notifications via their preferred channels. Include a notification log and retry mechanism for failed deliveries (max 3 retries).\n\nArchitectural Requirements:\n- Apply separation of concerns: separate business logic from data access and presentation/API\n- Organize code into distinct, cohesive modules or classes with single responsibilities\n- Use meaningful, descriptive names for all classes, methods, and variables\n- Keep functions/methods focused and short (prefer < 20 lines per method)\n- Group related functionality together\n\nProvide the complete source code. Include all necessary classes, functions, and imports.",
+    "prompt_word_count": 132
+  },
+  {
+    "prompt_id": "T04_P2_python",
+    "task_id": "T04",
+    "task_name": "Notification system",
+    "key_pattern": "Observer pattern",
+    "language": "python",
+    "prompt_level": "P2",
+    "prompt": "You are a software engineer. Write a complete, working implementation in Python.\n\nTask: Implement a notification system that supports multiple notification channels (email, SMS, push notification). Users can subscribe/unsubscribe to specific event types (order_placed, payment_received, shipping_update). When an event occurs, all subscribers for that event type receive notifications via their preferred channels. Include a notification log and retry mechanism for failed deliveries (max 3 retries).\n\nArchitectural Requirements:\n- Apply separation of concerns: separate business logic from data access and presentation/API\n- Organize code into distinct, cohesive modules or classes with single responsibilities\n- Use meaningful, descriptive names for all classes, methods, and variables\n- Keep functions/methods focused and short (prefer < 20 lines per method)\n- Group related functionality together\n\nDesign Pattern Requirements:\n- Use the Repository pattern for all data access operations (abstract storage behind an interface)\n- Use the Factory pattern for creating complex objects\n- Use the Strategy pattern where multiple algorithms or behaviors are interchangeable\n- Define interfaces/abstract base classes for all major component boundaries\n- Apply Dependency Injection: pass dependencies through constructors, not hard-coded instantiation\n\nProvide the complete source code. Include all necessary classes, functions, and imports.",
+    "prompt_word_count": 192
+  },
+  {
+    "prompt_id": "T04_P3_python",
+    "task_id": "T04",
+    "task_name": "Notification system",
+    "key_pattern": "Observer pattern",
+    "language": "python",
+    "prompt_level": "P3",
+    "prompt": "You are a software engineer. Write a complete, working implementation in Python.\n\nTask: Implement a notification system that supports multiple notification channels (email, SMS, push notification). Users can subscribe/unsubscribe to specific event types (order_placed, payment_received, shipping_update). When an event occurs, all subscribers for that event type receive notifications via their preferred channels. Include a notification log and retry mechanism for failed deliveries (max 3 retries).\n\nArchitectural Requirements:\n- Apply separation of concerns: separate business logic from data access and presentation/API\n- Organize code into distinct, cohesive modules or classes with single responsibilities\n- Use meaningful, descriptive names for all classes, methods, and variables\n- Keep functions/methods focused and short (prefer < 20 lines per method)\n- Group related functionality together\n\nDesign Pattern Requirements:\n- Use the Repository pattern for all data access operations (abstract storage behind an interface)\n- Use the Factory pattern for creating complex objects\n- Use the Strategy pattern where multiple algorithms or behaviors are interchangeable\n- Define interfaces/abstract base classes for all major component boundaries\n- Apply Dependency Injection: pass dependencies through constructors, not hard-coded instantiation\n\nClean Architecture Requirements:\n- Organize code into 4 layers: Entities (domain models), Use Cases (application logic), Interface Adapters (controllers, presenters, gateways), Frameworks & Drivers (external tools)\n- Dependencies must point inward: outer layers depend on inner layers, never the reverse\n- Use Data Transfer Objects (DTOs) for data crossing layer boundaries\n\nSOLID Principles (apply ALL five):\n- Single Responsibility Principle: each class has exactly one reason to change\n- Open/Closed Principle: classes are open for extension, closed for modification\n- Liskov Substitution: subtypes must be substitutable for their base types\n- Interface Segregation: prefer many small interfaces over one large interface\n- Dependency Inversion: depend on abstractions, not concretions\n\nProvide the complete source code. Include all necessary classes, functions, and imports.",
+    "prompt_word_count": 301
+  },
+  {
+    "prompt_id": "T04_P0_java",
+    "task_id": "T04",
+    "task_name": "Notification system",
+    "key_pattern": "Observer pattern",
+    "language": "java",
+    "prompt_level": "P0",
+    "prompt": "You are a software engineer. Write a complete, working implementation in Java.\n\nTask: Implement a notification system that supports multiple notification channels (email, SMS, push notification). Users can subscribe/unsubscribe to specific event types (order_placed, payment_received, shipping_update). When an event occurs, all subscribers for that event type receive notifications via their preferred channels. Include a notification log and retry mechanism for failed deliveries (max 3 retries).\n\nProvide the complete source code. Include all necessary classes, functions, and imports.",
+    "prompt_word_count": 77
+  },
+  {
+    "prompt_id": "T04_P1_java",
+    "task_id": "T04",
+    "task_name": "Notification system",
+    "key_pattern": "Observer pattern",
+    "language": "java",
+    "prompt_level": "P1",
+    "prompt": "You are a software engineer. Write a complete, working implementation in Java.\n\nTask: Implement a notification system that supports multiple notification channels (email, SMS, push notification). Users can subscribe/unsubscribe to specific event types (order_placed, payment_received, shipping_update). When an event occurs, all subscribers for that event type receive notifications via their preferred channels. Include a notification log and retry mechanism for failed deliveries (max 3 retries).\n\nArchitectural Requirements:\n- Apply separation of concerns: separate business logic from data access and presentation/API\n- Organize code into distinct, cohesive modules or classes with single responsibilities\n- Use meaningful, descriptive names for all classes, methods, and variables\n- Keep functions/methods focused and short (prefer < 20 lines per method)\n- Group related functionality together\n\nProvide the complete source code. Include all necessary classes, functions, and imports.",
+    "prompt_word_count": 132
+  },
+  {
+    "prompt_id": "T04_P2_java",
+    "task_id": "T04",
+    "task_name": "Notification system",
+    "key_pattern": "Observer pattern",
+    "language": "java",
+    "prompt_level": "P2",
+    "prompt": "You are a software engineer. Write a complete, working implementation in Java.\n\nTask: Implement a notification system that supports multiple notification channels (email, SMS, push notification). Users can subscribe/unsubscribe to specific event types (order_placed, payment_received, shipping_update). When an event occurs, all subscribers for that event type receive notifications via their preferred channels. Include a notification log and retry mechanism for failed deliveries (max 3 retries).\n\nArchitectural Requirements:\n- Apply separation of concerns: separate business logic from data access and presentation/API\n- Organize code into distinct, cohesive modules or classes with single responsibilities\n- Use meaningful, descriptive names for all classes, methods, and variables\n- Keep functions/methods focused and short (prefer < 20 lines per method)\n- Group related functionality together\n\nDesign Pattern Requirements:\n- Use the Repository pattern for all data access operations (abstract storage behind an interface)\n- Use the Factory pattern for creating complex objects\n- Use the Strategy pattern where multiple algorithms or behaviors are interchangeable\n- Define interfaces/abstract base classes for all major component boundaries\n- Apply Dependency Injection: pass dependencies through constructors, not hard-coded instantiation\n\nProvide the complete source code. Include all necessary classes, functions, and imports.",
+    "prompt_word_count": 192
+  },
+  {
+    "prompt_id": "T04_P3_java",
+    "task_id": "T04",
+    "task_name": "Notification system",
+    "key_pattern": "Observer pattern",
+    "language": "java",
+    "prompt_level": "P3",
+    "prompt": "You are a software engineer. Write a complete, working implementation in Java.\n\nTask: Implement a notification system that supports multiple notification channels (email, SMS, push notification). Users can subscribe/unsubscribe to specific event types (order_placed, payment_received, shipping_update). When an event occurs, all subscribers for that event type receive notifications via their preferred channels. Include a notification log and retry mechanism for failed deliveries (max 3 retries).\n\nArchitectural Requirements:\n- Apply separation of concerns: separate business logic from data access and presentation/API\n- Organize code into distinct, cohesive modules or classes with single responsibilities\n- Use meaningful, descriptive names for all classes, methods, and variables\n- Keep functions/methods focused and short (prefer < 20 lines per method)\n- Group related functionality together\n\nDesign Pattern Requirements:\n- Use the Repository pattern for all data access operations (abstract storage behind an interface)\n- Use the Factory pattern for creating complex objects\n- Use the Strategy pattern where multiple algorithms or behaviors are interchangeable\n- Define interfaces/abstract base classes for all major component boundaries\n- Apply Dependency Injection: pass dependencies through constructors, not hard-coded instantiation\n\nClean Architecture Requirements:\n- Organize code into 4 layers: Entities (domain models), Use Cases (application logic), Interface Adapters (controllers, presenters, gateways), Frameworks & Drivers (external tools)\n- Dependencies must point inward: outer layers depend on inner layers, never the reverse\n- Use Data Transfer Objects (DTOs) for data crossing layer boundaries\n\nSOLID Principles (apply ALL five):\n- Single Responsibility Principle: each class has exactly one reason to change\n- Open/Closed Principle: classes are open for extension, closed for modification\n- Liskov Substitution: subtypes must be substitutable for their base types\n- Interface Segregation: prefer many small interfaces over one large interface\n- Dependency Inversion: depend on abstractions, not concretions\n\nProvide the complete source code. Include all necessary classes, functions, and imports.",
+    "prompt_word_count": 301
+  },
+  {
+    "prompt_id": "T05_P0_python",
+    "task_id": "T05",
+    "task_name": "Shopping cart",
+    "key_pattern": "State + domain logic",
+    "language": "python",
+    "prompt_level": "P0",
+    "prompt": "You are a software engineer. Write a complete, working implementation in Python.\n\nTask: Implement a shopping cart system with product catalog, cart management, and checkout. Products have: id, name, price, stock_quantity, category. Cart operations: add item, remove item, update quantity, apply discount code, calculate total. Support percentage and fixed-amount discount codes with expiration dates. Validate stock availability before checkout and update stock after successful checkout.\n\nProvide the complete source code. Include all necessary classes, functions, and imports.",
+    "prompt_word_count": 77
+  },
+  {
+    "prompt_id": "T05_P1_python",
+    "task_id": "T05",
+    "task_name": "Shopping cart",
+    "key_pattern": "State + domain logic",
+    "language": "python",
+    "prompt_level": "P1",
+    "prompt": "You are a software engineer. Write a complete, working implementation in Python.\n\nTask: Implement a shopping cart system with product catalog, cart management, and checkout. Products have: id, name, price, stock_quantity, category. Cart operations: add item, remove item, update quantity, apply discount code, calculate total. Support percentage and fixed-amount discount codes with expiration dates. Validate stock availability before checkout and update stock after successful checkout.\n\nArchitectural Requirements:\n- Apply separation of concerns: separate business logic from data access and presentation/API\n- Organize code into distinct, cohesive modules or classes with single responsibilities\n- Use meaningful, descriptive names for all classes, methods, and variables\n- Keep functions/methods focused and short (prefer < 20 lines per method)\n- Group related functionality together\n\nProvide the complete source code. Include all necessary classes, functions, and imports.",
+    "prompt_word_count": 132
+  },
+  {
+    "prompt_id": "T05_P2_python",
+    "task_id": "T05",
+    "task_name": "Shopping cart",
+    "key_pattern": "State + domain logic",
+    "language": "python",
+    "prompt_level": "P2",
+    "prompt": "You are a software engineer. Write a complete, working implementation in Python.\n\nTask: Implement a shopping cart system with product catalog, cart management, and checkout. Products have: id, name, price, stock_quantity, category. Cart operations: add item, remove item, update quantity, apply discount code, calculate total. Support percentage and fixed-amount discount codes with expiration dates. Validate stock availability before checkout and update stock after successful checkout.\n\nArchitectural Requirements:\n- Apply separation of concerns: separate business logic from data access and presentation/API\n- Organize code into distinct, cohesive modules or classes with single responsibilities\n- Use meaningful, descriptive names for all classes, methods, and variables\n- Keep functions/methods focused and short (prefer < 20 lines per method)\n- Group related functionality together\n\nDesign Pattern Requirements:\n- Use the Repository pattern for all data access operations (abstract storage behind an interface)\n- Use the Factory pattern for creating complex objects\n- Use the Strategy pattern where multiple algorithms or behaviors are interchangeable\n- Define interfaces/abstract base classes for all major component boundaries\n- Apply Dependency Injection: pass dependencies through constructors, not hard-coded instantiation\n\nProvide the complete source code. Include all necessary classes, functions, and imports.",
+    "prompt_word_count": 192
+  },
+  {
+    "prompt_id": "T05_P3_python",
+    "task_id": "T05",
+    "task_name": "Shopping cart",
+    "key_pattern": "State + domain logic",
+    "language": "python",
+    "prompt_level": "P3",
+    "prompt": "You are a software engineer. Write a complete, working implementation in Python.\n\nTask: Implement a shopping cart system with product catalog, cart management, and checkout. Products have: id, name, price, stock_quantity, category. Cart operations: add item, remove item, update quantity, apply discount code, calculate total. Support percentage and fixed-amount discount codes with expiration dates. Validate stock availability before checkout and update stock after successful checkout.\n\nArchitectural Requirements:\n- Apply separation of concerns: separate business logic from data access and presentation/API\n- Organize code into distinct, cohesive modules or classes with single responsibilities\n- Use meaningful, descriptive names for all classes, methods, and variables\n- Keep functions/methods focused and short (prefer < 20 lines per method)\n- Group related functionality together\n\nDesign Pattern Requirements:\n- Use the Repository pattern for all data access operations (abstract storage behind an interface)\n- Use the Factory pattern for creating complex objects\n- Use the Strategy pattern where multiple algorithms or behaviors are interchangeable\n- Define interfaces/abstract base classes for all major component boundaries\n- Apply Dependency Injection: pass dependencies through constructors, not hard-coded instantiation\n\nClean Architecture Requirements:\n- Organize code into 4 layers: Entities (domain models), Use Cases (application logic), Interface Adapters (controllers, presenters, gateways), Frameworks & Drivers (external tools)\n- Dependencies must point inward: outer layers depend on inner layers, never the reverse\n- Use Data Transfer Objects (DTOs) for data crossing layer boundaries\n\nSOLID Principles (apply ALL five):\n- Single Responsibility Principle: each class has exactly one reason to change\n- Open/Closed Principle: classes are open for extension, closed for modification\n- Liskov Substitution: subtypes must be substitutable for their base types\n- Interface Segregation: prefer many small interfaces over one large interface\n- Dependency Inversion: depend on abstractions, not concretions\n\nProvide the complete source code. Include all necessary classes, functions, and imports.",
+    "prompt_word_count": 301
+  },
+  {
+    "prompt_id": "T05_P0_java",
+    "task_id": "T05",
+    "task_name": "Shopping cart",
+    "key_pattern": "State + domain logic",
+    "language": "java",
+    "prompt_level": "P0",
+    "prompt": "You are a software engineer. Write a complete, working implementation in Java.\n\nTask: Implement a shopping cart system with product catalog, cart management, and checkout. Products have: id, name, price, stock_quantity, category. Cart operations: add item, remove item, update quantity, apply discount code, calculate total. Support percentage and fixed-amount discount codes with expiration dates. Validate stock availability before checkout and update stock after successful checkout.\n\nProvide the complete source code. Include all necessary classes, functions, and imports.",
+    "prompt_word_count": 77
+  },
+  {
+    "prompt_id": "T05_P1_java",
+    "task_id": "T05",
+    "task_name": "Shopping cart",
+    "key_pattern": "State + domain logic",
+    "language": "java",
+    "prompt_level": "P1",
+    "prompt": "You are a software engineer. Write a complete, working implementation in Java.\n\nTask: Implement a shopping cart system with product catalog, cart management, and checkout. Products have: id, name, price, stock_quantity, category. Cart operations: add item, remove item, update quantity, apply discount code, calculate total. Support percentage and fixed-amount discount codes with expiration dates. Validate stock availability before checkout and update stock after successful checkout.\n\nArchitectural Requirements:\n- Apply separation of concerns: separate business logic from data access and presentation/API\n- Organize code into distinct, cohesive modules or classes with single responsibilities\n- Use meaningful, descriptive names for all classes, methods, and variables\n- Keep functions/methods focused and short (prefer < 20 lines per method)\n- Group related functionality together\n\nProvide the complete source code. Include all necessary classes, functions, and imports.",
+    "prompt_word_count": 132
+  },
+  {
+    "prompt_id": "T05_P2_java",
+    "task_id": "T05",
+    "task_name": "Shopping cart",
+    "key_pattern": "State + domain logic",
+    "language": "java",
+    "prompt_level": "P2",
+    "prompt": "You are a software engineer. Write a complete, working implementation in Java.\n\nTask: Implement a shopping cart system with product catalog, cart management, and checkout. Products have: id, name, price, stock_quantity, category. Cart operations: add item, remove item, update quantity, apply discount code, calculate total. Support percentage and fixed-amount discount codes with expiration dates. Validate stock availability before checkout and update stock after successful checkout.\n\nArchitectural Requirements:\n- Apply separation of concerns: separate business logic from data access and presentation/API\n- Organize code into distinct, cohesive modules or classes with single responsibilities\n- Use meaningful, descriptive names for all classes, methods, and variables\n- Keep functions/methods focused and short (prefer < 20 lines per method)\n- Group related functionality together\n\nDesign Pattern Requirements:\n- Use the Repository pattern for all data access operations (abstract storage behind an interface)\n- Use the Factory pattern for creating complex objects\n- Use the Strategy pattern where multiple algorithms or behaviors are interchangeable\n- Define interfaces/abstract base classes for all major component boundaries\n- Apply Dependency Injection: pass dependencies through constructors, not hard-coded instantiation\n\nProvide the complete source code. Include all necessary classes, functions, and imports.",
+    "prompt_word_count": 192
+  },
+  {
+    "prompt_id": "T05_P3_java",
+    "task_id": "T05",
+    "task_name": "Shopping cart",
+    "key_pattern": "State + domain logic",
+    "language": "java",
+    "prompt_level": "P3",
+    "prompt": "You are a software engineer. Write a complete, working implementation in Java.\n\nTask: Implement a shopping cart system with product catalog, cart management, and checkout. Products have: id, name, price, stock_quantity, category. Cart operations: add item, remove item, update quantity, apply discount code, calculate total. Support percentage and fixed-amount discount codes with expiration dates. Validate stock availability before checkout and update stock after successful checkout.\n\nArchitectural Requirements:\n- Apply separation of concerns: separate business logic from data access and presentation/API\n- Organize code into distinct, cohesive modules or classes with single responsibilities\n- Use meaningful, descriptive names for all classes, methods, and variables\n- Keep functions/methods focused and short (prefer < 20 lines per method)\n- Group related functionality together\n\nDesign Pattern Requirements:\n- Use the Repository pattern for all data access operations (abstract storage behind an interface)\n- Use the Factory pattern for creating complex objects\n- Use the Strategy pattern where multiple algorithms or behaviors are interchangeable\n- Define interfaces/abstract base classes for all major component boundaries\n- Apply Dependency Injection: pass dependencies through constructors, not hard-coded instantiation\n\nClean Architecture Requirements:\n- Organize code into 4 layers: Entities (domain models), Use Cases (application logic), Interface Adapters (controllers, presenters, gateways), Frameworks & Drivers (external tools)\n- Dependencies must point inward: outer layers depend on inner layers, never the reverse\n- Use Data Transfer Objects (DTOs) for data crossing layer boundaries\n\nSOLID Principles (apply ALL five):\n- Single Responsibility Principle: each class has exactly one reason to change\n- Open/Closed Principle: classes are open for extension, closed for modification\n- Liskov Substitution: subtypes must be substitutable for their base types\n- Interface Segregation: prefer many small interfaces over one large interface\n- Dependency Inversion: depend on abstractions, not concretions\n\nProvide the complete source code. Include all necessary classes, functions, and imports.",
+    "prompt_word_count": 301
+  },
+  {
+    "prompt_id": "T06_P0_python",
+    "task_id": "T06",
+    "task_name": "Task scheduler",
+    "key_pattern": "Concurrency + queue",
+    "language": "python",
+    "prompt_level": "P0",
+    "prompt": "You are a software engineer. Write a complete, working implementation in Python.\n\nTask: Implement a task scheduler that manages and executes tasks with priorities and scheduling. Tasks have: id, name, priority (1-10), scheduled_time, status (pending/running/completed/failed), max_retries, retry_count. Support adding tasks, canceling tasks, executing the next highest-priority task, and automatic retry on failure. Include a task execution history log.\n\nProvide the complete source code. Include all necessary classes, functions, and imports.",
+    "prompt_word_count": 70
+  },
+  {
+    "prompt_id": "T06_P1_python",
+    "task_id": "T06",
+    "task_name": "Task scheduler",
+    "key_pattern": "Concurrency + queue",
+    "language": "python",
+    "prompt_level": "P1",
+    "prompt": "You are a software engineer. Write a complete, working implementation in Python.\n\nTask: Implement a task scheduler that manages and executes tasks with priorities and scheduling. Tasks have: id, name, priority (1-10), scheduled_time, status (pending/running/completed/failed), max_retries, retry_count. Support adding tasks, canceling tasks, executing the next highest-priority task, and automatic retry on failure. Include a task execution history log.\n\nArchitectural Requirements:\n- Apply separation of concerns: separate business logic from data access and presentation/API\n- Organize code into distinct, cohesive modules or classes with single responsibilities\n- Use meaningful, descriptive names for all classes, methods, and variables\n- Keep functions/methods focused and short (prefer < 20 lines per method)\n- Group related functionality together\n\nProvide the complete source code. Include all necessary classes, functions, and imports.",
+    "prompt_word_count": 125
+  },
+  {
+    "prompt_id": "T06_P2_python",
+    "task_id": "T06",
+    "task_name": "Task scheduler",
+    "key_pattern": "Concurrency + queue",
+    "language": "python",
+    "prompt_level": "P2",
+    "prompt": "You are a software engineer. Write a complete, working implementation in Python.\n\nTask: Implement a task scheduler that manages and executes tasks with priorities and scheduling. Tasks have: id, name, priority (1-10), scheduled_time, status (pending/running/completed/failed), max_retries, retry_count. Support adding tasks, canceling tasks, executing the next highest-priority task, and automatic retry on failure. Include a task execution history log.\n\nArchitectural Requirements:\n- Apply separation of concerns: separate business logic from data access and presentation/API\n- Organize code into distinct, cohesive modules or classes with single responsibilities\n- Use meaningful, descriptive names for all classes, methods, and variables\n- Keep functions/methods focused and short (prefer < 20 lines per method)\n- Group related functionality together\n\nDesign Pattern Requirements:\n- Use the Repository pattern for all data access operations (abstract storage behind an interface)\n- Use the Factory pattern for creating complex objects\n- Use the Strategy pattern where multiple algorithms or behaviors are interchangeable\n- Define interfaces/abstract base classes for all major component boundaries\n- Apply Dependency Injection: pass dependencies through constructors, not hard-coded instantiation\n\nProvide the complete source code. Include all necessary classes, functions, and imports.",
+    "prompt_word_count": 185
+  },
+  {
+    "prompt_id": "T06_P3_python",
+    "task_id": "T06",
+    "task_name": "Task scheduler",
+    "key_pattern": "Concurrency + queue",
+    "language": "python",
+    "prompt_level": "P3",
+    "prompt": "You are a software engineer. Write a complete, working implementation in Python.\n\nTask: Implement a task scheduler that manages and executes tasks with priorities and scheduling. Tasks have: id, name, priority (1-10), scheduled_time, status (pending/running/completed/failed), max_retries, retry_count. Support adding tasks, canceling tasks, executing the next highest-priority task, and automatic retry on failure. Include a task execution history log.\n\nArchitectural Requirements:\n- Apply separation of concerns: separate business logic from data access and presentation/API\n- Organize code into distinct, cohesive modules or classes with single responsibilities\n- Use meaningful, descriptive names for all classes, methods, and variables\n- Keep functions/methods focused and short (prefer < 20 lines per method)\n- Group related functionality together\n\nDesign Pattern Requirements:\n- Use the Repository pattern for all data access operations (abstract storage behind an interface)\n- Use the Factory pattern for creating complex objects\n- Use the Strategy pattern where multiple algorithms or behaviors are interchangeable\n- Define interfaces/abstract base classes for all major component boundaries\n- Apply Dependency Injection: pass dependencies through constructors, not hard-coded instantiation\n\nClean Architecture Requirements:\n- Organize code into 4 layers: Entities (domain models), Use Cases (application logic), Interface Adapters (controllers, presenters, gateways), Frameworks & Drivers (external tools)\n- Dependencies must point inward: outer layers depend on inner layers, never the reverse\n- Use Data Transfer Objects (DTOs) for data crossing layer boundaries\n\nSOLID Principles (apply ALL five):\n- Single Responsibility Principle: each class has exactly one reason to change\n- Open/Closed Principle: classes are open for extension, closed for modification\n- Liskov Substitution: subtypes must be substitutable for their base types\n- Interface Segregation: prefer many small interfaces over one large interface\n- Dependency Inversion: depend on abstractions, not concretions\n\nProvide the complete source code. Include all necessary classes, functions, and imports.",
+    "prompt_word_count": 294
+  },
+  {
+    "prompt_id": "T06_P0_java",
+    "task_id": "T06",
+    "task_name": "Task scheduler",
+    "key_pattern": "Concurrency + queue",
+    "language": "java",
+    "prompt_level": "P0",
+    "prompt": "You are a software engineer. Write a complete, working implementation in Java.\n\nTask: Implement a task scheduler that manages and executes tasks with priorities and scheduling. Tasks have: id, name, priority (1-10), scheduled_time, status (pending/running/completed/failed), max_retries, retry_count. Support adding tasks, canceling tasks, executing the next highest-priority task, and automatic retry on failure. Include a task execution history log.\n\nProvide the complete source code. Include all necessary classes, functions, and imports.",
+    "prompt_word_count": 70
+  },
+  {
+    "prompt_id": "T06_P1_java",
+    "task_id": "T06",
+    "task_name": "Task scheduler",
+    "key_pattern": "Concurrency + queue",
+    "language": "java",
+    "prompt_level": "P1",
+    "prompt": "You are a software engineer. Write a complete, working implementation in Java.\n\nTask: Implement a task scheduler that manages and executes tasks with priorities and scheduling. Tasks have: id, name, priority (1-10), scheduled_time, status (pending/running/completed/failed), max_retries, retry_count. Support adding tasks, canceling tasks, executing the next highest-priority task, and automatic retry on failure. Include a task execution history log.\n\nArchitectural Requirements:\n- Apply separation of concerns: separate business logic from data access and presentation/API\n- Organize code into distinct, cohesive modules or classes with single responsibilities\n- Use meaningful, descriptive names for all classes, methods, and variables\n- Keep functions/methods focused and short (prefer < 20 lines per method)\n- Group related functionality together\n\nProvide the complete source code. Include all necessary classes, functions, and imports.",
+    "prompt_word_count": 125
+  },
+  {
+    "prompt_id": "T06_P2_java",
+    "task_id": "T06",
+    "task_name": "Task scheduler",
+    "key_pattern": "Concurrency + queue",
+    "language": "java",
+    "prompt_level": "P2",
+    "prompt": "You are a software engineer. Write a complete, working implementation in Java.\n\nTask: Implement a task scheduler that manages and executes tasks with priorities and scheduling. Tasks have: id, name, priority (1-10), scheduled_time, status (pending/running/completed/failed), max_retries, retry_count. Support adding tasks, canceling tasks, executing the next highest-priority task, and automatic retry on failure. Include a task execution history log.\n\nArchitectural Requirements:\n- Apply separation of concerns: separate business logic from data access and presentation/API\n- Organize code into distinct, cohesive modules or classes with single responsibilities\n- Use meaningful, descriptive names for all classes, methods, and variables\n- Keep functions/methods focused and short (prefer < 20 lines per method)\n- Group related functionality together\n\nDesign Pattern Requirements:\n- Use the Repository pattern for all data access operations (abstract storage behind an interface)\n- Use the Factory pattern for creating complex objects\n- Use the Strategy pattern where multiple algorithms or behaviors are interchangeable\n- Define interfaces/abstract base classes for all major component boundaries\n- Apply Dependency Injection: pass dependencies through constructors, not hard-coded instantiation\n\nProvide the complete source code. Include all necessary classes, functions, and imports.",
+    "prompt_word_count": 185
+  },
+  {
+    "prompt_id": "T06_P3_java",
+    "task_id": "T06",
+    "task_name": "Task scheduler",
+    "key_pattern": "Concurrency + queue",
+    "language": "java",
+    "prompt_level": "P3",
+    "prompt": "You are a software engineer. Write a complete, working implementation in Java.\n\nTask: Implement a task scheduler that manages and executes tasks with priorities and scheduling. Tasks have: id, name, priority (1-10), scheduled_time, status (pending/running/completed/failed), max_retries, retry_count. Support adding tasks, canceling tasks, executing the next highest-priority task, and automatic retry on failure. Include a task execution history log.\n\nArchitectural Requirements:\n- Apply separation of concerns: separate business logic from data access and presentation/API\n- Organize code into distinct, cohesive modules or classes with single responsibilities\n- Use meaningful, descriptive names for all classes, methods, and variables\n- Keep functions/methods focused and short (prefer < 20 lines per method)\n- Group related functionality together\n\nDesign Pattern Requirements:\n- Use the Repository pattern for all data access operations (abstract storage behind an interface)\n- Use the Factory pattern for creating complex objects\n- Use the Strategy pattern where multiple algorithms or behaviors are interchangeable\n- Define interfaces/abstract base classes for all major component boundaries\n- Apply Dependency Injection: pass dependencies through constructors, not hard-coded instantiation\n\nClean Architecture Requirements:\n- Organize code into 4 layers: Entities (domain models), Use Cases (application logic), Interface Adapters (controllers, presenters, gateways), Frameworks & Drivers (external tools)\n- Dependencies must point inward: outer layers depend on inner layers, never the reverse\n- Use Data Transfer Objects (DTOs) for data crossing layer boundaries\n\nSOLID Principles (apply ALL five):\n- Single Responsibility Principle: each class has exactly one reason to change\n- Open/Closed Principle: classes are open for extension, closed for modification\n- Liskov Substitution: subtypes must be substitutable for their base types\n- Interface Segregation: prefer many small interfaces over one large interface\n- Dependency Inversion: depend on abstractions, not concretions\n\nProvide the complete source code. Include all necessary classes, functions, and imports.",
+    "prompt_word_count": 294
+  },
+  {
+    "prompt_id": "T07_P0_python",
+    "task_id": "T07",
+    "task_name": "Caching system",
+    "key_pattern": "Decorator pattern",
+    "language": "python",
+    "prompt_level": "P0",
+    "prompt": "You are a software engineer. Write a complete, working implementation in Python.\n\nTask: Implement a caching system with multiple eviction policies (LRU, LFU, TTL-based). The cache supports get, put, delete, and clear operations. Each cache entry has: key, value, created_at, last_accessed, access_count, ttl_seconds. Support configurable max capacity and automatic eviction when full. Include cache hit/miss statistics tracking.\n\nProvide the complete source code. Include all necessary classes, functions, and imports.",
+    "prompt_word_count": 69
+  },
+  {
+    "prompt_id": "T07_P1_python",
+    "task_id": "T07",
+    "task_name": "Caching system",
+    "key_pattern": "Decorator pattern",
+    "language": "python",
+    "prompt_level": "P1",
+    "prompt": "You are a software engineer. Write a complete, working implementation in Python.\n\nTask: Implement a caching system with multiple eviction policies (LRU, LFU, TTL-based). The cache supports get, put, delete, and clear operations. Each cache entry has: key, value, created_at, last_accessed, access_count, ttl_seconds. Support configurable max capacity and automatic eviction when full. Include cache hit/miss statistics tracking.\n\nArchitectural Requirements:\n- Apply separation of concerns: separate business logic from data access and presentation/API\n- Organize code into distinct, cohesive modules or classes with single responsibilities\n- Use meaningful, descriptive names for all classes, methods, and variables\n- Keep functions/methods focused and short (prefer < 20 lines per method)\n- Group related functionality together\n\nProvide the complete source code. Include all necessary classes, functions, and imports.",
+    "prompt_word_count": 124
+  },
+  {
+    "prompt_id": "T07_P2_python",
+    "task_id": "T07",
+    "task_name": "Caching system",
+    "key_pattern": "Decorator pattern",
+    "language": "python",
+    "prompt_level": "P2",
+    "prompt": "You are a software engineer. Write a complete, working implementation in Python.\n\nTask: Implement a caching system with multiple eviction policies (LRU, LFU, TTL-based). The cache supports get, put, delete, and clear operations. Each cache entry has: key, value, created_at, last_accessed, access_count, ttl_seconds. Support configurable max capacity and automatic eviction when full. Include cache hit/miss statistics tracking.\n\nArchitectural Requirements:\n- Apply separation of concerns: separate business logic from data access and presentation/API\n- Organize code into distinct, cohesive modules or classes with single responsibilities\n- Use meaningful, descriptive names for all classes, methods, and variables\n- Keep functions/methods focused and short (prefer < 20 lines per method)\n- Group related functionality together\n\nDesign Pattern Requirements:\n- Use the Repository pattern for all data access operations (abstract storage behind an interface)\n- Use the Factory pattern for creating complex objects\n- Use the Strategy pattern where multiple algorithms or behaviors are interchangeable\n- Define interfaces/abstract base classes for all major component boundaries\n- Apply Dependency Injection: pass dependencies through constructors, not hard-coded instantiation\n\nProvide the complete source code. Include all necessary classes, functions, and imports.",
+    "prompt_word_count": 184
+  },
+  {
+    "prompt_id": "T07_P3_python",
+    "task_id": "T07",
+    "task_name": "Caching system",
+    "key_pattern": "Decorator pattern",
+    "language": "python",
+    "prompt_level": "P3",
+    "prompt": "You are a software engineer. Write a complete, working implementation in Python.\n\nTask: Implement a caching system with multiple eviction policies (LRU, LFU, TTL-based). The cache supports get, put, delete, and clear operations. Each cache entry has: key, value, created_at, last_accessed, access_count, ttl_seconds. Support configurable max capacity and automatic eviction when full. Include cache hit/miss statistics tracking.\n\nArchitectural Requirements:\n- Apply separation of concerns: separate business logic from data access and presentation/API\n- Organize code into distinct, cohesive modules or classes with single responsibilities\n- Use meaningful, descriptive names for all classes, methods, and variables\n- Keep functions/methods focused and short (prefer < 20 lines per method)\n- Group related functionality together\n\nDesign Pattern Requirements:\n- Use the Repository pattern for all data access operations (abstract storage behind an interface)\n- Use the Factory pattern for creating complex objects\n- Use the Strategy pattern where multiple algorithms or behaviors are interchangeable\n- Define interfaces/abstract base classes for all major component boundaries\n- Apply Dependency Injection: pass dependencies through constructors, not hard-coded instantiation\n\nClean Architecture Requirements:\n- Organize code into 4 layers: Entities (domain models), Use Cases (application logic), Interface Adapters (controllers, presenters, gateways), Frameworks & Drivers (external tools)\n- Dependencies must point inward: outer layers depend on inner layers, never the reverse\n- Use Data Transfer Objects (DTOs) for data crossing layer boundaries\n\nSOLID Principles (apply ALL five):\n- Single Responsibility Principle: each class has exactly one reason to change\n- Open/Closed Principle: classes are open for extension, closed for modification\n- Liskov Substitution: subtypes must be substitutable for their base types\n- Interface Segregation: prefer many small interfaces over one large interface\n- Dependency Inversion: depend on abstractions, not concretions\n\nProvide the complete source code. Include all necessary classes, functions, and imports.",
+    "prompt_word_count": 293
+  },
+  {
+    "prompt_id": "T07_P0_java",
+    "task_id": "T07",
+    "task_name": "Caching system",
+    "key_pattern": "Decorator pattern",
+    "language": "java",
+    "prompt_level": "P0",
+    "prompt": "You are a software engineer. Write a complete, working implementation in Java.\n\nTask: Implement a caching system with multiple eviction policies (LRU, LFU, TTL-based). The cache supports get, put, delete, and clear operations. Each cache entry has: key, value, created_at, last_accessed, access_count, ttl_seconds. Support configurable max capacity and automatic eviction when full. Include cache hit/miss statistics tracking.\n\nProvide the complete source code. Include all necessary classes, functions, and imports.",
+    "prompt_word_count": 69
+  },
+  {
+    "prompt_id": "T07_P1_java",
+    "task_id": "T07",
+    "task_name": "Caching system",
+    "key_pattern": "Decorator pattern",
+    "language": "java",
+    "prompt_level": "P1",
+    "prompt": "You are a software engineer. Write a complete, working implementation in Java.\n\nTask: Implement a caching system with multiple eviction policies (LRU, LFU, TTL-based). The cache supports get, put, delete, and clear operations. Each cache entry has: key, value, created_at, last_accessed, access_count, ttl_seconds. Support configurable max capacity and automatic eviction when full. Include cache hit/miss statistics tracking.\n\nArchitectural Requirements:\n- Apply separation of concerns: separate business logic from data access and presentation/API\n- Organize code into distinct, cohesive modules or classes with single responsibilities\n- Use meaningful, descriptive names for all classes, methods, and variables\n- Keep functions/methods focused and short (prefer < 20 lines per method)\n- Group related functionality together\n\nProvide the complete source code. Include all necessary classes, functions, and imports.",
+    "prompt_word_count": 124
+  },
+  {
+    "prompt_id": "T07_P2_java",
+    "task_id": "T07",
+    "task_name": "Caching system",
+    "key_pattern": "Decorator pattern",
+    "language": "java",
+    "prompt_level": "P2",
+    "prompt": "You are a software engineer. Write a complete, working implementation in Java.\n\nTask: Implement a caching system with multiple eviction policies (LRU, LFU, TTL-based). The cache supports get, put, delete, and clear operations. Each cache entry has: key, value, created_at, last_accessed, access_count, ttl_seconds. Support configurable max capacity and automatic eviction when full. Include cache hit/miss statistics tracking.\n\nArchitectural Requirements:\n- Apply separation of concerns: separate business logic from data access and presentation/API\n- Organize code into distinct, cohesive modules or classes with single responsibilities\n- Use meaningful, descriptive names for all classes, methods, and variables\n- Keep functions/methods focused and short (prefer < 20 lines per method)\n- Group related functionality together\n\nDesign Pattern Requirements:\n- Use the Repository pattern for all data access operations (abstract storage behind an interface)\n- Use the Factory pattern for creating complex objects\n- Use the Strategy pattern where multiple algorithms or behaviors are interchangeable\n- Define interfaces/abstract base classes for all major component boundaries\n- Apply Dependency Injection: pass dependencies through constructors, not hard-coded instantiation\n\nProvide the complete source code. Include all necessary classes, functions, and imports.",
+    "prompt_word_count": 184
+  },
+  {
+    "prompt_id": "T07_P3_java",
+    "task_id": "T07",
+    "task_name": "Caching system",
+    "key_pattern": "Decorator pattern",
+    "language": "java",
+    "prompt_level": "P3",
+    "prompt": "You are a software engineer. Write a complete, working implementation in Java.\n\nTask: Implement a caching system with multiple eviction policies (LRU, LFU, TTL-based). The cache supports get, put, delete, and clear operations. Each cache entry has: key, value, created_at, last_accessed, access_count, ttl_seconds. Support configurable max capacity and automatic eviction when full. Include cache hit/miss statistics tracking.\n\nArchitectural Requirements:\n- Apply separation of concerns: separate business logic from data access and presentation/API\n- Organize code into distinct, cohesive modules or classes with single responsibilities\n- Use meaningful, descriptive names for all classes, methods, and variables\n- Keep functions/methods focused and short (prefer < 20 lines per method)\n- Group related functionality together\n\nDesign Pattern Requirements:\n- Use the Repository pattern for all data access operations (abstract storage behind an interface)\n- Use the Factory pattern for creating complex objects\n- Use the Strategy pattern where multiple algorithms or behaviors are interchangeable\n- Define interfaces/abstract base classes for all major component boundaries\n- Apply Dependency Injection: pass dependencies through constructors, not hard-coded instantiation\n\nClean Architecture Requirements:\n- Organize code into 4 layers: Entities (domain models), Use Cases (application logic), Interface Adapters (controllers, presenters, gateways), Frameworks & Drivers (external tools)\n- Dependencies must point inward: outer layers depend on inner layers, never the reverse\n- Use Data Transfer Objects (DTOs) for data crossing layer boundaries\n\nSOLID Principles (apply ALL five):\n- Single Responsibility Principle: each class has exactly one reason to change\n- Open/Closed Principle: classes are open for extension, closed for modification\n- Liskov Substitution: subtypes must be substitutable for their base types\n- Interface Segregation: prefer many small interfaces over one large interface\n- Dependency Inversion: depend on abstractions, not concretions\n\nProvide the complete source code. Include all necessary classes, functions, and imports.",
+    "prompt_word_count": 293
+  },
+  {
+    "prompt_id": "T08_P0_python",
+    "task_id": "T08",
+    "task_name": "Event bus",
+    "key_pattern": "Pub-sub architecture",
+    "language": "python",
+    "prompt_level": "P0",
+    "prompt": "You are a software engineer. Write a complete, working implementation in Python.\n\nTask: Implement an event bus system supporting publish-subscribe messaging. Support event types with typed payloads, synchronous and asynchronous handler execution, handler priority ordering, wildcard subscriptions (e.g., 'order.*' matches 'order.created'). Include dead letter queue for failed event handling and event replay capability from history.\n\nProvide the complete source code. Include all necessary classes, functions, and imports.",
+    "prompt_word_count": 67
+  },
+  {
+    "prompt_id": "T08_P1_python",
+    "task_id": "T08",
+    "task_name": "Event bus",
+    "key_pattern": "Pub-sub architecture",
+    "language": "python",
+    "prompt_level": "P1",
+    "prompt": "You are a software engineer. Write a complete, working implementation in Python.\n\nTask: Implement an event bus system supporting publish-subscribe messaging. Support event types with typed payloads, synchronous and asynchronous handler execution, handler priority ordering, wildcard subscriptions (e.g., 'order.*' matches 'order.created'). Include dead letter queue for failed event handling and event replay capability from history.\n\nArchitectural Requirements:\n- Apply separation of concerns: separate business logic from data access and presentation/API\n- Organize code into distinct, cohesive modules or classes with single responsibilities\n- Use meaningful, descriptive names for all classes, methods, and variables\n- Keep functions/methods focused and short (prefer < 20 lines per method)\n- Group related functionality together\n\nProvide the complete source code. Include all necessary classes, functions, and imports.",
+    "prompt_word_count": 122
+  },
+  {
+    "prompt_id": "T08_P2_python",
+    "task_id": "T08",
+    "task_name": "Event bus",
+    "key_pattern": "Pub-sub architecture",
+    "language": "python",
+    "prompt_level": "P2",
+    "prompt": "You are a software engineer. Write a complete, working implementation in Python.\n\nTask: Implement an event bus system supporting publish-subscribe messaging. Support event types with typed payloads, synchronous and asynchronous handler execution, handler priority ordering, wildcard subscriptions (e.g., 'order.*' matches 'order.created'). Include dead letter queue for failed event handling and event replay capability from history.\n\nArchitectural Requirements:\n- Apply separation of concerns: separate business logic from data access and presentation/API\n- Organize code into distinct, cohesive modules or classes with single responsibilities\n- Use meaningful, descriptive names for all classes, methods, and variables\n- Keep functions/methods focused and short (prefer < 20 lines per method)\n- Group related functionality together\n\nDesign Pattern Requirements:\n- Use the Repository pattern for all data access operations (abstract storage behind an interface)\n- Use the Factory pattern for creating complex objects\n- Use the Strategy pattern where multiple algorithms or behaviors are interchangeable\n- Define interfaces/abstract base classes for all major component boundaries\n- Apply Dependency Injection: pass dependencies through constructors, not hard-coded instantiation\n\nProvide the complete source code. Include all necessary classes, functions, and imports.",
+    "prompt_word_count": 182
+  },
+  {
+    "prompt_id": "T08_P3_python",
+    "task_id": "T08",
+    "task_name": "Event bus",
+    "key_pattern": "Pub-sub architecture",
+    "language": "python",
+    "prompt_level": "P3",
+    "prompt": "You are a software engineer. Write a complete, working implementation in Python.\n\nTask: Implement an event bus system supporting publish-subscribe messaging. Support event types with typed payloads, synchronous and asynchronous handler execution, handler priority ordering, wildcard subscriptions (e.g., 'order.*' matches 'order.created'). Include dead letter queue for failed event handling and event replay capability from history.\n\nArchitectural Requirements:\n- Apply separation of concerns: separate business logic from data access and presentation/API\n- Organize code into distinct, cohesive modules or classes with single responsibilities\n- Use meaningful, descriptive names for all classes, methods, and variables\n- Keep functions/methods focused and short (prefer < 20 lines per method)\n- Group related functionality together\n\nDesign Pattern Requirements:\n- Use the Repository pattern for all data access operations (abstract storage behind an interface)\n- Use the Factory pattern for creating complex objects\n- Use the Strategy pattern where multiple algorithms or behaviors are interchangeable\n- Define interfaces/abstract base classes for all major component boundaries\n- Apply Dependency Injection: pass dependencies through constructors, not hard-coded instantiation\n\nClean Architecture Requirements:\n- Organize code into 4 layers: Entities (domain models), Use Cases (application logic), Interface Adapters (controllers, presenters, gateways), Frameworks & Drivers (external tools)\n- Dependencies must point inward: outer layers depend on inner layers, never the reverse\n- Use Data Transfer Objects (DTOs) for data crossing layer boundaries\n\nSOLID Principles (apply ALL five):\n- Single Responsibility Principle: each class has exactly one reason to change\n- Open/Closed Principle: classes are open for extension, closed for modification\n- Liskov Substitution: subtypes must be substitutable for their base types\n- Interface Segregation: prefer many small interfaces over one large interface\n- Dependency Inversion: depend on abstractions, not concretions\n\nProvide the complete source code. Include all necessary classes, functions, and imports.",
+    "prompt_word_count": 291
+  },
+  {
+    "prompt_id": "T08_P0_java",
+    "task_id": "T08",
+    "task_name": "Event bus",
+    "key_pattern": "Pub-sub architecture",
+    "language": "java",
+    "prompt_level": "P0",
+    "prompt": "You are a software engineer. Write a complete, working implementation in Java.\n\nTask: Implement an event bus system supporting publish-subscribe messaging. Support event types with typed payloads, synchronous and asynchronous handler execution, handler priority ordering, wildcard subscriptions (e.g., 'order.*' matches 'order.created'). Include dead letter queue for failed event handling and event replay capability from history.\n\nProvide the complete source code. Include all necessary classes, functions, and imports.",
+    "prompt_word_count": 67
+  },
+  {
+    "prompt_id": "T08_P1_java",
+    "task_id": "T08",
+    "task_name": "Event bus",
+    "key_pattern": "Pub-sub architecture",
+    "language": "java",
+    "prompt_level": "P1",
+    "prompt": "You are a software engineer. Write a complete, working implementation in Java.\n\nTask: Implement an event bus system supporting publish-subscribe messaging. Support event types with typed payloads, synchronous and asynchronous handler execution, handler priority ordering, wildcard subscriptions (e.g., 'order.*' matches 'order.created'). Include dead letter queue for failed event handling and event replay capability from history.\n\nArchitectural Requirements:\n- Apply separation of concerns: separate business logic from data access and presentation/API\n- Organize code into distinct, cohesive modules or classes with single responsibilities\n- Use meaningful, descriptive names for all classes, methods, and variables\n- Keep functions/methods focused and short (prefer < 20 lines per method)\n- Group related functionality together\n\nProvide the complete source code. Include all necessary classes, functions, and imports.",
+    "prompt_word_count": 122
+  },
+  {
+    "prompt_id": "T08_P2_java",
+    "task_id": "T08",
+    "task_name": "Event bus",
+    "key_pattern": "Pub-sub architecture",
+    "language": "java",
+    "prompt_level": "P2",
+    "prompt": "You are a software engineer. Write a complete, working implementation in Java.\n\nTask: Implement an event bus system supporting publish-subscribe messaging. Support event types with typed payloads, synchronous and asynchronous handler execution, handler priority ordering, wildcard subscriptions (e.g., 'order.*' matches 'order.created'). Include dead letter queue for failed event handling and event replay capability from history.\n\nArchitectural Requirements:\n- Apply separation of concerns: separate business logic from data access and presentation/API\n- Organize code into distinct, cohesive modules or classes with single responsibilities\n- Use meaningful, descriptive names for all classes, methods, and variables\n- Keep functions/methods focused and short (prefer < 20 lines per method)\n- Group related functionality together\n\nDesign Pattern Requirements:\n- Use the Repository pattern for all data access operations (abstract storage behind an interface)\n- Use the Factory pattern for creating complex objects\n- Use the Strategy pattern where multiple algorithms or behaviors are interchangeable\n- Define interfaces/abstract base classes for all major component boundaries\n- Apply Dependency Injection: pass dependencies through constructors, not hard-coded instantiation\n\nProvide the complete source code. Include all necessary classes, functions, and imports.",
+    "prompt_word_count": 182
+  },
+  {
+    "prompt_id": "T08_P3_java",
+    "task_id": "T08",
+    "task_name": "Event bus",
+    "key_pattern": "Pub-sub architecture",
+    "language": "java",
+    "prompt_level": "P3",
+    "prompt": "You are a software engineer. Write a complete, working implementation in Java.\n\nTask: Implement an event bus system supporting publish-subscribe messaging. Support event types with typed payloads, synchronous and asynchronous handler execution, handler priority ordering, wildcard subscriptions (e.g., 'order.*' matches 'order.created'). Include dead letter queue for failed event handling and event replay capability from history.\n\nArchitectural Requirements:\n- Apply separation of concerns: separate business logic from data access and presentation/API\n- Organize code into distinct, cohesive modules or classes with single responsibilities\n- Use meaningful, descriptive names for all classes, methods, and variables\n- Keep functions/methods focused and short (prefer < 20 lines per method)\n- Group related functionality together\n\nDesign Pattern Requirements:\n- Use the Repository pattern for all data access operations (abstract storage behind an interface)\n- Use the Factory pattern for creating complex objects\n- Use the Strategy pattern where multiple algorithms or behaviors are interchangeable\n- Define interfaces/abstract base classes for all major component boundaries\n- Apply Dependency Injection: pass dependencies through constructors, not hard-coded instantiation\n\nClean Architecture Requirements:\n- Organize code into 4 layers: Entities (domain models), Use Cases (application logic), Interface Adapters (controllers, presenters, gateways), Frameworks & Drivers (external tools)\n- Dependencies must point inward: outer layers depend on inner layers, never the reverse\n- Use Data Transfer Objects (DTOs) for data crossing layer boundaries\n\nSOLID Principles (apply ALL five):\n- Single Responsibility Principle: each class has exactly one reason to change\n- Open/Closed Principle: classes are open for extension, closed for modification\n- Liskov Substitution: subtypes must be substitutable for their base types\n- Interface Segregation: prefer many small interfaces over one large interface\n- Dependency Inversion: depend on abstractions, not concretions\n\nProvide the complete source code. Include all necessary classes, functions, and imports.",
+    "prompt_word_count": 291
+  },
+  {
+    "prompt_id": "T09_P0_python",
+    "task_id": "T09",
+    "task_name": "Data pipeline",
+    "key_pattern": "Chain of responsibility",
+    "language": "python",
+    "prompt_level": "P0",
+    "prompt": "You are a software engineer. Write a complete, working implementation in Python.\n\nTask: Implement a data processing pipeline that chains multiple transformation stages. Support stages: validation, normalization, enrichment, filtering, and aggregation. Input data are records (dictionaries) with various fields. Each stage can pass, transform, or reject records. Include pipeline metrics (records processed, rejected, processing time per stage) and the ability to add/remove stages dynamically.\n\nProvide the complete source code. Include all necessary classes, functions, and imports.",
+    "prompt_word_count": 76
+  },
+  {
+    "prompt_id": "T09_P1_python",
+    "task_id": "T09",
+    "task_name": "Data pipeline",
+    "key_pattern": "Chain of responsibility",
+    "language": "python",
+    "prompt_level": "P1",
+    "prompt": "You are a software engineer. Write a complete, working implementation in Python.\n\nTask: Implement a data processing pipeline that chains multiple transformation stages. Support stages: validation, normalization, enrichment, filtering, and aggregation. Input data are records (dictionaries) with various fields. Each stage can pass, transform, or reject records. Include pipeline metrics (records processed, rejected, processing time per stage) and the ability to add/remove stages dynamically.\n\nArchitectural Requirements:\n- Apply separation of concerns: separate business logic from data access and presentation/API\n- Organize code into distinct, cohesive modules or classes with single responsibilities\n- Use meaningful, descriptive names for all classes, methods, and variables\n- Keep functions/methods focused and short (prefer < 20 lines per method)\n- Group related functionality together\n\nProvide the complete source code. Include all necessary classes, functions, and imports.",
+    "prompt_word_count": 131
+  },
+  {
+    "prompt_id": "T09_P2_python",
+    "task_id": "T09",
+    "task_name": "Data pipeline",
+    "key_pattern": "Chain of responsibility",
+    "language": "python",
+    "prompt_level": "P2",
+    "prompt": "You are a software engineer. Write a complete, working implementation in Python.\n\nTask: Implement a data processing pipeline that chains multiple transformation stages. Support stages: validation, normalization, enrichment, filtering, and aggregation. Input data are records (dictionaries) with various fields. Each stage can pass, transform, or reject records. Include pipeline metrics (records processed, rejected, processing time per stage) and the ability to add/remove stages dynamically.\n\nArchitectural Requirements:\n- Apply separation of concerns: separate business logic from data access and presentation/API\n- Organize code into distinct, cohesive modules or classes with single responsibilities\n- Use meaningful, descriptive names for all classes, methods, and variables\n- Keep functions/methods focused and short (prefer < 20 lines per method)\n- Group related functionality together\n\nDesign Pattern Requirements:\n- Use the Repository pattern for all data access operations (abstract storage behind an interface)\n- Use the Factory pattern for creating complex objects\n- Use the Strategy pattern where multiple algorithms or behaviors are interchangeable\n- Define interfaces/abstract base classes for all major component boundaries\n- Apply Dependency Injection: pass dependencies through constructors, not hard-coded instantiation\n\nProvide the complete source code. Include all necessary classes, functions, and imports.",
+    "prompt_word_count": 191
+  },
+  {
+    "prompt_id": "T09_P3_python",
+    "task_id": "T09",
+    "task_name": "Data pipeline",
+    "key_pattern": "Chain of responsibility",
+    "language": "python",
+    "prompt_level": "P3",
+    "prompt": "You are a software engineer. Write a complete, working implementation in Python.\n\nTask: Implement a data processing pipeline that chains multiple transformation stages. Support stages: validation, normalization, enrichment, filtering, and aggregation. Input data are records (dictionaries) with various fields. Each stage can pass, transform, or reject records. Include pipeline metrics (records processed, rejected, processing time per stage) and the ability to add/remove stages dynamically.\n\nArchitectural Requirements:\n- Apply separation of concerns: separate business logic from data access and presentation/API\n- Organize code into distinct, cohesive modules or classes with single responsibilities\n- Use meaningful, descriptive names for all classes, methods, and variables\n- Keep functions/methods focused and short (prefer < 20 lines per method)\n- Group related functionality together\n\nDesign Pattern Requirements:\n- Use the Repository pattern for all data access operations (abstract storage behind an interface)\n- Use the Factory pattern for creating complex objects\n- Use the Strategy pattern where multiple algorithms or behaviors are interchangeable\n- Define interfaces/abstract base classes for all major component boundaries\n- Apply Dependency Injection: pass dependencies through constructors, not hard-coded instantiation\n\nClean Architecture Requirements:\n- Organize code into 4 layers: Entities (domain models), Use Cases (application logic), Interface Adapters (controllers, presenters, gateways), Frameworks & Drivers (external tools)\n- Dependencies must point inward: outer layers depend on inner layers, never the reverse\n- Use Data Transfer Objects (DTOs) for data crossing layer boundaries\n\nSOLID Principles (apply ALL five):\n- Single Responsibility Principle: each class has exactly one reason to change\n- Open/Closed Principle: classes are open for extension, closed for modification\n- Liskov Substitution: subtypes must be substitutable for their base types\n- Interface Segregation: prefer many small interfaces over one large interface\n- Dependency Inversion: depend on abstractions, not concretions\n\nProvide the complete source code. Include all necessary classes, functions, and imports.",
+    "prompt_word_count": 300
+  },
+  {
+    "prompt_id": "T09_P0_java",
+    "task_id": "T09",
+    "task_name": "Data pipeline",
+    "key_pattern": "Chain of responsibility",
+    "language": "java",
+    "prompt_level": "P0",
+    "prompt": "You are a software engineer. Write a complete, working implementation in Java.\n\nTask: Implement a data processing pipeline that chains multiple transformation stages. Support stages: validation, normalization, enrichment, filtering, and aggregation. Input data are records (dictionaries) with various fields. Each stage can pass, transform, or reject records. Include pipeline metrics (records processed, rejected, processing time per stage) and the ability to add/remove stages dynamically.\n\nProvide the complete source code. Include all necessary classes, functions, and imports.",
+    "prompt_word_count": 76
+  },
+  {
+    "prompt_id": "T09_P1_java",
+    "task_id": "T09",
+    "task_name": "Data pipeline",
+    "key_pattern": "Chain of responsibility",
+    "language": "java",
+    "prompt_level": "P1",
+    "prompt": "You are a software engineer. Write a complete, working implementation in Java.\n\nTask: Implement a data processing pipeline that chains multiple transformation stages. Support stages: validation, normalization, enrichment, filtering, and aggregation. Input data are records (dictionaries) with various fields. Each stage can pass, transform, or reject records. Include pipeline metrics (records processed, rejected, processing time per stage) and the ability to add/remove stages dynamically.\n\nArchitectural Requirements:\n- Apply separation of concerns: separate business logic from data access and presentation/API\n- Organize code into distinct, cohesive modules or classes with single responsibilities\n- Use meaningful, descriptive names for all classes, methods, and variables\n- Keep functions/methods focused and short (prefer < 20 lines per method)\n- Group related functionality together\n\nProvide the complete source code. Include all necessary classes, functions, and imports.",
+    "prompt_word_count": 131
+  },
+  {
+    "prompt_id": "T09_P2_java",
+    "task_id": "T09",
+    "task_name": "Data pipeline",
+    "key_pattern": "Chain of responsibility",
+    "language": "java",
+    "prompt_level": "P2",
+    "prompt": "You are a software engineer. Write a complete, working implementation in Java.\n\nTask: Implement a data processing pipeline that chains multiple transformation stages. Support stages: validation, normalization, enrichment, filtering, and aggregation. Input data are records (dictionaries) with various fields. Each stage can pass, transform, or reject records. Include pipeline metrics (records processed, rejected, processing time per stage) and the ability to add/remove stages dynamically.\n\nArchitectural Requirements:\n- Apply separation of concerns: separate business logic from data access and presentation/API\n- Organize code into distinct, cohesive modules or classes with single responsibilities\n- Use meaningful, descriptive names for all classes, methods, and variables\n- Keep functions/methods focused and short (prefer < 20 lines per method)\n- Group related functionality together\n\nDesign Pattern Requirements:\n- Use the Repository pattern for all data access operations (abstract storage behind an interface)\n- Use the Factory pattern for creating complex objects\n- Use the Strategy pattern where multiple algorithms or behaviors are interchangeable\n- Define interfaces/abstract base classes for all major component boundaries\n- Apply Dependency Injection: pass dependencies through constructors, not hard-coded instantiation\n\nProvide the complete source code. Include all necessary classes, functions, and imports.",
+    "prompt_word_count": 191
+  },
+  {
+    "prompt_id": "T09_P3_java",
+    "task_id": "T09",
+    "task_name": "Data pipeline",
+    "key_pattern": "Chain of responsibility",
+    "language": "java",
+    "prompt_level": "P3",
+    "prompt": "You are a software engineer. Write a complete, working implementation in Java.\n\nTask: Implement a data processing pipeline that chains multiple transformation stages. Support stages: validation, normalization, enrichment, filtering, and aggregation. Input data are records (dictionaries) with various fields. Each stage can pass, transform, or reject records. Include pipeline metrics (records processed, rejected, processing time per stage) and the ability to add/remove stages dynamically.\n\nArchitectural Requirements:\n- Apply separation of concerns: separate business logic from data access and presentation/API\n- Organize code into distinct, cohesive modules or classes with single responsibilities\n- Use meaningful, descriptive names for all classes, methods, and variables\n- Keep functions/methods focused and short (prefer < 20 lines per method)\n- Group related functionality together\n\nDesign Pattern Requirements:\n- Use the Repository pattern for all data access operations (abstract storage behind an interface)\n- Use the Factory pattern for creating complex objects\n- Use the Strategy pattern where multiple algorithms or behaviors are interchangeable\n- Define interfaces/abstract base classes for all major component boundaries\n- Apply Dependency Injection: pass dependencies through constructors, not hard-coded instantiation\n\nClean Architecture Requirements:\n- Organize code into 4 layers: Entities (domain models), Use Cases (application logic), Interface Adapters (controllers, presenters, gateways), Frameworks & Drivers (external tools)\n- Dependencies must point inward: outer layers depend on inner layers, never the reverse\n- Use Data Transfer Objects (DTOs) for data crossing layer boundaries\n\nSOLID Principles (apply ALL five):\n- Single Responsibility Principle: each class has exactly one reason to change\n- Open/Closed Principle: classes are open for extension, closed for modification\n- Liskov Substitution: subtypes must be substitutable for their base types\n- Interface Segregation: prefer many small interfaces over one large interface\n- Dependency Inversion: depend on abstractions, not concretions\n\nProvide the complete source code. Include all necessary classes, functions, and imports.",
+    "prompt_word_count": 300
+  },
+  {
+    "prompt_id": "T10_P0_python",
+    "task_id": "T10",
+    "task_name": "RBAC system",
+    "key_pattern": "Strategy + composite",
+    "language": "python",
+    "prompt_level": "P0",
+    "prompt": "You are a software engineer. Write a complete, working implementation in Python.\n\nTask: Implement a Role-Based Access Control (RBAC) system. Support users, roles, and permissions. Users can have multiple roles; roles can have multiple permissions. Permissions are defined as resource:action pairs (e.g., 'document:read', 'user:delete'). Support role hierarchy (admin inherits all manager permissions). Include permission checking, role assignment/revocation, and audit logging of access decisions.\n\nProvide the complete source code. Include all necessary classes, functions, and imports.",
+    "prompt_word_count": 75
+  },
+  {
+    "prompt_id": "T10_P1_python",
+    "task_id": "T10",
+    "task_name": "RBAC system",
+    "key_pattern": "Strategy + composite",
+    "language": "python",
+    "prompt_level": "P1",
+    "prompt": "You are a software engineer. Write a complete, working implementation in Python.\n\nTask: Implement a Role-Based Access Control (RBAC) system. Support users, roles, and permissions. Users can have multiple roles; roles can have multiple permissions. Permissions are defined as resource:action pairs (e.g., 'document:read', 'user:delete'). Support role hierarchy (admin inherits all manager permissions). Include permission checking, role assignment/revocation, and audit logging of access decisions.\n\nArchitectural Requirements:\n- Apply separation of concerns: separate business logic from data access and presentation/API\n- Organize code into distinct, cohesive modules or classes with single responsibilities\n- Use meaningful, descriptive names for all classes, methods, and variables\n- Keep functions/methods focused and short (prefer < 20 lines per method)\n- Group related functionality together\n\nProvide the complete source code. Include all necessary classes, functions, and imports.",
+    "prompt_word_count": 130
+  },
+  {
+    "prompt_id": "T10_P2_python",
+    "task_id": "T10",
+    "task_name": "RBAC system",
+    "key_pattern": "Strategy + composite",
+    "language": "python",
+    "prompt_level": "P2",
+    "prompt": "You are a software engineer. Write a complete, working implementation in Python.\n\nTask: Implement a Role-Based Access Control (RBAC) system. Support users, roles, and permissions. Users can have multiple roles; roles can have multiple permissions. Permissions are defined as resource:action pairs (e.g., 'document:read', 'user:delete'). Support role hierarchy (admin inherits all manager permissions). Include permission checking, role assignment/revocation, and audit logging of access decisions.\n\nArchitectural Requirements:\n- Apply separation of concerns: separate business logic from data access and presentation/API\n- Organize code into distinct, cohesive modules or classes with single responsibilities\n- Use meaningful, descriptive names for all classes, methods, and variables\n- Keep functions/methods focused and short (prefer < 20 lines per method)\n- Group related functionality together\n\nDesign Pattern Requirements:\n- Use the Repository pattern for all data access operations (abstract storage behind an interface)\n- Use the Factory pattern for creating complex objects\n- Use the Strategy pattern where multiple algorithms or behaviors are interchangeable\n- Define interfaces/abstract base classes for all major component boundaries\n- Apply Dependency Injection: pass dependencies through constructors, not hard-coded instantiation\n\nProvide the complete source code. Include all necessary classes, functions, and imports.",
+    "prompt_word_count": 190
+  },
+  {
+    "prompt_id": "T10_P3_python",
+    "task_id": "T10",
+    "task_name": "RBAC system",
+    "key_pattern": "Strategy + composite",
+    "language": "python",
+    "prompt_level": "P3",
+    "prompt": "You are a software engineer. Write a complete, working implementation in Python.\n\nTask: Implement a Role-Based Access Control (RBAC) system. Support users, roles, and permissions. Users can have multiple roles; roles can have multiple permissions. Permissions are defined as resource:action pairs (e.g., 'document:read', 'user:delete'). Support role hierarchy (admin inherits all manager permissions). Include permission checking, role assignment/revocation, and audit logging of access decisions.\n\nArchitectural Requirements:\n- Apply separation of concerns: separate business logic from data access and presentation/API\n- Organize code into distinct, cohesive modules or classes with single responsibilities\n- Use meaningful, descriptive names for all classes, methods, and variables\n- Keep functions/methods focused and short (prefer < 20 lines per method)\n- Group related functionality together\n\nDesign Pattern Requirements:\n- Use the Repository pattern for all data access operations (abstract storage behind an interface)\n- Use the Factory pattern for creating complex objects\n- Use the Strategy pattern where multiple algorithms or behaviors are interchangeable\n- Define interfaces/abstract base classes for all major component boundaries\n- Apply Dependency Injection: pass dependencies through constructors, not hard-coded instantiation\n\nClean Architecture Requirements:\n- Organize code into 4 layers: Entities (domain models), Use Cases (application logic), Interface Adapters (controllers, presenters, gateways), Frameworks & Drivers (external tools)\n- Dependencies must point inward: outer layers depend on inner layers, never the reverse\n- Use Data Transfer Objects (DTOs) for data crossing layer boundaries\n\nSOLID Principles (apply ALL five):\n- Single Responsibility Principle: each class has exactly one reason to change\n- Open/Closed Principle: classes are open for extension, closed for modification\n- Liskov Substitution: subtypes must be substitutable for their base types\n- Interface Segregation: prefer many small interfaces over one large interface\n- Dependency Inversion: depend on abstractions, not concretions\n\nProvide the complete source code. Include all necessary classes, functions, and imports.",
+    "prompt_word_count": 299
+  },
+  {
+    "prompt_id": "T10_P0_java",
+    "task_id": "T10",
+    "task_name": "RBAC system",
+    "key_pattern": "Strategy + composite",
+    "language": "java",
+    "prompt_level": "P0",
+    "prompt": "You are a software engineer. Write a complete, working implementation in Java.\n\nTask: Implement a Role-Based Access Control (RBAC) system. Support users, roles, and permissions. Users can have multiple roles; roles can have multiple permissions. Permissions are defined as resource:action pairs (e.g., 'document:read', 'user:delete'). Support role hierarchy (admin inherits all manager permissions). Include permission checking, role assignment/revocation, and audit logging of access decisions.\n\nProvide the complete source code. Include all necessary classes, functions, and imports.",
+    "prompt_word_count": 75
+  },
+  {
+    "prompt_id": "T10_P1_java",
+    "task_id": "T10",
+    "task_name": "RBAC system",
+    "key_pattern": "Strategy + composite",
+    "language": "java",
+    "prompt_level": "P1",
+    "prompt": "You are a software engineer. Write a complete, working implementation in Java.\n\nTask: Implement a Role-Based Access Control (RBAC) system. Support users, roles, and permissions. Users can have multiple roles; roles can have multiple permissions. Permissions are defined as resource:action pairs (e.g., 'document:read', 'user:delete'). Support role hierarchy (admin inherits all manager permissions). Include permission checking, role assignment/revocation, and audit logging of access decisions.\n\nArchitectural Requirements:\n- Apply separation of concerns: separate business logic from data access and presentation/API\n- Organize code into distinct, cohesive modules or classes with single responsibilities\n- Use meaningful, descriptive names for all classes, methods, and variables\n- Keep functions/methods focused and short (prefer < 20 lines per method)\n- Group related functionality together\n\nProvide the complete source code. Include all necessary classes, functions, and imports.",
+    "prompt_word_count": 130
+  },
+  {
+    "prompt_id": "T10_P2_java",
+    "task_id": "T10",
+    "task_name": "RBAC system",
+    "key_pattern": "Strategy + composite",
+    "language": "java",
+    "prompt_level": "P2",
+    "prompt": "You are a software engineer. Write a complete, working implementation in Java.\n\nTask: Implement a Role-Based Access Control (RBAC) system. Support users, roles, and permissions. Users can have multiple roles; roles can have multiple permissions. Permissions are defined as resource:action pairs (e.g., 'document:read', 'user:delete'). Support role hierarchy (admin inherits all manager permissions). Include permission checking, role assignment/revocation, and audit logging of access decisions.\n\nArchitectural Requirements:\n- Apply separation of concerns: separate business logic from data access and presentation/API\n- Organize code into distinct, cohesive modules or classes with single responsibilities\n- Use meaningful, descriptive names for all classes, methods, and variables\n- Keep functions/methods focused and short (prefer < 20 lines per method)\n- Group related functionality together\n\nDesign Pattern Requirements:\n- Use the Repository pattern for all data access operations (abstract storage behind an interface)\n- Use the Factory pattern for creating complex objects\n- Use the Strategy pattern where multiple algorithms or behaviors are interchangeable\n- Define interfaces/abstract base classes for all major component boundaries\n- Apply Dependency Injection: pass dependencies through constructors, not hard-coded instantiation\n\nProvide the complete source code. Include all necessary classes, functions, and imports.",
+    "prompt_word_count": 190
+  },
+  {
+    "prompt_id": "T10_P3_java",
+    "task_id": "T10",
+    "task_name": "RBAC system",
+    "key_pattern": "Strategy + composite",
+    "language": "java",
+    "prompt_level": "P3",
+    "prompt": "You are a software engineer. Write a complete, working implementation in Java.\n\nTask: Implement a Role-Based Access Control (RBAC) system. Support users, roles, and permissions. Users can have multiple roles; roles can have multiple permissions. Permissions are defined as resource:action pairs (e.g., 'document:read', 'user:delete'). Support role hierarchy (admin inherits all manager permissions). Include permission checking, role assignment/revocation, and audit logging of access decisions.\n\nArchitectural Requirements:\n- Apply separation of concerns: separate business logic from data access and presentation/API\n- Organize code into distinct, cohesive modules or classes with single responsibilities\n- Use meaningful, descriptive names for all classes, methods, and variables\n- Keep functions/methods focused and short (prefer < 20 lines per method)\n- Group related functionality together\n\nDesign Pattern Requirements:\n- Use the Repository pattern for all data access operations (abstract storage behind an interface)\n- Use the Factory pattern for creating complex objects\n- Use the Strategy pattern where multiple algorithms or behaviors are interchangeable\n- Define interfaces/abstract base classes for all major component boundaries\n- Apply Dependency Injection: pass dependencies through constructors, not hard-coded instantiation\n\nClean Architecture Requirements:\n- Organize code into 4 layers: Entities (domain models), Use Cases (application logic), Interface Adapters (controllers, presenters, gateways), Frameworks & Drivers (external tools)\n- Dependencies must point inward: outer layers depend on inner layers, never the reverse\n- Use Data Transfer Objects (DTOs) for data crossing layer boundaries\n\nSOLID Principles (apply ALL five):\n- Single Responsibility Principle: each class has exactly one reason to change\n- Open/Closed Principle: classes are open for extension, closed for modification\n- Liskov Substitution: subtypes must be substitutable for their base types\n- Interface Segregation: prefer many small interfaces over one large interface\n- Dependency Inversion: depend on abstractions, not concretions\n\nProvide the complete source code. Include all necessary classes, functions, and imports.",
+    "prompt_word_count": 299
+  }
+]

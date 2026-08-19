@@ -1,0 +1,7 @@
+pair,U_statistic,p_value_raw,p_value_corrected,cliffs_delta,effect_size,significant
+P0 vs P1,2219.0,<0.001,<0.001,0.886,large,True
+P0 vs P2,0.0,<0.001,<0.001,1.0,large,True
+P0 vs P3,0.0,<0.001,<0.001,1.0,large,True
+P1 vs P2,5.0,<0.001,<0.001,1.0,large,True
+P1 vs P3,0.0,<0.001,<0.001,1.0,large,True
+P2 vs P3,9162.0,<0.001,<0.001,0.525,large,True

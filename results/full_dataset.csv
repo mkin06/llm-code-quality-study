@@ -1,0 +1,789 @@
+sample_id,task_id,task_name,language,prompt_level,llm,repetition,loc,avg_cc,mi,code_smells,acs
+S0001,T01,CRUD REST API,python,P0,gpt-4o,1,60,4.71,48.17,20,0.0
+S0002,T01,CRUD REST API,python,P0,gpt-4o,2,60,4.71,45.08,20,0.5
+S0003,T01,CRUD REST API,python,P0,gpt-4o,3,60,4.71,48.17,20,0.5
+S0004,T01,CRUD REST API,python,P0,gpt-4o,4,60,4.71,48.17,20,0.5
+S0005,T01,CRUD REST API,python,P0,gpt-4o,5,60,4.71,45.08,20,0.0
+S0006,T01,CRUD REST API,python,P0,claude-3.5-sonnet,1,60,4.71,45.08,20,1.0
+S0007,T01,CRUD REST API,python,P0,claude-3.5-sonnet,2,60,4.71,45.08,20,1.0
+S0008,T01,CRUD REST API,python,P0,claude-3.5-sonnet,3,60,4.71,45.08,20,1.0
+S0009,T01,CRUD REST API,python,P0,claude-3.5-sonnet,4,60,4.71,45.08,20,0.0
+S0010,T01,CRUD REST API,python,P0,claude-3.5-sonnet,5,60,4.71,45.08,20,1.0
+S0011,T01,CRUD REST API,python,P1,gpt-4o,1,94,3.37,41.02,32,2.0
+S0012,T01,CRUD REST API,python,P1,gpt-4o,2,94,3.37,38.46,32,2.0
+S0013,T01,CRUD REST API,python,P1,gpt-4o,3,94,3.37,41.02,32,3.0
+S0014,T01,CRUD REST API,python,P1,gpt-4o,4,94,3.37,41.02,32,2.5
+S0015,T01,CRUD REST API,python,P1,gpt-4o,5,94,3.37,38.46,32,2.0
+S0016,T01,CRUD REST API,python,P1,claude-3.5-sonnet,1,94,3.37,38.46,32,2.5
+S0017,T01,CRUD REST API,python,P1,claude-3.5-sonnet,2,94,3.37,38.46,32,2.0
+S0018,T01,CRUD REST API,python,P1,claude-3.5-sonnet,3,94,3.37,38.46,32,2.0
+S0019,T01,CRUD REST API,python,P1,claude-3.5-sonnet,4,94,3.37,38.46,32,2.0
+S0020,T01,CRUD REST API,python,P1,claude-3.5-sonnet,5,94,3.37,38.46,32,2.0
+S0021,T01,CRUD REST API,python,P2,gpt-4o,1,155,2.36,34.29,47,8.0
+S0022,T01,CRUD REST API,python,P2,gpt-4o,2,155,2.36,32.25,47,8.0
+S0023,T01,CRUD REST API,python,P2,gpt-4o,3,155,2.36,34.29,47,8.0
+S0024,T01,CRUD REST API,python,P2,gpt-4o,4,155,2.36,34.29,47,7.0
+S0025,T01,CRUD REST API,python,P2,gpt-4o,5,155,2.36,32.25,47,8.0
+S0026,T01,CRUD REST API,python,P2,claude-3.5-sonnet,1,155,2.36,32.25,47,9.0
+S0027,T01,CRUD REST API,python,P2,claude-3.5-sonnet,2,155,2.36,32.25,47,7.0
+S0028,T01,CRUD REST API,python,P2,claude-3.5-sonnet,3,155,2.36,32.25,47,8.0
+S0029,T01,CRUD REST API,python,P2,claude-3.5-sonnet,4,155,2.36,32.25,47,8.0
+S0030,T01,CRUD REST API,python,P2,claude-3.5-sonnet,5,155,2.36,32.25,47,8.0
+S0031,T01,CRUD REST API,python,P3,gpt-4o,1,221,2.33,41.06,54,8.5
+S0032,T01,CRUD REST API,python,P3,gpt-4o,2,221,2.33,40.75,54,9.0
+S0033,T01,CRUD REST API,python,P3,gpt-4o,3,221,2.33,41.1,54,8.5
+S0034,T01,CRUD REST API,python,P3,gpt-4o,4,221,2.33,41.06,54,9.0
+S0035,T01,CRUD REST API,python,P3,gpt-4o,5,221,2.33,40.75,54,8.5
+S0036,T01,CRUD REST API,python,P3,claude-3.5-sonnet,1,221,2.33,40.75,54,9.0
+S0037,T01,CRUD REST API,python,P3,claude-3.5-sonnet,2,221,2.33,40.75,54,8.5
+S0038,T01,CRUD REST API,python,P3,claude-3.5-sonnet,3,221,2.33,40.75,54,8.5
+S0039,T01,CRUD REST API,python,P3,claude-3.5-sonnet,4,221,2.33,40.75,54,9.0
+S0040,T01,CRUD REST API,python,P3,claude-3.5-sonnet,5,221,2.33,40.75,54,9.0
+S0081,T02,Authentication system,python,P0,gpt-4o,1,36,2.67,63.54,12,0.0
+S0082,T02,Authentication system,python,P0,gpt-4o,2,36,2.67,59.67,12,0.0
+S0083,T02,Authentication system,python,P0,gpt-4o,3,36,2.67,63.54,12,0.5
+S0084,T02,Authentication system,python,P0,gpt-4o,4,36,2.67,63.54,12,1.0
+S0085,T02,Authentication system,python,P0,gpt-4o,5,36,2.67,59.67,12,0.0
+S0086,T02,Authentication system,python,P0,claude-3.5-sonnet,1,36,2.67,59.67,12,0.5
+S0087,T02,Authentication system,python,P0,claude-3.5-sonnet,2,36,2.67,59.67,12,1.0
+S0088,T02,Authentication system,python,P0,claude-3.5-sonnet,3,36,2.67,59.67,12,0.5
+S0089,T02,Authentication system,python,P0,claude-3.5-sonnet,4,36,2.67,59.67,12,1.0
+S0090,T02,Authentication system,python,P0,claude-3.5-sonnet,5,36,2.67,59.67,12,0.0
+S0091,T02,Authentication system,python,P1,gpt-4o,1,60,2.0,55.6,27,2.0
+S0092,T02,Authentication system,python,P1,gpt-4o,2,60,2.0,52.43,27,1.5
+S0093,T02,Authentication system,python,P1,gpt-4o,3,60,2.0,55.6,27,1.0
+S0094,T02,Authentication system,python,P1,gpt-4o,4,60,2.0,55.6,27,2.0
+S0095,T02,Authentication system,python,P1,gpt-4o,5,60,2.0,52.43,27,2.0
+S0096,T02,Authentication system,python,P1,claude-3.5-sonnet,1,60,2.0,52.43,27,2.5
+S0097,T02,Authentication system,python,P1,claude-3.5-sonnet,2,60,2.0,52.43,27,1.5
+S0098,T02,Authentication system,python,P1,claude-3.5-sonnet,3,60,2.0,52.43,27,1.0
+S0099,T02,Authentication system,python,P1,claude-3.5-sonnet,4,60,2.0,52.43,27,2.0
+S0100,T02,Authentication system,python,P1,claude-3.5-sonnet,5,60,2.0,52.43,27,2.0
+S0101,T02,Authentication system,python,P2,gpt-4o,1,116,1.0,50.0,0,5.0
+S0102,T02,Authentication system,python,P2,gpt-4o,2,116,1.0,50.0,0,4.0
+S0103,T02,Authentication system,python,P2,gpt-4o,3,116,1.0,50.0,0,5.0
+S0104,T02,Authentication system,python,P2,gpt-4o,4,116,1.0,50.0,0,5.0
+S0105,T02,Authentication system,python,P2,gpt-4o,5,116,1.0,50.0,0,5.0
+S0106,T02,Authentication system,python,P2,claude-3.5-sonnet,1,116,1.0,50.0,0,6.0
+S0107,T02,Authentication system,python,P2,claude-3.5-sonnet,2,116,1.0,50.0,0,4.0
+S0108,T02,Authentication system,python,P2,claude-3.5-sonnet,3,116,1.0,50.0,0,4.5
+S0109,T02,Authentication system,python,P2,claude-3.5-sonnet,4,116,1.0,50.0,0,5.0
+S0110,T02,Authentication system,python,P2,claude-3.5-sonnet,5,116,1.0,50.0,0,4.0
+S0111,T02,Authentication system,python,P3,gpt-4o,1,159,1.0,50.0,0,5.5
+S0112,T02,Authentication system,python,P3,gpt-4o,2,159,1.0,50.0,0,6.0
+S0113,T02,Authentication system,python,P3,gpt-4o,3,159,1.0,50.0,0,7.0
+S0114,T02,Authentication system,python,P3,gpt-4o,4,159,1.0,50.0,0,6.0
+S0115,T02,Authentication system,python,P3,gpt-4o,5,159,1.0,50.0,0,6.0
+S0116,T02,Authentication system,python,P3,claude-3.5-sonnet,1,159,1.0,50.0,0,6.5
+S0117,T02,Authentication system,python,P3,claude-3.5-sonnet,2,159,1.0,50.0,0,6.0
+S0118,T02,Authentication system,python,P3,claude-3.5-sonnet,3,159,1.0,50.0,0,6.0
+S0119,T02,Authentication system,python,P3,claude-3.5-sonnet,4,159,1.0,50.0,0,6.0
+S0120,T02,Authentication system,python,P3,claude-3.5-sonnet,5,159,1.0,50.0,0,5.0
+S0161,T03,File management system,python,P0,gpt-4o,1,36,2.67,63.54,12,0.0
+S0162,T03,File management system,python,P0,gpt-4o,2,36,2.67,59.67,12,0.0
+S0163,T03,File management system,python,P0,gpt-4o,3,36,2.67,63.54,12,0.5
+S0164,T03,File management system,python,P0,gpt-4o,4,36,2.67,63.54,12,0.0
+S0165,T03,File management system,python,P0,gpt-4o,5,36,2.67,59.67,12,0.5
+S0166,T03,File management system,python,P0,claude-3.5-sonnet,1,36,2.67,59.67,12,1.0
+S0167,T03,File management system,python,P0,claude-3.5-sonnet,2,36,2.67,59.67,12,1.0
+S0168,T03,File management system,python,P0,claude-3.5-sonnet,3,36,2.67,59.67,12,1.0
+S0169,T03,File management system,python,P0,claude-3.5-sonnet,4,36,2.67,59.67,12,1.0
+S0170,T03,File management system,python,P0,claude-3.5-sonnet,5,36,2.67,59.67,12,0.5
+S0171,T03,File management system,python,P1,gpt-4o,1,60,2.0,55.6,27,2.5
+S0172,T03,File management system,python,P1,gpt-4o,2,60,2.0,52.43,27,1.0
+S0173,T03,File management system,python,P1,gpt-4o,3,60,2.0,55.6,27,1.0
+S0174,T03,File management system,python,P1,gpt-4o,4,60,2.0,55.6,27,2.0
+S0175,T03,File management system,python,P1,gpt-4o,5,60,2.0,52.43,27,1.5
+S0176,T03,File management system,python,P1,claude-3.5-sonnet,1,60,2.0,52.43,27,2.0
+S0177,T03,File management system,python,P1,claude-3.5-sonnet,2,60,2.0,52.43,27,1.5
+S0178,T03,File management system,python,P1,claude-3.5-sonnet,3,60,2.0,52.43,27,2.5
+S0179,T03,File management system,python,P1,claude-3.5-sonnet,4,60,2.0,52.43,27,2.0
+S0180,T03,File management system,python,P1,claude-3.5-sonnet,5,60,2.0,52.43,27,2.0
+S0181,T03,File management system,python,P2,gpt-4o,1,117,1.0,50.0,0,5.0
+S0182,T03,File management system,python,P2,gpt-4o,2,117,1.0,50.0,0,5.5
+S0183,T03,File management system,python,P2,gpt-4o,3,117,1.0,50.0,0,6.0
+S0184,T03,File management system,python,P2,gpt-4o,4,117,1.0,50.0,0,6.0
+S0185,T03,File management system,python,P2,gpt-4o,5,117,1.0,50.0,0,5.0
+S0186,T03,File management system,python,P2,claude-3.5-sonnet,1,117,1.0,50.0,0,4.0
+S0187,T03,File management system,python,P2,claude-3.5-sonnet,2,117,1.0,50.0,0,5.0
+S0188,T03,File management system,python,P2,claude-3.5-sonnet,3,117,1.0,50.0,0,4.0
+S0189,T03,File management system,python,P2,claude-3.5-sonnet,4,117,1.0,50.0,0,5.0
+S0190,T03,File management system,python,P2,claude-3.5-sonnet,5,117,1.0,50.0,0,5.0
+S0191,T03,File management system,python,P3,gpt-4o,1,162,1.0,50.0,0,5.0
+S0192,T03,File management system,python,P3,gpt-4o,2,162,1.0,50.0,0,5.5
+S0193,T03,File management system,python,P3,gpt-4o,3,162,1.0,50.0,0,5.5
+S0194,T03,File management system,python,P3,gpt-4o,4,162,1.0,50.0,0,6.0
+S0195,T03,File management system,python,P3,gpt-4o,5,162,1.0,50.0,0,5.5
+S0196,T03,File management system,python,P3,claude-3.5-sonnet,1,162,1.0,50.0,0,6.0
+S0197,T03,File management system,python,P3,claude-3.5-sonnet,2,162,1.0,50.0,0,6.0
+S0198,T03,File management system,python,P3,claude-3.5-sonnet,3,162,1.0,50.0,0,6.0
+S0199,T03,File management system,python,P3,claude-3.5-sonnet,4,162,1.0,50.0,0,6.0
+S0200,T03,File management system,python,P3,claude-3.5-sonnet,5,162,1.0,50.0,0,5.0
+S0241,T04,Notification system,python,P0,gpt-4o,1,36,2.67,63.54,12,0.5
+S0242,T04,Notification system,python,P0,gpt-4o,2,36,2.67,59.67,12,1.0
+S0243,T04,Notification system,python,P0,gpt-4o,3,36,2.67,63.54,12,0.0
+S0244,T04,Notification system,python,P0,gpt-4o,4,36,2.67,63.54,12,0.5
+S0245,T04,Notification system,python,P0,gpt-4o,5,36,2.67,59.67,12,1.5
+S0246,T04,Notification system,python,P0,claude-3.5-sonnet,1,36,2.67,59.67,12,0.5
+S0247,T04,Notification system,python,P0,claude-3.5-sonnet,2,36,2.67,59.67,12,1.0
+S0248,T04,Notification system,python,P0,claude-3.5-sonnet,3,36,2.67,59.67,12,1.0
+S0249,T04,Notification system,python,P0,claude-3.5-sonnet,4,36,2.67,59.67,12,0.5
+S0250,T04,Notification system,python,P0,claude-3.5-sonnet,5,36,2.67,59.67,12,1.0
+S0251,T04,Notification system,python,P1,gpt-4o,1,60,2.0,55.6,27,1.0
+S0252,T04,Notification system,python,P1,gpt-4o,2,60,2.0,52.43,27,3.0
+S0253,T04,Notification system,python,P1,gpt-4o,3,60,2.0,55.6,27,2.0
+S0254,T04,Notification system,python,P1,gpt-4o,4,60,2.0,55.6,27,1.5
+S0255,T04,Notification system,python,P1,gpt-4o,5,60,2.0,52.43,27,1.0
+S0256,T04,Notification system,python,P1,claude-3.5-sonnet,1,60,2.0,52.43,27,2.0
+S0257,T04,Notification system,python,P1,claude-3.5-sonnet,2,60,2.0,52.43,27,1.5
+S0258,T04,Notification system,python,P1,claude-3.5-sonnet,3,60,2.0,52.43,27,2.5
+S0259,T04,Notification system,python,P1,claude-3.5-sonnet,4,60,2.0,52.43,27,2.0
+S0260,T04,Notification system,python,P1,claude-3.5-sonnet,5,60,2.0,52.43,27,1.0
+S0261,T04,Notification system,python,P2,gpt-4o,1,117,1.0,50.0,0,5.0
+S0262,T04,Notification system,python,P2,gpt-4o,2,117,1.0,50.0,0,5.0
+S0263,T04,Notification system,python,P2,gpt-4o,3,117,1.0,50.0,0,4.5
+S0264,T04,Notification system,python,P2,gpt-4o,4,117,1.0,50.0,0,4.0
+S0265,T04,Notification system,python,P2,gpt-4o,5,117,1.0,50.0,0,5.5
+S0266,T04,Notification system,python,P2,claude-3.5-sonnet,1,117,1.0,50.0,0,4.5
+S0267,T04,Notification system,python,P2,claude-3.5-sonnet,2,117,1.0,50.0,0,5.5
+S0268,T04,Notification system,python,P2,claude-3.5-sonnet,3,117,1.0,50.0,0,4.0
+S0269,T04,Notification system,python,P2,claude-3.5-sonnet,4,117,1.0,50.0,0,5.0
+S0270,T04,Notification system,python,P2,claude-3.5-sonnet,5,117,1.0,50.0,0,5.0
+S0271,T04,Notification system,python,P3,gpt-4o,1,162,1.0,50.0,0,6.0
+S0272,T04,Notification system,python,P3,gpt-4o,2,162,1.0,50.0,0,5.0
+S0273,T04,Notification system,python,P3,gpt-4o,3,162,1.0,50.0,0,5.5
+S0274,T04,Notification system,python,P3,gpt-4o,4,162,1.0,50.0,0,7.0
+S0275,T04,Notification system,python,P3,gpt-4o,5,162,1.0,50.0,0,5.5
+S0276,T04,Notification system,python,P3,claude-3.5-sonnet,1,162,1.0,50.0,0,6.5
+S0277,T04,Notification system,python,P3,claude-3.5-sonnet,2,162,1.0,50.0,0,6.0
+S0278,T04,Notification system,python,P3,claude-3.5-sonnet,3,162,1.0,50.0,0,6.0
+S0279,T04,Notification system,python,P3,claude-3.5-sonnet,4,162,1.0,50.0,0,6.0
+S0280,T04,Notification system,python,P3,claude-3.5-sonnet,5,162,1.0,50.0,0,6.0
+S0321,T05,Shopping cart,python,P0,gpt-4o,1,36,2.67,63.54,11,0.0
+S0322,T05,Shopping cart,python,P0,gpt-4o,2,36,2.67,59.67,11,1.0
+S0323,T05,Shopping cart,python,P0,gpt-4o,3,36,2.67,63.54,11,0.0
+S0324,T05,Shopping cart,python,P0,gpt-4o,4,36,2.67,63.54,11,1.0
+S0325,T05,Shopping cart,python,P0,gpt-4o,5,36,2.67,59.67,11,1.0
+S0326,T05,Shopping cart,python,P0,claude-3.5-sonnet,1,36,2.67,59.67,11,0.0
+S0327,T05,Shopping cart,python,P0,claude-3.5-sonnet,2,36,2.67,59.67,11,0.0
+S0328,T05,Shopping cart,python,P0,claude-3.5-sonnet,3,36,2.67,59.67,11,0.5
+S0329,T05,Shopping cart,python,P0,claude-3.5-sonnet,4,36,2.67,59.67,11,1.0
+S0330,T05,Shopping cart,python,P0,claude-3.5-sonnet,5,36,2.67,59.67,11,0.5
+S0331,T05,Shopping cart,python,P1,gpt-4o,1,60,2.0,55.6,27,2.0
+S0332,T05,Shopping cart,python,P1,gpt-4o,2,60,2.0,52.43,27,2.0
+S0333,T05,Shopping cart,python,P1,gpt-4o,3,60,2.0,55.6,27,1.0
+S0334,T05,Shopping cart,python,P1,gpt-4o,4,60,2.0,55.6,27,1.0
+S0335,T05,Shopping cart,python,P1,gpt-4o,5,60,2.0,52.43,27,2.0
+S0336,T05,Shopping cart,python,P1,claude-3.5-sonnet,1,60,2.0,52.43,27,2.5
+S0337,T05,Shopping cart,python,P1,claude-3.5-sonnet,2,60,2.0,52.43,27,2.0
+S0338,T05,Shopping cart,python,P1,claude-3.5-sonnet,3,60,2.0,52.43,27,1.5
+S0339,T05,Shopping cart,python,P1,claude-3.5-sonnet,4,60,2.0,52.43,27,2.0
+S0340,T05,Shopping cart,python,P1,claude-3.5-sonnet,5,60,2.0,52.43,27,1.5
+S0341,T05,Shopping cart,python,P2,gpt-4o,1,116,1.0,50.0,0,4.0
+S0342,T05,Shopping cart,python,P2,gpt-4o,2,116,1.0,50.0,0,6.0
+S0343,T05,Shopping cart,python,P2,gpt-4o,3,116,1.0,50.0,0,4.5
+S0344,T05,Shopping cart,python,P2,gpt-4o,4,116,1.0,50.0,0,6.5
+S0345,T05,Shopping cart,python,P2,gpt-4o,5,116,1.0,50.0,0,6.0
+S0346,T05,Shopping cart,python,P2,claude-3.5-sonnet,1,116,1.0,50.0,0,5.0
+S0347,T05,Shopping cart,python,P2,claude-3.5-sonnet,2,116,1.0,50.0,0,5.5
+S0348,T05,Shopping cart,python,P2,claude-3.5-sonnet,3,116,1.0,50.0,0,5.0
+S0349,T05,Shopping cart,python,P2,claude-3.5-sonnet,4,116,1.0,50.0,0,5.0
+S0350,T05,Shopping cart,python,P2,claude-3.5-sonnet,5,116,1.0,50.0,0,4.5
+S0351,T05,Shopping cart,python,P3,gpt-4o,1,159,1.0,50.0,0,6.0
+S0352,T05,Shopping cart,python,P3,gpt-4o,2,159,1.0,50.0,0,6.5
+S0353,T05,Shopping cart,python,P3,gpt-4o,3,159,1.0,50.0,0,5.5
+S0354,T05,Shopping cart,python,P3,gpt-4o,4,159,1.0,50.0,0,6.0
+S0355,T05,Shopping cart,python,P3,gpt-4o,5,159,1.0,50.0,0,5.5
+S0356,T05,Shopping cart,python,P3,claude-3.5-sonnet,1,159,1.0,50.0,0,5.5
+S0357,T05,Shopping cart,python,P3,claude-3.5-sonnet,2,159,1.0,50.0,0,6.0
+S0358,T05,Shopping cart,python,P3,claude-3.5-sonnet,3,159,1.0,50.0,0,6.0
+S0359,T05,Shopping cart,python,P3,claude-3.5-sonnet,4,159,1.0,50.0,0,6.0
+S0360,T05,Shopping cart,python,P3,claude-3.5-sonnet,5,159,1.0,50.0,0,6.0
+S0401,T06,Task scheduler,python,P0,gpt-4o,1,36,2.67,63.54,12,2.0
+S0402,T06,Task scheduler,python,P0,gpt-4o,2,36,2.67,59.67,12,0.5
+S0403,T06,Task scheduler,python,P0,gpt-4o,3,36,2.67,63.54,12,0.5
+S0404,T06,Task scheduler,python,P0,gpt-4o,4,36,2.67,63.54,12,0.0
+S0405,T06,Task scheduler,python,P0,gpt-4o,5,36,2.67,59.67,12,1.0
+S0406,T06,Task scheduler,python,P0,claude-3.5-sonnet,1,36,2.67,59.67,12,1.0
+S0407,T06,Task scheduler,python,P0,claude-3.5-sonnet,2,36,2.67,59.67,12,1.0
+S0408,T06,Task scheduler,python,P0,claude-3.5-sonnet,3,36,2.67,59.67,12,1.0
+S0409,T06,Task scheduler,python,P0,claude-3.5-sonnet,4,36,2.67,59.67,12,0.5
+S0410,T06,Task scheduler,python,P0,claude-3.5-sonnet,5,36,2.67,59.67,12,1.0
+S0411,T06,Task scheduler,python,P1,gpt-4o,1,60,2.0,55.6,27,1.0
+S0412,T06,Task scheduler,python,P1,gpt-4o,2,60,2.0,52.43,27,2.0
+S0413,T06,Task scheduler,python,P1,gpt-4o,3,60,2.0,55.6,27,2.5
+S0414,T06,Task scheduler,python,P1,gpt-4o,4,60,2.0,55.6,27,1.5
+S0415,T06,Task scheduler,python,P1,gpt-4o,5,60,2.0,52.43,27,1.0
+S0416,T06,Task scheduler,python,P1,claude-3.5-sonnet,1,60,2.0,52.43,27,1.5
+S0417,T06,Task scheduler,python,P1,claude-3.5-sonnet,2,60,2.0,52.43,27,2.0
+S0418,T06,Task scheduler,python,P1,claude-3.5-sonnet,3,60,2.0,52.43,27,3.0
+S0419,T06,Task scheduler,python,P1,claude-3.5-sonnet,4,60,2.0,52.43,27,3.0
+S0420,T06,Task scheduler,python,P1,claude-3.5-sonnet,5,60,2.0,52.43,27,2.0
+S0421,T06,Task scheduler,python,P2,gpt-4o,1,117,1.0,50.0,0,4.5
+S0422,T06,Task scheduler,python,P2,gpt-4o,2,117,1.0,50.0,0,5.0
+S0423,T06,Task scheduler,python,P2,gpt-4o,3,117,1.0,50.0,0,5.0
+S0424,T06,Task scheduler,python,P2,gpt-4o,4,117,1.0,50.0,0,6.0
+S0425,T06,Task scheduler,python,P2,gpt-4o,5,117,1.0,50.0,0,5.5
+S0426,T06,Task scheduler,python,P2,claude-3.5-sonnet,1,117,1.0,50.0,0,5.0
+S0427,T06,Task scheduler,python,P2,claude-3.5-sonnet,2,117,1.0,50.0,0,4.5
+S0429,T06,Task scheduler,python,P2,claude-3.5-sonnet,4,117,1.0,50.0,0,5.0
+S0430,T06,Task scheduler,python,P2,claude-3.5-sonnet,5,117,1.0,50.0,0,5.0
+S0431,T06,Task scheduler,python,P3,gpt-4o,1,162,1.0,50.0,0,5.0
+S0432,T06,Task scheduler,python,P3,gpt-4o,2,162,1.0,50.0,0,6.0
+S0433,T06,Task scheduler,python,P3,gpt-4o,3,162,1.0,50.0,0,6.0
+S0434,T06,Task scheduler,python,P3,gpt-4o,4,162,1.0,50.0,0,5.0
+S0435,T06,Task scheduler,python,P3,gpt-4o,5,162,1.0,50.0,0,6.0
+S0436,T06,Task scheduler,python,P3,claude-3.5-sonnet,1,162,1.0,50.0,0,5.0
+S0437,T06,Task scheduler,python,P3,claude-3.5-sonnet,2,162,1.0,50.0,0,6.0
+S0438,T06,Task scheduler,python,P3,claude-3.5-sonnet,3,162,1.0,50.0,0,6.0
+S0439,T06,Task scheduler,python,P3,claude-3.5-sonnet,4,162,1.0,50.0,0,6.0
+S0440,T06,Task scheduler,python,P3,claude-3.5-sonnet,5,162,1.0,50.0,0,5.5
+S0481,T07,Caching system,python,P0,gpt-4o,1,36,2.67,63.54,12,0.5
+S0482,T07,Caching system,python,P0,gpt-4o,2,36,2.67,59.67,12,1.0
+S0483,T07,Caching system,python,P0,gpt-4o,3,36,2.67,63.54,12,1.0
+S0484,T07,Caching system,python,P0,gpt-4o,4,36,2.67,63.54,12,0.0
+S0485,T07,Caching system,python,P0,gpt-4o,5,36,2.67,59.67,12,1.0
+S0486,T07,Caching system,python,P0,claude-3.5-sonnet,1,36,2.67,59.67,12,0.0
+S0487,T07,Caching system,python,P0,claude-3.5-sonnet,2,36,2.67,59.67,12,1.0
+S0488,T07,Caching system,python,P0,claude-3.5-sonnet,3,36,2.67,59.67,12,0.0
+S0489,T07,Caching system,python,P0,claude-3.5-sonnet,4,36,2.67,59.67,12,1.0
+S0490,T07,Caching system,python,P0,claude-3.5-sonnet,5,36,2.67,59.67,12,1.0
+S0491,T07,Caching system,python,P1,gpt-4o,1,60,2.0,55.6,27,2.0
+S0492,T07,Caching system,python,P1,gpt-4o,2,60,2.0,52.43,27,2.0
+S0493,T07,Caching system,python,P1,gpt-4o,3,60,2.0,55.6,27,1.5
+S0494,T07,Caching system,python,P1,gpt-4o,4,60,2.0,55.6,27,2.0
+S0495,T07,Caching system,python,P1,gpt-4o,5,60,2.0,52.43,27,2.0
+S0496,T07,Caching system,python,P1,claude-3.5-sonnet,1,60,2.0,52.43,27,2.0
+S0497,T07,Caching system,python,P1,claude-3.5-sonnet,2,60,2.0,52.43,27,2.0
+S0498,T07,Caching system,python,P1,claude-3.5-sonnet,3,60,2.0,52.43,27,2.0
+S0499,T07,Caching system,python,P1,claude-3.5-sonnet,4,60,2.0,52.43,27,1.5
+S0500,T07,Caching system,python,P1,claude-3.5-sonnet,5,60,2.0,52.43,27,1.0
+S0501,T07,Caching system,python,P2,gpt-4o,1,117,1.0,50.0,0,4.5
+S0502,T07,Caching system,python,P2,gpt-4o,2,117,1.0,50.0,0,4.5
+S0503,T07,Caching system,python,P2,gpt-4o,3,117,1.0,50.0,0,6.0
+S0504,T07,Caching system,python,P2,gpt-4o,4,117,1.0,50.0,0,5.5
+S0505,T07,Caching system,python,P2,gpt-4o,5,117,1.0,50.0,0,5.0
+S0506,T07,Caching system,python,P2,claude-3.5-sonnet,1,117,1.0,50.0,0,4.5
+S0507,T07,Caching system,python,P2,claude-3.5-sonnet,2,117,1.0,50.0,0,4.5
+S0508,T07,Caching system,python,P2,claude-3.5-sonnet,3,117,1.0,50.0,0,5.0
+S0509,T07,Caching system,python,P2,claude-3.5-sonnet,4,117,1.0,50.0,0,5.5
+S0510,T07,Caching system,python,P2,claude-3.5-sonnet,5,117,1.0,50.0,0,5.0
+S0511,T07,Caching system,python,P3,gpt-4o,1,162,1.0,50.0,0,6.0
+S0512,T07,Caching system,python,P3,gpt-4o,2,162,1.0,50.0,0,6.5
+S0513,T07,Caching system,python,P3,gpt-4o,3,162,1.0,50.0,0,5.5
+S0514,T07,Caching system,python,P3,gpt-4o,4,162,1.0,50.0,0,6.0
+S0515,T07,Caching system,python,P3,gpt-4o,5,162,1.0,50.0,0,6.0
+S0516,T07,Caching system,python,P3,claude-3.5-sonnet,1,162,1.0,50.0,0,5.0
+S0517,T07,Caching system,python,P3,claude-3.5-sonnet,2,162,1.0,50.0,0,6.5
+S0518,T07,Caching system,python,P3,claude-3.5-sonnet,3,162,1.0,50.0,0,6.0
+S0519,T07,Caching system,python,P3,claude-3.5-sonnet,4,162,1.0,50.0,0,6.0
+S0520,T07,Caching system,python,P3,claude-3.5-sonnet,5,162,1.0,50.0,0,6.5
+S0561,T08,Event bus,python,P0,gpt-4o,1,36,2.67,63.54,11,0.0
+S0562,T08,Event bus,python,P0,gpt-4o,2,36,2.67,59.67,11,0.0
+S0563,T08,Event bus,python,P0,gpt-4o,3,36,2.67,63.54,11,1.0
+S0564,T08,Event bus,python,P0,gpt-4o,4,36,2.67,63.54,11,1.0
+S0565,T08,Event bus,python,P0,gpt-4o,5,36,2.67,59.67,11,1.0
+S0566,T08,Event bus,python,P0,claude-3.5-sonnet,1,36,2.67,59.67,11,0.5
+S0567,T08,Event bus,python,P0,claude-3.5-sonnet,2,36,2.67,59.67,11,0.5
+S0568,T08,Event bus,python,P0,claude-3.5-sonnet,3,36,2.67,59.67,11,0.5
+S0569,T08,Event bus,python,P0,claude-3.5-sonnet,4,36,2.67,59.67,11,1.0
+S0570,T08,Event bus,python,P0,claude-3.5-sonnet,5,36,2.67,59.67,11,1.0
+S0571,T08,Event bus,python,P1,gpt-4o,1,60,2.0,55.6,27,2.0
+S0572,T08,Event bus,python,P1,gpt-4o,2,60,2.0,52.43,27,2.0
+S0573,T08,Event bus,python,P1,gpt-4o,3,60,2.0,55.6,27,2.0
+S0574,T08,Event bus,python,P1,gpt-4o,4,60,2.0,55.6,27,2.0
+S0575,T08,Event bus,python,P1,gpt-4o,5,60,2.0,52.43,27,2.0
+S0576,T08,Event bus,python,P1,claude-3.5-sonnet,1,60,2.0,52.43,27,2.0
+S0577,T08,Event bus,python,P1,claude-3.5-sonnet,2,60,2.0,52.43,27,2.0
+S0578,T08,Event bus,python,P1,claude-3.5-sonnet,3,60,2.0,52.43,27,3.0
+S0579,T08,Event bus,python,P1,claude-3.5-sonnet,4,60,2.0,52.43,27,2.0
+S0580,T08,Event bus,python,P1,claude-3.5-sonnet,5,60,2.0,52.43,27,2.0
+S0581,T08,Event bus,python,P2,gpt-4o,1,116,1.0,50.0,0,5.5
+S0582,T08,Event bus,python,P2,gpt-4o,2,116,1.0,50.0,0,4.5
+S0583,T08,Event bus,python,P2,gpt-4o,3,116,1.0,50.0,0,5.0
+S0584,T08,Event bus,python,P2,gpt-4o,4,116,1.0,50.0,0,5.0
+S0585,T08,Event bus,python,P2,gpt-4o,5,116,1.0,50.0,0,6.0
+S0586,T08,Event bus,python,P2,claude-3.5-sonnet,1,116,1.0,50.0,0,6.0
+S0587,T08,Event bus,python,P2,claude-3.5-sonnet,2,116,1.0,50.0,0,5.5
+S0589,T08,Event bus,python,P2,claude-3.5-sonnet,4,116,1.0,50.0,0,4.5
+S0590,T08,Event bus,python,P2,claude-3.5-sonnet,5,116,1.0,50.0,0,4.5
+S0591,T08,Event bus,python,P3,gpt-4o,1,159,1.0,50.0,0,5.5
+S0592,T08,Event bus,python,P3,gpt-4o,2,159,1.0,50.0,0,5.0
+S0593,T08,Event bus,python,P3,gpt-4o,3,159,1.0,50.0,0,6.0
+S0594,T08,Event bus,python,P3,gpt-4o,4,159,1.0,50.0,0,5.0
+S0595,T08,Event bus,python,P3,gpt-4o,5,159,1.0,50.0,0,6.0
+S0596,T08,Event bus,python,P3,claude-3.5-sonnet,1,159,1.0,50.0,0,6.0
+S0597,T08,Event bus,python,P3,claude-3.5-sonnet,2,159,1.0,50.0,0,5.0
+S0598,T08,Event bus,python,P3,claude-3.5-sonnet,3,159,1.0,50.0,0,6.0
+S0599,T08,Event bus,python,P3,claude-3.5-sonnet,4,159,1.0,50.0,0,6.0
+S0600,T08,Event bus,python,P3,claude-3.5-sonnet,5,159,1.0,50.0,0,7.0
+S0641,T09,Data pipeline,python,P0,gpt-4o,1,36,2.67,63.54,11,1.0
+S0642,T09,Data pipeline,python,P0,gpt-4o,2,36,2.67,59.67,11,1.0
+S0643,T09,Data pipeline,python,P0,gpt-4o,3,36,2.67,63.54,11,0.0
+S0644,T09,Data pipeline,python,P0,gpt-4o,4,36,2.67,63.54,11,1.0
+S0645,T09,Data pipeline,python,P0,gpt-4o,5,36,2.67,59.67,11,1.0
+S0646,T09,Data pipeline,python,P0,claude-3.5-sonnet,1,36,2.67,59.67,11,0.5
+S0647,T09,Data pipeline,python,P0,claude-3.5-sonnet,2,36,2.67,59.67,11,0.5
+S0648,T09,Data pipeline,python,P0,claude-3.5-sonnet,3,36,2.67,59.67,11,0.0
+S0649,T09,Data pipeline,python,P0,claude-3.5-sonnet,4,36,2.67,59.67,11,1.0
+S0650,T09,Data pipeline,python,P0,claude-3.5-sonnet,5,36,2.67,59.67,11,1.0
+S0651,T09,Data pipeline,python,P1,gpt-4o,1,60,2.0,55.6,27,2.0
+S0652,T09,Data pipeline,python,P1,gpt-4o,2,60,2.0,52.43,27,2.0
+S0653,T09,Data pipeline,python,P1,gpt-4o,3,60,2.0,55.6,27,2.0
+S0654,T09,Data pipeline,python,P1,gpt-4o,4,60,2.0,55.6,27,2.0
+S0655,T09,Data pipeline,python,P1,gpt-4o,5,60,2.0,52.43,27,2.0
+S0656,T09,Data pipeline,python,P1,claude-3.5-sonnet,1,60,2.0,52.43,27,1.5
+S0657,T09,Data pipeline,python,P1,claude-3.5-sonnet,2,60,2.0,52.43,27,1.5
+S0658,T09,Data pipeline,python,P1,claude-3.5-sonnet,3,60,2.0,52.43,27,1.5
+S0659,T09,Data pipeline,python,P1,claude-3.5-sonnet,4,60,2.0,52.43,27,2.0
+S0660,T09,Data pipeline,python,P1,claude-3.5-sonnet,5,60,2.0,52.43,27,2.0
+S0661,T09,Data pipeline,python,P2,gpt-4o,1,116,1.0,50.0,0,5.5
+S0662,T09,Data pipeline,python,P2,gpt-4o,2,116,1.0,50.0,0,5.0
+S0663,T09,Data pipeline,python,P2,gpt-4o,3,116,1.0,50.0,0,6.0
+S0664,T09,Data pipeline,python,P2,gpt-4o,4,116,1.0,50.0,0,5.5
+S0665,T09,Data pipeline,python,P2,gpt-4o,5,116,1.0,50.0,0,5.0
+S0666,T09,Data pipeline,python,P2,claude-3.5-sonnet,1,116,1.0,50.0,0,5.0
+S0667,T09,Data pipeline,python,P2,claude-3.5-sonnet,2,116,1.0,50.0,0,5.0
+S0668,T09,Data pipeline,python,P2,claude-3.5-sonnet,3,116,1.0,50.0,0,4.0
+S0669,T09,Data pipeline,python,P2,claude-3.5-sonnet,4,116,1.0,50.0,0,5.0
+S0670,T09,Data pipeline,python,P2,claude-3.5-sonnet,5,116,1.0,50.0,0,5.0
+S0671,T09,Data pipeline,python,P3,gpt-4o,1,159,1.0,50.0,0,5.5
+S0673,T09,Data pipeline,python,P3,gpt-4o,3,159,1.0,50.0,0,5.5
+S0674,T09,Data pipeline,python,P3,gpt-4o,4,159,1.0,50.0,0,5.5
+S0675,T09,Data pipeline,python,P3,gpt-4o,5,159,1.0,50.0,0,6.0
+S0676,T09,Data pipeline,python,P3,claude-3.5-sonnet,1,159,1.0,50.0,0,5.5
+S0677,T09,Data pipeline,python,P3,claude-3.5-sonnet,2,159,1.0,50.0,0,5.0
+S0678,T09,Data pipeline,python,P3,claude-3.5-sonnet,3,159,1.0,50.0,0,6.0
+S0679,T09,Data pipeline,python,P3,claude-3.5-sonnet,4,159,1.0,50.0,0,6.0
+S0680,T09,Data pipeline,python,P3,claude-3.5-sonnet,5,159,1.0,50.0,0,5.0
+S0721,T10,RBAC system,python,P0,gpt-4o,1,36,2.67,63.54,11,1.0
+S0722,T10,RBAC system,python,P0,gpt-4o,2,36,2.67,59.67,11,0.0
+S0723,T10,RBAC system,python,P0,gpt-4o,3,36,2.67,63.54,11,0.0
+S0724,T10,RBAC system,python,P0,gpt-4o,4,36,2.67,63.54,11,1.5
+S0725,T10,RBAC system,python,P0,gpt-4o,5,36,2.67,59.67,11,0.0
+S0726,T10,RBAC system,python,P0,claude-3.5-sonnet,1,36,2.67,59.67,11,1.0
+S0727,T10,RBAC system,python,P0,claude-3.5-sonnet,2,36,2.67,59.67,11,0.5
+S0729,T10,RBAC system,python,P0,claude-3.5-sonnet,4,36,2.67,59.67,11,1.0
+S0730,T10,RBAC system,python,P0,claude-3.5-sonnet,5,36,2.67,59.67,11,0.0
+S0731,T10,RBAC system,python,P1,gpt-4o,1,60,2.0,55.6,27,2.0
+S0732,T10,RBAC system,python,P1,gpt-4o,2,60,2.0,52.43,27,2.5
+S0733,T10,RBAC system,python,P1,gpt-4o,3,60,2.0,55.6,27,2.0
+S0734,T10,RBAC system,python,P1,gpt-4o,4,60,2.0,55.6,27,2.0
+S0735,T10,RBAC system,python,P1,gpt-4o,5,60,2.0,52.43,27,2.0
+S0736,T10,RBAC system,python,P1,claude-3.5-sonnet,1,60,2.0,52.43,27,1.0
+S0737,T10,RBAC system,python,P1,claude-3.5-sonnet,2,60,2.0,52.43,27,1.0
+S0738,T10,RBAC system,python,P1,claude-3.5-sonnet,3,60,2.0,52.43,27,2.0
+S0739,T10,RBAC system,python,P1,claude-3.5-sonnet,4,60,2.0,52.43,27,2.0
+S0740,T10,RBAC system,python,P1,claude-3.5-sonnet,5,60,2.0,52.43,27,1.0
+S0741,T10,RBAC system,python,P2,gpt-4o,1,116,1.0,50.0,0,5.0
+S0742,T10,RBAC system,python,P2,gpt-4o,2,116,1.0,50.0,0,5.0
+S0743,T10,RBAC system,python,P2,gpt-4o,3,116,1.0,50.0,0,5.0
+S0744,T10,RBAC system,python,P2,gpt-4o,4,116,1.0,50.0,0,6.0
+S0745,T10,RBAC system,python,P2,gpt-4o,5,116,1.0,50.0,0,5.5
+S0746,T10,RBAC system,python,P2,claude-3.5-sonnet,1,116,1.0,50.0,0,4.5
+S0747,T10,RBAC system,python,P2,claude-3.5-sonnet,2,116,1.0,50.0,0,5.0
+S0748,T10,RBAC system,python,P2,claude-3.5-sonnet,3,116,1.0,50.0,0,4.0
+S0749,T10,RBAC system,python,P2,claude-3.5-sonnet,4,116,1.0,50.0,0,4.0
+S0750,T10,RBAC system,python,P2,claude-3.5-sonnet,5,116,1.0,50.0,0,5.0
+S0751,T10,RBAC system,python,P3,gpt-4o,1,159,1.0,50.0,0,7.0
+S0752,T10,RBAC system,python,P3,gpt-4o,2,159,1.0,50.0,0,6.0
+S0753,T10,RBAC system,python,P3,gpt-4o,3,159,1.0,50.0,0,5.5
+S0754,T10,RBAC system,python,P3,gpt-4o,4,159,1.0,50.0,0,6.0
+S0755,T10,RBAC system,python,P3,gpt-4o,5,159,1.0,50.0,0,5.5
+S0756,T10,RBAC system,python,P3,claude-3.5-sonnet,1,159,1.0,50.0,0,6.5
+S0757,T10,RBAC system,python,P3,claude-3.5-sonnet,2,159,1.0,50.0,0,7.0
+S0758,T10,RBAC system,python,P3,claude-3.5-sonnet,3,159,1.0,50.0,0,6.0
+S0759,T10,RBAC system,python,P3,claude-3.5-sonnet,4,159,1.0,50.0,0,6.0
+S0760,T10,RBAC system,python,P3,claude-3.5-sonnet,5,159,1.0,50.0,0,6.0
+S0041,T01,CRUD REST API,java,P0,gpt-4o,1,82,5.07275913785163,45.277576438794846,22,0.44298670008166596
+S0042,T01,CRUD REST API,java,P0,gpt-4o,2,76,5.067942393350427,42.63721205239203,19,0.8397652958652602
+S0043,T01,CRUD REST API,java,P0,gpt-4o,3,79,5.665540413602024,46.07212987870383,20,0.564430391523068
+S0044,T01,CRUD REST API,java,P0,gpt-4o,4,80,5.838968654756091,41.950200423936266,22,0.8992853797313658
+S0045,T01,CRUD REST API,java,P0,gpt-4o,5,77,4.395195750409951,43.97099381639899,22,0.45832200108546517
+S0046,T01,CRUD REST API,java,P0,claude-3.5-sonnet,1,78,5.187512665814914,41.82197840836723,18,0.15085631674909106
+S0047,T01,CRUD REST API,java,P0,claude-3.5-sonnet,2,67,5.283489003886496,44.48990482240804,18,1.4997305601907125
+S0048,T01,CRUD REST API,java,P0,claude-3.5-sonnet,3,77,4.7138910686006,43.93444532739514,22,2.2042011669846637
+S0049,T01,CRUD REST API,java,P0,claude-3.5-sonnet,4,83,4.288160796960856,40.714732636325564,20,0.6490473097792522
+S0050,T01,CRUD REST API,java,P0,claude-3.5-sonnet,5,84,4.674107824831986,42.259059690271904,21,1.7575306251319
+S0051,T01,CRUD REST API,java,P1,gpt-4o,1,132,4.305660533030189,39.07953321923758,33,2.8769905478290267
+S0052,T01,CRUD REST API,java,P1,gpt-4o,2,127,3.665415760753714,35.67590716240059,31,2.367187747418893
+S0053,T01,CRUD REST API,java,P1,gpt-4o,3,114,3.3893930342285583,46.8728002225701,30,2.60629861336495
+S0054,T01,CRUD REST API,java,P1,gpt-4o,4,123,3.2171594108837462,42.04572923908054,32,3.4752869267524904
+S0055,T01,CRUD REST API,java,P1,gpt-4o,5,117,3.6585568378088866,34.51484468776712,31,1.90064452874991
+S0056,T01,CRUD REST API,java,P1,claude-3.5-sonnet,1,106,3.457344597746994,39.28428294492482,32,2.030202227281704
+S0057,T01,CRUD REST API,java,P1,claude-3.5-sonnet,2,140,4.03509428914523,33.48814096057353,34,2.5365416055263665
+S0058,T01,CRUD REST API,java,P1,claude-3.5-sonnet,3,109,2.6482626423525852,37.035090306985936,31,3.1081069352318567
+S0059,T01,CRUD REST API,java,P1,claude-3.5-sonnet,4,120,3.179057486323757,39.81173463718266,31,2.483140159796616
+S0060,T01,CRUD REST API,java,P1,claude-3.5-sonnet,5,115,4.236692198793444,36.766190996913764,30,2.77464920192169
+S0061,T01,CRUD REST API,java,P2,gpt-4o,1,226,2.105232170783014,34.70426762493092,46,8.271292482193918
+S0062,T01,CRUD REST API,java,P2,gpt-4o,2,196,1.6399801190609744,30.10064980565256,46,8.752288119404831
+S0063,T01,CRUD REST API,java,P2,gpt-4o,3,193,2.266749148219784,37.03465708633983,45,8.43298113854935
+S0064,T01,CRUD REST API,java,P2,gpt-4o,4,197,1.770511574234306,32.27354787858859,46,7.559823902756288
+S0065,T01,CRUD REST API,java,P2,gpt-4o,5,199,3.033012662143298,35.836908912334565,45,8.578113572562586
+S0066,T01,CRUD REST API,java,P2,claude-3.5-sonnet,1,222,1.5299950959962398,28.513642925673835,48,8.698933626292337
+S0067,T01,CRUD REST API,java,P2,claude-3.5-sonnet,2,168,3.6612338443047996,25.539776476152362,48,6.9875121193130205
+S0068,T01,CRUD REST API,java,P2,claude-3.5-sonnet,3,208,3.006670020030648,33.545542567932976,47,8.061373478400204
+S0069,T01,CRUD REST API,java,P2,claude-3.5-sonnet,4,185,2.3617246306161928,26.903497977682047,45,9.466620203258765
+S0070,T01,CRUD REST API,java,P2,claude-3.5-sonnet,5,171,3.3374067402019545,31.00147069046312,48,7.245799627342904
+S0071,T01,CRUD REST API,java,P3,gpt-4o,1,300,2.495193560146789,38.88610097484709,54,9.200513575805644
+S0072,T01,CRUD REST API,java,P3,gpt-4o,2,334,2.1246797634515424,49.525015378399004,52,9.172897504103064
+S0073,T01,CRUD REST API,java,P3,gpt-4o,3,275,2.6201469404931195,34.23018559088866,54,8.740208146151778
+S0074,T01,CRUD REST API,java,P3,gpt-4o,4,304,1.9557764650933103,40.94286311841003,52,8.857522045145492
+S0075,T01,CRUD REST API,java,P3,gpt-4o,5,295,2.7878174348284546,39.67214674281083,54,9.339704385101394
+S0076,T01,CRUD REST API,java,P3,claude-3.5-sonnet,1,270,2.6170793108513504,36.115828436947496,52,9.030074193936478
+S0077,T01,CRUD REST API,java,P3,claude-3.5-sonnet,2,291,1.9243370122556374,37.04134237181497,55,9.167001484014373
+S0078,T01,CRUD REST API,java,P3,claude-3.5-sonnet,3,327,3.4086117672585807,44.209186779899255,56,9.085597235751397
+S0079,T01,CRUD REST API,java,P3,claude-3.5-sonnet,4,300,2.9381666539146543,37.09142034021257,52,9.137035272443997
+S0080,T01,CRUD REST API,java,P3,claude-3.5-sonnet,5,304,2.290228549900333,36.780401159627196,53,9.167775590454102
+S0121,T02,Authentication system,java,P0,gpt-4o,1,50,3.996421517729207,59.608087389127384,12,0.0
+S0122,T02,Authentication system,java,P0,gpt-4o,2,46,3.064547583334149,60.58778449521575,12,1.0256753362399909
+S0123,T02,Authentication system,java,P0,gpt-4o,3,47,3.693871733939765,60.50130251434937,12,1.0048064419595404
+S0124,T02,Authentication system,java,P0,gpt-4o,4,43,2.0996644356689065,60.16168538840573,11,1.2262173196428259
+S0125,T02,Authentication system,java,P0,gpt-4o,5,49,3.3061920546748187,69.50184996251781,13,0.7483896851265592
+S0126,T02,Authentication system,java,P0,claude-3.5-sonnet,1,50,3.1173242534467294,58.42147983190915,12,0.9147785236567537
+S0127,T02,Authentication system,java,P0,claude-3.5-sonnet,2,46,2.5550349426582177,58.99960277711577,12,0.4919308925234255
+S0128,T02,Authentication system,java,P0,claude-3.5-sonnet,3,48,3.660574349473577,60.5263833373012,14,0.5248317921610943
+S0129,T02,Authentication system,java,P0,claude-3.5-sonnet,4,46,2.965773061226449,56.36623112846479,12,1.9802867286169263
+S0130,T02,Authentication system,java,P0,claude-3.5-sonnet,5,44,3.0932470199502218,55.60586205907102,11,0.3238064001143377
+S0131,T02,Authentication system,java,P1,gpt-4o,1,69,2.2313798680326666,47.44351939774208,27,1.8457813455463101
+S0132,T02,Authentication system,java,P1,gpt-4o,2,79,2.422915516223283,54.357880702771745,28,1.3596348672788323
+S0133,T02,Authentication system,java,P1,gpt-4o,3,73,2.313209020042843,48.949801112576104,28,1.8042865494058633
+S0134,T02,Authentication system,java,P1,gpt-4o,4,81,1.5726562655959722,48.27077967318067,28,1.893980033149997
+S0135,T02,Authentication system,java,P1,gpt-4o,5,69,1.0092146089384066,47.58707587694675,29,2.0397249049951647
+S0136,T02,Authentication system,java,P1,claude-3.5-sonnet,1,74,2.3981352036921066,55.19372270153307,27,2.5060692405885048
+S0137,T02,Authentication system,java,P1,claude-3.5-sonnet,2,74,2.0136080283160833,50.927969997485995,27,2.0152172281953784
+S0138,T02,Authentication system,java,P1,claude-3.5-sonnet,3,80,2.5770370111746366,50.72559954097078,27,2.659680436474106
+S0139,T02,Authentication system,java,P1,claude-3.5-sonnet,4,74,2.4718425089339497,54.381035810427804,25,2.7387357096907063
+S0140,T02,Authentication system,java,P1,claude-3.5-sonnet,5,83,2.317243281543066,45.93366509302675,29,1.5113529985620193
+S0141,T02,Authentication system,java,P2,gpt-4o,1,161,1.0,48.66975778323393,1,5.3380883679208155
+S0142,T02,Authentication system,java,P2,gpt-4o,2,179,1.0,44.650937095258094,0,5.004377607915627
+S0143,T02,Authentication system,java,P2,gpt-4o,3,159,1.7190339403592896,48.17037180097917,0,5.655492457413767
+S0144,T02,Authentication system,java,P2,gpt-4o,4,145,2.5095264684737884,48.01770071626529,2,5.465348934519
+S0145,T02,Authentication system,java,P2,gpt-4o,5,151,1.4860612782792173,47.80495977496052,0,4.322512027473431
+S0146,T02,Authentication system,java,P2,claude-3.5-sonnet,1,162,1.8300963954444183,50.252922747899035,0,4.367077711092969
+S0147,T02,Authentication system,java,P2,claude-3.5-sonnet,2,156,1.2474183433936066,44.45686474915724,1,4.073648924193552
+S0148,T02,Authentication system,java,P2,claude-3.5-sonnet,3,132,1.0,43.86015463891084,2,6.711200060116282
+S0149,T02,Authentication system,java,P2,claude-3.5-sonnet,4,152,1.0,48.59847920800798,0,4.1715622603444
+S0150,T02,Authentication system,java,P2,claude-3.5-sonnet,5,153,1.0878203580073893,51.71125754891238,0,4.734543482301183
+S0151,T02,Authentication system,java,P3,gpt-4o,1,202,1.0,53.02732863227136,1,5.702177876390784
+S0152,T02,Authentication system,java,P3,gpt-4o,2,203,2.2703665298296167,48.593697327784945,2,6.730707034866197
+S0153,T02,Authentication system,java,P3,gpt-4o,3,237,1.4749709828094573,50.80000593677611,0,7.3292641824842315
+S0154,T02,Authentication system,java,P3,gpt-4o,4,202,1.0,49.94292736132636,1,6.272836876940222
+S0155,T02,Authentication system,java,P3,gpt-4o,5,207,1.0,48.53013668821567,0,6.323866627573534
+S0156,T02,Authentication system,java,P3,claude-3.5-sonnet,1,199,1.9192733557194717,50.5995934418505,2,6.178955720096878
+S0157,T02,Authentication system,java,P3,claude-3.5-sonnet,2,203,1.0,47.41506047753684,0,6.934615992571862
+S0158,T02,Authentication system,java,P3,claude-3.5-sonnet,3,216,2.0644271053646213,49.30732129722959,2,5.217725352799279
+S0159,T02,Authentication system,java,P3,claude-3.5-sonnet,4,213,1.0,47.78275840774528,0,6.860998428141088
+S0160,T02,Authentication system,java,P3,claude-3.5-sonnet,5,226,1.1979151221703481,51.24845448732316,0,6.290481539925861
+S0201,T03,File management system,java,P0,gpt-4o,1,43,3.030857109679747,61.63292571313415,10,1.0955911252980988
+S0202,T03,File management system,java,P0,gpt-4o,2,51,3.286229333210007,58.36875019966938,10,0.89546224235861
+S0203,T03,File management system,java,P0,gpt-4o,3,43,2.7848976779234254,61.068198765732554,12,0.0
+S0204,T03,File management system,java,P0,gpt-4o,4,45,2.896337014653793,59.60241898743554,12,0.7117125792886789
+S0205,T03,File management system,java,P0,gpt-4o,5,47,3.602334241815319,54.387544744402305,13,0.3073586716852593
+S0206,T03,File management system,java,P0,claude-3.5-sonnet,1,47,3.748100187498465,55.697726508958745,14,1.4261335116066143
+S0207,T03,File management system,java,P0,claude-3.5-sonnet,2,48,3.2055953601969263,52.958334664929836,10,0.8924660507088289
+S0209,T03,File management system,java,P0,claude-3.5-sonnet,4,43,2.836619548486599,53.91660353457281,12,0.3829235531105413
+S0210,T03,File management system,java,P0,claude-3.5-sonnet,5,47,3.7123669466957736,53.188854547424974,14,1.2983947996521525
+S0211,T03,File management system,java,P1,gpt-4o,1,69,2.4337935886306123,48.76893208855547,28,1.7823228560391944
+S0212,T03,File management system,java,P1,gpt-4o,2,74,2.6676102021222254,51.91884498408435,28,2.0210483092691782
+S0213,T03,File management system,java,P1,gpt-4o,3,80,1.717786967877837,51.65319064651502,28,2.4603260753173473
+S0214,T03,File management system,java,P1,gpt-4o,4,73,1.7769628358161638,50.181598455525744,28,2.9615232039915145
+S0215,T03,File management system,java,P1,gpt-4o,5,80,2.904497612547944,57.89735202436377,25,3.034741762907405
+S0216,T03,File management system,java,P1,claude-3.5-sonnet,1,77,2.3770009194528403,42.63480206170968,28,2.4893810738789606
+S0217,T03,File management system,java,P1,claude-3.5-sonnet,2,68,2.308104335903014,53.39931609877994,26,2.03249643285923
+S0218,T03,File management system,java,P1,claude-3.5-sonnet,3,80,2.556488022561128,48.84576800594024,27,2.0574318552453934
+S0219,T03,File management system,java,P1,claude-3.5-sonnet,4,80,1.9316944816757036,48.36603018012075,28,2.350768447671638
+S0220,T03,File management system,java,P1,claude-3.5-sonnet,5,72,2.189566511723412,52.970298446070544,26,2.3976085204054947
+S0221,T03,File management system,java,P2,gpt-4o,1,159,1.0,48.15597164130551,1,5.175128508388712
+S0222,T03,File management system,java,P2,gpt-4o,2,158,1.243054200913487,43.826838112228664,0,5.70523083970399
+S0223,T03,File management system,java,P2,gpt-4o,3,158,1.3268614551890863,43.335207165828045,0,6.6160657649283365
+S0224,T03,File management system,java,P2,gpt-4o,4,165,1.0,43.961592125396834,2,5.140402906132707
+S0225,T03,File management system,java,P2,gpt-4o,5,167,1.5943239520051655,43.02853104385207,0,5.289278322297465
+S0226,T03,File management system,java,P2,claude-3.5-sonnet,1,157,1.664930877717583,42.87149957427342,0,5.50328771771853
+S0227,T03,File management system,java,P2,claude-3.5-sonnet,2,160,1.787632097368736,47.41367405679736,2,5.442168458084028
+S0228,T03,File management system,java,P2,claude-3.5-sonnet,3,157,1.1552887731396126,50.15506391286836,0,4.961828734054523
+S0229,T03,File management system,java,P2,claude-3.5-sonnet,4,149,1.0365979139570085,39.6277245076144,1,3.8999720032175516
+S0230,T03,File management system,java,P2,claude-3.5-sonnet,5,156,1.0247000447922274,47.13855332625211,2,5.148682318568219
+S0231,T03,File management system,java,P3,gpt-4o,1,203,2.043131027337731,43.64611097356791,0,5.719033423515728
+S0232,T03,File management system,java,P3,gpt-4o,2,209,1.0,47.65062054035001,0,5.514490162333135
+S0233,T03,File management system,java,P3,gpt-4o,3,210,2.139295663356883,52.49183615735026,0,5.176129987493025
+S0234,T03,File management system,java,P3,gpt-4o,4,225,1.3991402374888957,45.8827466447853,1,6.479485341446148
+S0235,T03,File management system,java,P3,gpt-4o,5,224,1.7595918503393995,54.51302035201763,0,5.629518269126995
+S0236,T03,File management system,java,P3,claude-3.5-sonnet,1,210,1.0,49.163647184759114,1,6.33128629664857
+S0237,T03,File management system,java,P3,claude-3.5-sonnet,2,224,1.5692059550747888,51.21744157997333,0,6.19964907705104
+S0238,T03,File management system,java,P3,claude-3.5-sonnet,3,219,1.529677548285081,53.25131346276639,2,5.64623320632224
+S0239,T03,File management system,java,P3,claude-3.5-sonnet,4,198,1.0,48.884134890975886,0,6.139365587140453
+S0281,T04,Notification system,java,P0,gpt-4o,1,46,2.6806399740428124,60.86633287783246,13,1.1735600187482744
+S0282,T04,Notification system,java,P0,gpt-4o,2,45,2.644373412720409,55.9220891080201,12,0.5595028160774302
+S0283,T04,Notification system,java,P0,gpt-4o,3,49,3.1191828340088588,56.23084032583472,11,0.06511904663652521
+S0284,T04,Notification system,java,P0,gpt-4o,4,47,2.6063461869540996,61.071833718019406,11,0.5361848315790847
+S0285,T04,Notification system,java,P0,gpt-4o,5,45,3.218804039851805,59.14159892356955,14,2.4337181371325434
+S0286,T04,Notification system,java,P0,claude-3.5-sonnet,1,52,3.609176300795231,52.393053493040114,14,1.3658861759607543
+S0287,T04,Notification system,java,P0,claude-3.5-sonnet,2,47,3.1158111286046317,62.56773057673523,13,0.6919993117568539
+S0288,T04,Notification system,java,P0,claude-3.5-sonnet,3,43,2.6655647296919267,56.828715243239145,14,1.259946448924237
+S0289,T04,Notification system,java,P0,claude-3.5-sonnet,4,46,2.8714157631252677,55.854873080883124,13,0.454716539078666
+S0290,T04,Notification system,java,P0,claude-3.5-sonnet,5,49,2.709209179740579,55.465985998460596,14,0.9286666494024242
+S0291,T04,Notification system,java,P1,gpt-4o,1,72,2.7588980759299435,57.519552725414485,25,2.4564163633922846
+S0292,T04,Notification system,java,P1,gpt-4o,2,66,2.7451359430978703,52.17835523657477,25,3.672837654668726
+S0293,T04,Notification system,java,P1,gpt-4o,3,76,2.654333422275209,54.9152706918978,25,1.381677302189758
+S0294,T04,Notification system,java,P1,gpt-4o,4,86,2.7671444273421772,57.33929400981234,29,1.6156370653688694
+S0295,T04,Notification system,java,P1,gpt-4o,5,67,2.840537847450224,50.36045997237189,29,0.828839191558729
+S0296,T04,Notification system,java,P1,claude-3.5-sonnet,1,83,2.6605402061892307,51.612305444646566,27,2.562506258559475
+S0297,T04,Notification system,java,P1,claude-3.5-sonnet,2,81,2.566986487964168,48.39129045332744,29,2.076801744580371
+S0298,T04,Notification system,java,P1,claude-3.5-sonnet,3,71,1.8368032726289725,48.07255308411559,27,2.3578209252771067
+S0299,T04,Notification system,java,P1,claude-3.5-sonnet,4,79,2.552612453100534,45.96286429438804,25,2.5783838531597
+S0300,T04,Notification system,java,P1,claude-3.5-sonnet,5,73,2.685815744152743,53.71530027837493,29,2.26615354048303
+S0301,T04,Notification system,java,P2,gpt-4o,1,163,1.9947332273064804,49.099257346993944,1,5.016894916917403
+S0302,T04,Notification system,java,P2,gpt-4o,2,143,1.4422512188056709,48.81886462644699,2,5.96028163049289
+S0303,T04,Notification system,java,P2,gpt-4o,3,150,1.1677532009525204,46.9977733196879,0,5.786898470970998
+S0304,T04,Notification system,java,P2,gpt-4o,4,152,1.0,43.03197454590155,0,5.332197217010454
+S0305,T04,Notification system,java,P2,gpt-4o,5,148,1.0,42.63348992993379,1,6.148173371352844
+S0306,T04,Notification system,java,P2,claude-3.5-sonnet,1,172,1.0,52.2242524783492,0,5.020115665023532
+S0307,T04,Notification system,java,P2,claude-3.5-sonnet,2,162,1.3579020327189875,44.678655789023395,1,4.518206542989318
+S0309,T04,Notification system,java,P2,claude-3.5-sonnet,4,166,1.6269583707529125,45.6904410929704,0,5.593323092190309
+S0310,T04,Notification system,java,P2,claude-3.5-sonnet,5,156,1.5637420392903048,47.71907930832247,1,4.2172333303057705
+S0311,T04,Notification system,java,P3,gpt-4o,1,211,1.0,45.227917772911226,1,5.376737787835648
+S0312,T04,Notification system,java,P3,gpt-4o,2,197,1.4508434108337158,50.345832106235086,0,7.097569024723341
+S0313,T04,Notification system,java,P3,gpt-4o,3,225,1.4122747799959137,42.687970228797774,2,7.670639566665494
+S0314,T04,Notification system,java,P3,gpt-4o,4,190,1.4475714507736817,53.19551755690454,0,7.526365608120374
+S0315,T04,Notification system,java,P3,gpt-4o,5,201,1.343615532218729,53.2133811439126,0,6.0233341393010225
+S0316,T04,Notification system,java,P3,claude-3.5-sonnet,1,235,1.4909075689941822,52.06884597679817,0,6.217326115606752
+S0317,T04,Notification system,java,P3,claude-3.5-sonnet,2,198,1.5464644952018367,46.94327949596931,0,5.7399668403148905
+S0318,T04,Notification system,java,P3,claude-3.5-sonnet,3,204,1.0,49.98384931202011,0,6.757959619223429
+S0319,T04,Notification system,java,P3,claude-3.5-sonnet,4,228,1.869013995799587,49.06666583774879,0,6.661987560803622
+S0320,T04,Notification system,java,P3,claude-3.5-sonnet,5,200,1.0,45.43821877022758,0,6.839297541786866
+S0361,T05,Shopping cart,java,P0,gpt-4o,1,47,3.239076498918819,59.169708891801946,13,1.975700415343922
+S0362,T05,Shopping cart,java,P0,gpt-4o,2,42,2.100173167176412,62.96235145987252,13,0.16716482545094677
+S0363,T05,Shopping cart,java,P0,gpt-4o,3,50,3.0990222112737573,57.49474066704005,12,1.1956644160345706
+S0364,T05,Shopping cart,java,P0,gpt-4o,4,47,4.264993857129988,56.04749730700594,13,1.1509327413844626
+S0365,T05,Shopping cart,java,P0,gpt-4o,5,47,2.108812349206114,56.13575095972966,10,1.1449520783561633
+S0366,T05,Shopping cart,java,P0,claude-3.5-sonnet,1,42,2.1808788315966554,58.53784130392565,11,0.0
+S0367,T05,Shopping cart,java,P0,claude-3.5-sonnet,2,45,4.044499798296847,57.02850394903877,12,0.1468115592207714
+S0368,T05,Shopping cart,java,P0,claude-3.5-sonnet,3,43,3.2260532624971043,56.80599480934654,10,1.5857563887636936
+S0369,T05,Shopping cart,java,P0,claude-3.5-sonnet,4,53,2.5674961492357515,57.250345219338676,12,0.589665634276852
+S0370,T05,Shopping cart,java,P0,claude-3.5-sonnet,5,46,2.9862832329780202,55.59388223436797,13,1.3332111462701202
+S0371,T05,Shopping cart,java,P1,gpt-4o,1,81,2.565108231138356,52.00358658688597,29,1.5045876590360483
+S0372,T05,Shopping cart,java,P1,gpt-4o,2,87,2.996245526860508,56.25136084848334,26,1.9141552249840112
+S0373,T05,Shopping cart,java,P1,gpt-4o,3,83,2.3045845294381797,51.88982609588014,27,1.8486812624148785
+S0374,T05,Shopping cart,java,P1,gpt-4o,4,67,2.059762261411257,53.04137988230319,28,2.586374802086791
+S0375,T05,Shopping cart,java,P1,gpt-4o,5,77,1.8300899042380436,56.33512303085133,25,1.8380499032399953
+S0376,T05,Shopping cart,java,P1,claude-3.5-sonnet,1,85,2.472788427725942,48.22455571960139,28,1.768149175133656
+S0377,T05,Shopping cart,java,P1,claude-3.5-sonnet,2,87,2.634091117924868,48.4710455523762,25,2.3618118115572555
+S0378,T05,Shopping cart,java,P1,claude-3.5-sonnet,3,60,2.1549001187164527,50.534496074841435,27,2.4690743003328883
+S0379,T05,Shopping cart,java,P1,claude-3.5-sonnet,4,81,1.9646303248686665,49.449020230809424,28,2.3917149989668545
+S0380,T05,Shopping cart,java,P1,claude-3.5-sonnet,5,84,2.2037754226519777,54.03341320734134,25,2.3290345336589473
+S0381,T05,Shopping cart,java,P2,gpt-4o,1,116,1.988670234877002,50.53377179799746,0,4.200756555591018
+S0382,T05,Shopping cart,java,P2,gpt-4o,2,133,1.5650515443066053,49.03175252537437,0,4.454039955390684
+S0383,T05,Shopping cart,java,P2,gpt-4o,3,137,1.0,44.192475490405954,2,5.058836170398276
+S0384,T05,Shopping cart,java,P2,gpt-4o,4,160,1.8344766926440703,46.907361181025216,0,4.332371334945889
+S0385,T05,Shopping cart,java,P2,gpt-4o,5,153,1.259945061142684,51.15339009660276,1,5.919993047984655
+S0386,T05,Shopping cart,java,P2,claude-3.5-sonnet,1,157,1.6639489977393935,49.341421483356044,0,4.555248959342312
+S0387,T05,Shopping cart,java,P2,claude-3.5-sonnet,2,125,1.176898831618619,48.17222008655132,0,5.609760675489352
+S0388,T05,Shopping cart,java,P2,claude-3.5-sonnet,3,152,1.5569386878856473,54.13028896522855,0,5.554029611126762
+S0389,T05,Shopping cart,java,P2,claude-3.5-sonnet,4,147,1.0,43.455500794701294,0,4.807209679257018
+S0390,T05,Shopping cart,java,P2,claude-3.5-sonnet,5,156,2.731660159195898,47.70849981748912,2,5.265288307630722
+S0391,T05,Shopping cart,java,P3,gpt-4o,1,213,1.0,45.23111747533326,1,6.46182485372246
+S0392,T05,Shopping cart,java,P3,gpt-4o,2,210,1.0,46.1513204056569,1,6.5475049021389555
+S0393,T05,Shopping cart,java,P3,gpt-4o,3,188,2.1499461698304736,47.82418285799744,0,5.591053057819327
+S0394,T05,Shopping cart,java,P3,gpt-4o,4,212,1.5459428324210642,46.033258056188615,0,5.686008758468641
+S0395,T05,Shopping cart,java,P3,gpt-4o,5,219,2.4807681527001555,46.200134191923404,0,6.040496217748867
+S0396,T05,Shopping cart,java,P3,claude-3.5-sonnet,1,189,1.0,50.59929457703769,0,5.763380559087206
+S0397,T05,Shopping cart,java,P3,claude-3.5-sonnet,2,240,1.8949629881901278,50.98016568875513,2,5.244840790923599
+S0398,T05,Shopping cart,java,P3,claude-3.5-sonnet,3,222,1.0,53.39078409982382,1,6.377320341970288
+S0399,T05,Shopping cart,java,P3,claude-3.5-sonnet,4,211,1.3777923086372592,50.892382548623935,2,6.526044559015456
+S0400,T05,Shopping cart,java,P3,claude-3.5-sonnet,5,215,1.0,46.43071259782642,2,6.26736391729466
+S0441,T06,Task scheduler,java,P0,gpt-4o,1,45,3.4784428038501245,63.11101938188489,12,2.3686490075749655
+S0442,T06,Task scheduler,java,P0,gpt-4o,2,38,3.6008598033878156,54.95546966873305,12,0.44116876459105026
+S0443,T06,Task scheduler,java,P0,gpt-4o,3,42,2.976552408586043,55.118909859920166,13,0.4768442751947169
+S0444,T06,Task scheduler,java,P0,gpt-4o,4,49,2.8976823317760223,59.21443495049698,13,0.39786710662624736
+S0445,T06,Task scheduler,java,P0,gpt-4o,5,48,2.9822466766784657,54.09284656486477,12,0.8657628727112496
+S0446,T06,Task scheduler,java,P0,claude-3.5-sonnet,1,51,3.1729221552995965,58.77754964251193,13,0.7486895581557713
+S0447,T06,Task scheduler,java,P0,claude-3.5-sonnet,2,49,2.3481430195182305,56.735651373277605,12,1.430451094803837
+S0448,T06,Task scheduler,java,P0,claude-3.5-sonnet,3,46,2.637020544741086,58.58351477245408,12,1.2999403800540437
+S0449,T06,Task scheduler,java,P0,claude-3.5-sonnet,4,42,3.152252213241821,59.61517352975218,13,1.7863911400289134
+S0450,T06,Task scheduler,java,P0,claude-3.5-sonnet,5,43,3.7737403944922354,58.319270760534366,12,0.9735861713789912
+S0451,T06,Task scheduler,java,P1,gpt-4o,1,85,2.2166149867284526,55.533301157613494,29,1.1202585732267905
+S0452,T06,Task scheduler,java,P1,gpt-4o,2,74,2.1468170520475476,50.88440291593093,29,1.7839886854649252
+S0453,T06,Task scheduler,java,P1,gpt-4o,3,83,2.351499264032258,52.16043554668455,29,2.440472426760868
+S0454,T06,Task scheduler,java,P1,gpt-4o,4,76,1.7185331405959285,50.17761106242492,27,1.2946177628898161
+S0455,T06,Task scheduler,java,P1,gpt-4o,5,82,2.0599117718474766,56.30973429105024,27,1.081242612150113
+S0456,T06,Task scheduler,java,P1,claude-3.5-sonnet,1,82,2.1928836951672466,49.16257145858231,27,3.3612250624243494
+S0457,T06,Task scheduler,java,P1,claude-3.5-sonnet,2,75,2.7226289232291254,51.351170075618406,28,3.8075262737163516
+S0458,T06,Task scheduler,java,P1,claude-3.5-sonnet,3,88,2.045787341883024,43.21007096979032,27,3.560536934015142
+S0459,T06,Task scheduler,java,P1,claude-3.5-sonnet,4,77,1.95307466576486,46.20332838484947,25,3.047774735100854
+S0460,T06,Task scheduler,java,P1,claude-3.5-sonnet,5,90,2.6403411924244318,51.0677155205122,27,2.1998791729456357
+S0461,T06,Task scheduler,java,P2,gpt-4o,1,149,1.0530984389756377,53.84876675878347,1,5.316422610786593
+S0462,T06,Task scheduler,java,P2,gpt-4o,2,144,1.9496375534534451,49.25631301983526,0,5.062299195328419
+S0463,T06,Task scheduler,java,P2,gpt-4o,3,157,1.0903863868407457,44.98303982353193,0,6.292851028876827
+S0464,T06,Task scheduler,java,P2,gpt-4o,4,167,1.3376972744525464,45.55915851830213,2,4.642979910314253
+S0465,T06,Task scheduler,java,P2,gpt-4o,5,156,1.1279412265906477,48.780368652852,0,7.020150186222439
+S0466,T06,Task scheduler,java,P2,claude-3.5-sonnet,1,151,1.2174189170192165,47.01551853536511,0,5.798808224700396
+S0467,T06,Task scheduler,java,P2,claude-3.5-sonnet,2,147,1.2795816667146895,47.34200657420876,0,5.501975484725755
+S0468,T06,Task scheduler,java,P2,claude-3.5-sonnet,3,142,1.6634087891652238,45.561678788569616,2,6.203405156626424
+S0469,T06,Task scheduler,java,P2,claude-3.5-sonnet,4,141,1.0,49.65820405511945,1,5.910756923425001
+S0470,T06,Task scheduler,java,P2,claude-3.5-sonnet,5,145,1.0,49.42682407824215,1,6.50895873230298
+S0471,T06,Task scheduler,java,P3,gpt-4o,1,210,1.0,49.97071971882551,0,4.4564357255378795
+S0472,T06,Task scheduler,java,P3,gpt-4o,2,215,1.1521671366871573,50.79870996982429,0,6.233245403414945
+S0473,T06,Task scheduler,java,P3,gpt-4o,3,219,1.1074474409442978,44.986902540558376,0,6.974829205742011
+S0474,T06,Task scheduler,java,P3,gpt-4o,4,176,1.3750765092575172,46.811332311945925,1,5.889887453283297
+S0475,T06,Task scheduler,java,P3,gpt-4o,5,227,1.4976767117408185,48.503345163625326,0,5.904011792348983
+S0476,T06,Task scheduler,java,P3,claude-3.5-sonnet,1,188,1.65807814655357,46.95990802610855,0,5.239556175846587
+S0477,T06,Task scheduler,java,P3,claude-3.5-sonnet,2,214,1.5440565508192616,52.45420446807731,1,6.897930816450166
+S0478,T06,Task scheduler,java,P3,claude-3.5-sonnet,3,200,1.0,49.58001420798304,2,4.996070291128564
+S0479,T06,Task scheduler,java,P3,claude-3.5-sonnet,4,241,2.295456664352182,47.67731511140181,2,4.692428339562464
+S0480,T06,Task scheduler,java,P3,claude-3.5-sonnet,5,202,1.5484517616924691,49.36870199098905,0,6.064366698172066
+S0521,T07,Caching system,java,P0,gpt-4o,1,40,2.194601753607494,61.474367495276475,10,0.4490477585063143
+S0522,T07,Caching system,java,P0,gpt-4o,2,43,2.075069627894119,57.85077587038995,14,0.8949151977726464
+S0523,T07,Caching system,java,P0,gpt-4o,3,54,4.193212746591991,59.585791213513495,14,0.20594772126730104
+S0524,T07,Caching system,java,P0,gpt-4o,4,46,3.2334705103944366,59.73040201521972,14,1.4658417264413623
+S0525,T07,Caching system,java,P0,gpt-4o,5,45,2.9167342175950157,57.362653021564576,12,0.08587324844933436
+S0526,T07,Caching system,java,P0,claude-3.5-sonnet,1,48,3.3617527573627135,57.54840529879435,11,1.585385646771988
+S0527,T07,Caching system,java,P0,claude-3.5-sonnet,2,38,2.469321794706474,59.4289538422155,10,0.497974421032905
+S0528,T07,Caching system,java,P0,claude-3.5-sonnet,3,51,3.4106890819016042,54.90237125975371,14,0.42385243572418774
+S0529,T07,Caching system,java,P0,claude-3.5-sonnet,4,49,3.753703883299768,63.67335983562301,12,0.40421697869750717
+S0530,T07,Caching system,java,P0,claude-3.5-sonnet,5,55,2.477983071428569,57.768559445345545,14,0.6299004333032863
+S0531,T07,Caching system,java,P1,gpt-4o,1,84,1.9778564279806445,56.31171804532363,27,2.6367116677303364
+S0532,T07,Caching system,java,P1,gpt-4o,2,70,2.2528294531494155,52.035174121953986,26,1.1945355060601874
+S0533,T07,Caching system,java,P1,gpt-4o,3,71,2.630993902241128,53.629804688112664,29,1.7277702943056479
+S0535,T07,Caching system,java,P1,gpt-4o,5,86,2.1503611891122145,58.32691441208047,26,2.4583274272293774
+S0536,T07,Caching system,java,P1,claude-3.5-sonnet,1,64,2.3818000585119616,56.09950718014694,25,1.1854059078839327
+S0537,T07,Caching system,java,P1,claude-3.5-sonnet,2,83,2.8366278879796116,50.53809809530931,28,1.74774118693604
+S0538,T07,Caching system,java,P1,claude-3.5-sonnet,3,71,1.7999818274324164,50.71829079339046,29,2.2400279682635054
+S0539,T07,Caching system,java,P1,claude-3.5-sonnet,4,87,2.3839472377157267,44.96686641025281,28,2.3787627919085885
+S0540,T07,Caching system,java,P1,claude-3.5-sonnet,5,84,1.9998117568274827,49.121171455673064,27,2.7568910457670306
+S0541,T07,Caching system,java,P2,gpt-4o,1,143,1.66526543802628,45.85741976784401,0,4.782446604337507
+S0542,T07,Caching system,java,P2,gpt-4o,2,142,1.5727831086193762,47.61201634363932,0,4.819034771426206
+S0543,T07,Caching system,java,P2,gpt-4o,3,145,1.0,42.68881813386358,0,5.249207199300075
+S0544,T07,Caching system,java,P2,gpt-4o,4,156,1.3566829103734328,44.884717011954415,0,5.995461793953174
+S0545,T07,Caching system,java,P2,gpt-4o,5,167,1.1405790171072034,45.71834113271169,0,4.6542088474703975
+S0546,T07,Caching system,java,P2,claude-3.5-sonnet,1,142,2.031081951492907,46.84534059940369,2,4.708083088484867
+S0547,T07,Caching system,java,P2,claude-3.5-sonnet,2,159,1.509317284708302,50.76803390820073,1,5.376803529696557
+S0548,T07,Caching system,java,P2,claude-3.5-sonnet,3,138,1.0,50.80859064374393,1,4.822135035401091
+S0549,T07,Caching system,java,P2,claude-3.5-sonnet,4,149,1.1208221576979245,46.59019915831891,0,4.696481649882185
+S0550,T07,Caching system,java,P2,claude-3.5-sonnet,5,148,1.0,48.579317591098565,0,5.973455235045825
+S0551,T07,Caching system,java,P3,gpt-4o,1,211,1.0683798879407593,46.74479300468624,2,6.203269258609495
+S0552,T07,Caching system,java,P3,gpt-4o,2,225,1.376766417837595,52.310754221847795,0,5.8991435999680535
+S0553,T07,Caching system,java,P3,gpt-4o,3,205,1.4363167398418217,49.64512452117717,0,6.1934621649498505
+S0554,T07,Caching system,java,P3,gpt-4o,4,204,1.853053712382517,46.801654444475695,1,6.078930336811955
+S0555,T07,Caching system,java,P3,gpt-4o,5,210,1.6762402873907747,49.64514234209464,0,5.653321011246883
+S0556,T07,Caching system,java,P3,claude-3.5-sonnet,1,224,1.1579946112421737,47.10596646129929,1,4.96276965104758
+S0557,T07,Caching system,java,P3,claude-3.5-sonnet,2,193,2.3953875156953215,49.859959387864514,0,6.332897895738388
+S0558,T07,Caching system,java,P3,claude-3.5-sonnet,3,238,1.124444296236725,51.932168990828686,0,6.817382129085329
+S0559,T07,Caching system,java,P3,claude-3.5-sonnet,4,227,2.9330460448755957,49.57742249042341,1,6.340263968771024
+S0560,T07,Caching system,java,P3,claude-3.5-sonnet,5,219,1.0,45.75513522889083,1,5.653041116827377
+S0601,T08,Event bus,java,P0,gpt-4o,1,47,3.7021836240531254,61.25413188140219,12,1.147891236602177
+S0602,T08,Event bus,java,P0,gpt-4o,2,38,2.923277030978559,62.77772771313471,13,1.1084135808043185
+S0603,T08,Event bus,java,P0,gpt-4o,3,47,2.2431398831863,59.466653027194745,12,0.7765469839624239
+S0604,T08,Event bus,java,P0,gpt-4o,4,48,3.11070482537171,65.1603949923508,13,1.2675701445892216
+S0605,T08,Event bus,java,P0,gpt-4o,5,43,3.3664703899749164,61.91595703460709,11,1.3737930516671537
+S0606,T08,Event bus,java,P0,claude-3.5-sonnet,1,53,3.7618963432265646,59.26302150118786,13,1.0988984859513449
+S0607,T08,Event bus,java,P0,claude-3.5-sonnet,2,42,3.0501157822039575,58.73366791239258,9,1.1068275390999829
+S0609,T08,Event bus,java,P0,claude-3.5-sonnet,4,44,3.430355079138832,57.322210119048606,10,1.2049903598283382
+S0610,T08,Event bus,java,P0,claude-3.5-sonnet,5,51,3.095851340157775,60.69047342149454,10,1.4320448116166633
+S0611,T08,Event bus,java,P1,gpt-4o,1,78,1.3906829433775683,58.35548057118541,26,1.965055766913348
+S0612,T08,Event bus,java,P1,gpt-4o,2,78,2.532480275679939,57.81835306924303,28,2.2010540697077925
+S0613,T08,Event bus,java,P1,gpt-4o,3,82,2.6063150342111436,54.50121995368111,27,1.806918793131807
+S0614,T08,Event bus,java,P1,gpt-4o,4,76,2.640449015024597,48.54598307009257,28,2.861465214400464
+S0615,T08,Event bus,java,P1,gpt-4o,5,81,2.6748211426490256,54.14189388524396,26,2.341548411008382
+S0616,T08,Event bus,java,P1,claude-3.5-sonnet,1,74,2.317879799397506,48.151880628157784,25,1.834310396130386
+S0617,T08,Event bus,java,P1,claude-3.5-sonnet,2,79,2.7631862576139823,53.36662455452594,28,2.5514828873566557
+S0618,T08,Event bus,java,P1,claude-3.5-sonnet,3,79,2.362144854948215,51.05868036164173,27,2.60954058928384
+S0619,T08,Event bus,java,P1,claude-3.5-sonnet,4,68,1.955041861381531,51.829404526146504,27,2.239728823909363
+S0620,T08,Event bus,java,P1,claude-3.5-sonnet,5,68,2.080469036332095,59.13011353782115,26,2.952261702251808
+S0621,T08,Event bus,java,P2,gpt-4o,1,140,1.4437913905815913,56.895450385255074,0,6.277630922792503
+S0622,T08,Event bus,java,P2,gpt-4o,2,146,1.076843724470691,46.8056756473519,2,5.584404773007107
+S0624,T08,Event bus,java,P2,gpt-4o,4,163,1.9266265051407767,39.812941494429076,0,5.188838838557504
+S0625,T08,Event bus,java,P2,gpt-4o,5,157,1.650464180245207,47.675478985759625,0,4.200831193085981
+S0626,T08,Event bus,java,P2,claude-3.5-sonnet,1,147,1.439955165375888,52.09207985383993,0,5.181667875571361
+S0627,T08,Event bus,java,P2,claude-3.5-sonnet,2,150,1.3311181947062314,48.39712410466266,0,4.360161128660481
+S0628,T08,Event bus,java,P2,claude-3.5-sonnet,3,126,2.0867109111636273,50.647676573417144,0,4.811727150876918
+S0629,T08,Event bus,java,P2,claude-3.5-sonnet,4,166,2.0155072761218227,43.998616462823435,0,4.381603596282135
+S0630,T08,Event bus,java,P2,claude-3.5-sonnet,5,167,1.9947644411956589,56.95814416525604,0,6.634689735177896
+S0631,T08,Event bus,java,P3,gpt-4o,1,226,2.276814791983095,45.63753076090598,0,6.509301749918563
+S0632,T08,Event bus,java,P3,gpt-4o,2,195,1.5588290755618845,49.184414417072006,0,5.875246622504546
+S0633,T08,Event bus,java,P3,gpt-4o,3,225,1.6156373333983056,43.38086125005509,1,5.3359787368185065
+S0634,T08,Event bus,java,P3,gpt-4o,4,220,1.511550457663917,45.71110613647786,0,5.531250575475641
+S0635,T08,Event bus,java,P3,gpt-4o,5,191,1.0,48.38423288125322,0,5.290057485452165
+S0636,T08,Event bus,java,P3,claude-3.5-sonnet,1,202,1.0,44.36369856859698,0,6.033036684386576
+S0637,T08,Event bus,java,P3,claude-3.5-sonnet,2,211,1.4975322550272587,49.89262323843994,0,6.640374310223088
+S0638,T08,Event bus,java,P3,claude-3.5-sonnet,3,206,1.9777424467570972,47.168321008550144,0,5.697527051260037
+S0639,T08,Event bus,java,P3,claude-3.5-sonnet,4,198,1.0987662216410725,48.28367643730569,1,7.428553584009171
+S0640,T08,Event bus,java,P3,claude-3.5-sonnet,5,207,2.011741048918881,56.14339731902086,0,6.10496603335283
+S0681,T09,Data pipeline,java,P0,gpt-4o,1,49,2.4727073439220217,63.30990780907923,9,1.2292530894761282
+S0682,T09,Data pipeline,java,P0,gpt-4o,2,49,3.1305270532394065,51.20687901060605,13,0.8442766665440171
+S0683,T09,Data pipeline,java,P0,gpt-4o,3,47,2.4481916754782,54.437248215025164,10,1.5455981647872596
+S0684,T09,Data pipeline,java,P0,gpt-4o,4,45,3.5264491266117477,59.81922065317828,12,1.2626453568790807
+S0685,T09,Data pipeline,java,P0,gpt-4o,5,44,2.202638108917873,60.349484822110725,9,0.3604442240741554
+S0686,T09,Data pipeline,java,P0,claude-3.5-sonnet,1,44,2.6982592616057564,54.22779588543984,9,1.727979885272126
+S0687,T09,Data pipeline,java,P0,claude-3.5-sonnet,2,50,2.7929989581576984,56.89096460568884,9,1.4806865009654886
+S0688,T09,Data pipeline,java,P0,claude-3.5-sonnet,3,47,2.5969835504955183,58.33246252645211,9,1.383184060908085
+S0689,T09,Data pipeline,java,P0,claude-3.5-sonnet,4,45,2.9585686292377478,59.22161624374046,13,1.5268223380763128
+S0690,T09,Data pipeline,java,P0,claude-3.5-sonnet,5,46,2.9342006362057336,57.55399008618799,10,1.2516513906020246
+S0692,T09,Data pipeline,java,P1,gpt-4o,2,75,2.1904457075061066,51.27256040903393,28,2.952484148915627
+S0693,T09,Data pipeline,java,P1,gpt-4o,3,84,1.6573218953946924,55.3774424597243,27,2.748957693546067
+S0694,T09,Data pipeline,java,P1,gpt-4o,4,73,2.133906010082393,57.512665851216816,26,2.4203108388714267
+S0695,T09,Data pipeline,java,P1,gpt-4o,5,86,3.241388853167967,50.134986419600374,25,2.666807121403976
+S0696,T09,Data pipeline,java,P1,claude-3.5-sonnet,1,78,1.8149426907358184,47.50298850564049,28,2.098616274211505
+S0697,T09,Data pipeline,java,P1,claude-3.5-sonnet,2,81,2.252457300281152,44.78888918581765,28,2.2976394677397045
+S0698,T09,Data pipeline,java,P1,claude-3.5-sonnet,3,80,2.2664694140207953,54.699639710364345,25,2.2805777654391015
+S0699,T09,Data pipeline,java,P1,claude-3.5-sonnet,4,76,2.074399704992679,50.61007450272103,27,2.647124399897695
+S0700,T09,Data pipeline,java,P1,claude-3.5-sonnet,5,77,2.4951355733692995,47.05493721623219,26,2.817680243596961
+S0701,T09,Data pipeline,java,P2,gpt-4o,1,141,1.4352749286786797,55.559311392810756,1,5.068550170677536
+S0702,T09,Data pipeline,java,P2,gpt-4o,2,150,1.5515975776801536,47.09535872375488,2,5.481378355815647
+S0703,T09,Data pipeline,java,P2,gpt-4o,3,156,1.0,49.905475220661636,2,4.2797435319084745
+S0705,T09,Data pipeline,java,P2,gpt-4o,5,130,1.5132086894798777,47.22643760168211,0,5.898644141816092
+S0706,T09,Data pipeline,java,P2,claude-3.5-sonnet,1,139,1.807337363442579,50.0181493863039,0,5.146910296455355
+S0707,T09,Data pipeline,java,P2,claude-3.5-sonnet,2,161,1.0,43.128633599699704,0,5.723612718513726
+S0708,T09,Data pipeline,java,P2,claude-3.5-sonnet,3,175,1.6552154949130846,46.690695695735144,1,4.938984986759929
+S0709,T09,Data pipeline,java,P2,claude-3.5-sonnet,4,135,2.1680648950525514,49.15988850964512,2,6.1147576712951635
+S0710,T09,Data pipeline,java,P2,claude-3.5-sonnet,5,126,1.307209995811458,45.74569765793617,1,4.421149656802531
+S0711,T09,Data pipeline,java,P3,gpt-4o,1,206,2.9016400589199174,42.77597858328159,1,6.253556640687314
+S0712,T09,Data pipeline,java,P3,gpt-4o,2,195,1.8362548167147694,49.443128270300036,2,5.962505731827916
+S0713,T09,Data pipeline,java,P3,gpt-4o,3,228,1.0,46.77913259339608,2,5.378477082457009
+S0714,T09,Data pipeline,java,P3,gpt-4o,4,225,1.7303526669848701,53.191656417810506,0,6.651243765183337
+S0715,T09,Data pipeline,java,P3,gpt-4o,5,222,1.0,39.488919039222765,0,5.8106666967392755
+S0716,T09,Data pipeline,java,P3,claude-3.5-sonnet,1,195,2.044892275533141,47.38464549600015,0,5.250764936133884
+S0717,T09,Data pipeline,java,P3,claude-3.5-sonnet,2,235,1.0,49.79918074099909,0,5.234981098432023
+S0718,T09,Data pipeline,java,P3,claude-3.5-sonnet,3,204,1.240187160462369,41.29216542595799,0,5.303840960489257
+S0719,T09,Data pipeline,java,P3,claude-3.5-sonnet,4,233,1.0,46.421215580778956,0,5.382666044992143
+S0720,T09,Data pipeline,java,P3,claude-3.5-sonnet,5,232,1.0,49.24532247075064,0,4.734607327212983
+S0761,T10,RBAC system,java,P0,gpt-4o,1,42,4.195000747532099,59.55667156174013,11,0.0
+S0762,T10,RBAC system,java,P0,gpt-4o,2,43,1.8919835954978033,57.00048602081709,12,0.8258556686878955
+S0763,T10,RBAC system,java,P0,gpt-4o,3,50,3.5495512842214536,58.49330944450124,9,0.0
+S0764,T10,RBAC system,java,P0,gpt-4o,4,44,3.7972497214460894,58.56908524167676,10,0.1557454130087526
+S0765,T10,RBAC system,java,P0,gpt-4o,5,47,4.38699848861862,66.5928006872132,11,0.5242445309446555
+S0766,T10,RBAC system,java,P0,claude-3.5-sonnet,1,46,3.347130861654395,60.784148593607725,9,1.8678827001069267
+S0767,T10,RBAC system,java,P0,claude-3.5-sonnet,2,43,3.1674245087901274,55.05334968129837,11,0.9906652496298115
+S0768,T10,RBAC system,java,P0,claude-3.5-sonnet,3,50,3.309982895647309,57.057585871567255,11,1.4335438075159228
+S0769,T10,RBAC system,java,P0,claude-3.5-sonnet,4,46,3.2046108459627227,56.26935641346423,9,1.6402340309401513
+S0770,T10,RBAC system,java,P0,claude-3.5-sonnet,5,41,4.206126176231834,58.56879881972492,10,0.8922497650539631
+S0771,T10,RBAC system,java,P1,gpt-4o,1,83,2.4480531132078727,53.640081240321734,29,3.0743483759344903
+S0772,T10,RBAC system,java,P1,gpt-4o,2,77,2.514651203619853,58.767973819221986,25,1.9663427657915806
+S0773,T10,RBAC system,java,P1,gpt-4o,3,73,2.483505466197803,53.38697388582767,27,2.386812960101638
+S0774,T10,RBAC system,java,P1,gpt-4o,4,80,1.943038418089031,59.86185891760939,25,2.4541393893745833
+S0775,T10,RBAC system,java,P1,gpt-4o,5,82,3.25501968816837,53.24831397652965,28,2.4113863358208802
+S0776,T10,RBAC system,java,P1,claude-3.5-sonnet,1,82,1.7496111139274881,50.36748205388271,27,0.706487492942061
+S0777,T10,RBAC system,java,P1,claude-3.5-sonnet,2,85,2.1778432540591455,47.43734856861889,29,1.6781513876222054
+S0778,T10,RBAC system,java,P1,claude-3.5-sonnet,3,83,1.9150493331709337,55.075224818610714,29,1.781647995003993
+S0779,T10,RBAC system,java,P1,claude-3.5-sonnet,4,74,1.675076383664107,47.31947660407151,26,1.1630938161283655
+S0780,T10,RBAC system,java,P1,claude-3.5-sonnet,5,80,2.353518265837468,48.77011998505749,29,2.010172649350391
+S0781,T10,RBAC system,java,P2,gpt-4o,1,172,1.0,44.732854627790914,0,5.5651719810769125
+S0782,T10,RBAC system,java,P2,gpt-4o,2,128,1.564220970870228,46.70124579067048,2,5.947934244808087
+S0783,T10,RBAC system,java,P2,gpt-4o,3,145,1.2114619849477888,43.84188922169712,0,4.690515881051549
+S0784,T10,RBAC system,java,P2,gpt-4o,4,138,1.0525314350018544,48.26585694294615,1,6.520098990093991
+S0785,T10,RBAC system,java,P2,gpt-4o,5,158,1.0130473359088186,44.75533563264294,0,6.438439675284478
+S0786,T10,RBAC system,java,P2,claude-3.5-sonnet,1,154,1.0,44.733528582641235,0,3.6401056198959973
+S0787,T10,RBAC system,java,P2,claude-3.5-sonnet,2,144,2.083920113700029,48.379186548153505,0,5.712287442621613
+S0788,T10,RBAC system,java,P2,claude-3.5-sonnet,3,155,2.2046708751090094,47.640643746470644,2,3.49767264154557
+S0789,T10,RBAC system,java,P2,claude-3.5-sonnet,4,145,1.8511825035166263,47.30311353716993,0,4.3213491275764975
+S0790,T10,RBAC system,java,P2,claude-3.5-sonnet,5,156,1.0635977610444873,47.98939046055266,0,5.741678570804376
+S0791,T10,RBAC system,java,P3,gpt-4o,1,215,1.0,48.93578722665683,2,5.52968737910028
+S0792,T10,RBAC system,java,P3,gpt-4o,2,224,1.1607260502285919,51.19305205499331,0,6.932860885412728
+S0793,T10,RBAC system,java,P3,gpt-4o,3,199,1.494979036860623,45.299980397620864,0,6.848386678163063
+S0794,T10,RBAC system,java,P3,gpt-4o,4,175,1.2166537200345604,49.5772082033964,2,6.334531279995601
+S0795,T10,RBAC system,java,P3,gpt-4o,5,206,2.2041088929498365,49.094044917122176,1,5.688326428514754
+S0796,T10,RBAC system,java,P3,claude-3.5-sonnet,1,195,1.3893862588576558,50.47099509212604,2,5.630713374430962
+S0797,T10,RBAC system,java,P3,claude-3.5-sonnet,2,183,1.2467439693668352,51.73030010738417,0,6.597789207420385
+S0798,T10,RBAC system,java,P3,claude-3.5-sonnet,3,250,1.8826061223899058,46.49542836953861,0,6.062080301849995
+S0799,T10,RBAC system,java,P3,claude-3.5-sonnet,4,194,1.2597995862384601,46.15634589157479,1,6.622949848085798
+S0800,T10,RBAC system,java,P3,claude-3.5-sonnet,5,202,1.0,48.18492893918241,0,7.715829713091757

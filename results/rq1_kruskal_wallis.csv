@@ -1,0 +1,6 @@
+metric,H_statistic,p_value,significant
+acs,669.89,<0.001,True
+avg_cc,520.71,<0.001,True
+mi,370.67,<0.001,True
+code_smells,472.68,<0.001,True
+loc,704.1,<0.001,True

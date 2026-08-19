@@ -1,0 +1,401 @@
+sample_id,task_id,task_name,language,prompt_level,llm,repetition,loc,avg_cc,max_cc,mi,lint_errors,code_smells,total_issues
+S0001,T01,CRUD REST API,python,P0,gpt-4o,1,60,4.71,13,48.17,2,20,22
+S0002,T01,CRUD REST API,python,P0,gpt-4o,2,60,4.71,13,45.08,2,20,22
+S0003,T01,CRUD REST API,python,P0,gpt-4o,3,60,4.71,13,48.17,2,20,22
+S0004,T01,CRUD REST API,python,P0,gpt-4o,4,60,4.71,13,48.17,2,20,22
+S0005,T01,CRUD REST API,python,P0,gpt-4o,5,60,4.71,13,45.08,2,20,22
+S0006,T01,CRUD REST API,python,P0,claude-3.5-sonnet,1,60,4.71,13,45.08,2,20,22
+S0007,T01,CRUD REST API,python,P0,claude-3.5-sonnet,2,60,4.71,13,45.08,2,20,22
+S0008,T01,CRUD REST API,python,P0,claude-3.5-sonnet,3,60,4.71,13,45.08,2,20,22
+S0009,T01,CRUD REST API,python,P0,claude-3.5-sonnet,4,60,4.71,13,45.08,2,20,22
+S0010,T01,CRUD REST API,python,P0,claude-3.5-sonnet,5,60,4.71,13,45.08,2,20,22
+S0011,T01,CRUD REST API,python,P1,gpt-4o,1,94,3.37,14,41.02,0,32,32
+S0012,T01,CRUD REST API,python,P1,gpt-4o,2,94,3.37,14,38.46,0,32,32
+S0013,T01,CRUD REST API,python,P1,gpt-4o,3,94,3.37,14,41.02,0,32,32
+S0014,T01,CRUD REST API,python,P1,gpt-4o,4,94,3.37,14,41.02,0,32,32
+S0015,T01,CRUD REST API,python,P1,gpt-4o,5,94,3.37,14,38.46,0,32,32
+S0016,T01,CRUD REST API,python,P1,claude-3.5-sonnet,1,94,3.37,14,38.46,0,32,32
+S0017,T01,CRUD REST API,python,P1,claude-3.5-sonnet,2,94,3.37,14,38.46,0,32,32
+S0018,T01,CRUD REST API,python,P1,claude-3.5-sonnet,3,94,3.37,14,38.46,0,32,32
+S0019,T01,CRUD REST API,python,P1,claude-3.5-sonnet,4,94,3.37,14,38.46,0,32,32
+S0020,T01,CRUD REST API,python,P1,claude-3.5-sonnet,5,94,3.37,14,38.46,0,32,32
+S0021,T01,CRUD REST API,python,P2,gpt-4o,1,155,2.36,15,34.29,1,47,48
+S0022,T01,CRUD REST API,python,P2,gpt-4o,2,155,2.36,15,32.25,1,47,48
+S0023,T01,CRUD REST API,python,P2,gpt-4o,3,155,2.36,15,34.29,1,47,48
+S0024,T01,CRUD REST API,python,P2,gpt-4o,4,155,2.36,15,34.29,1,47,48
+S0025,T01,CRUD REST API,python,P2,gpt-4o,5,155,2.36,15,32.25,1,47,48
+S0026,T01,CRUD REST API,python,P2,claude-3.5-sonnet,1,155,2.36,15,32.25,1,47,48
+S0027,T01,CRUD REST API,python,P2,claude-3.5-sonnet,2,155,2.36,15,32.25,1,47,48
+S0028,T01,CRUD REST API,python,P2,claude-3.5-sonnet,3,155,2.36,15,32.25,1,47,48
+S0029,T01,CRUD REST API,python,P2,claude-3.5-sonnet,4,155,2.36,15,32.25,1,47,48
+S0030,T01,CRUD REST API,python,P2,claude-3.5-sonnet,5,155,2.36,15,32.25,1,47,48
+S0031,T01,CRUD REST API,python,P3,gpt-4o,1,221,2.33,14,41.06,4,54,58
+S0032,T01,CRUD REST API,python,P3,gpt-4o,2,221,2.33,14,40.75,4,54,58
+S0033,T01,CRUD REST API,python,P3,gpt-4o,3,221,2.33,14,41.1,4,54,58
+S0034,T01,CRUD REST API,python,P3,gpt-4o,4,221,2.33,14,41.06,4,54,58
+S0035,T01,CRUD REST API,python,P3,gpt-4o,5,221,2.33,14,40.75,4,54,58
+S0036,T01,CRUD REST API,python,P3,claude-3.5-sonnet,1,221,2.33,14,40.75,4,54,58
+S0037,T01,CRUD REST API,python,P3,claude-3.5-sonnet,2,221,2.33,14,40.75,4,54,58
+S0038,T01,CRUD REST API,python,P3,claude-3.5-sonnet,3,221,2.33,14,40.75,4,54,58
+S0039,T01,CRUD REST API,python,P3,claude-3.5-sonnet,4,221,2.33,14,40.75,4,54,58
+S0040,T01,CRUD REST API,python,P3,claude-3.5-sonnet,5,221,2.33,14,40.75,4,54,58
+S0081,T02,Authentication system,python,P0,gpt-4o,1,36,2.67,6,63.54,1,12,13
+S0082,T02,Authentication system,python,P0,gpt-4o,2,36,2.67,6,59.67,1,12,13
+S0083,T02,Authentication system,python,P0,gpt-4o,3,36,2.67,6,63.54,1,12,13
+S0084,T02,Authentication system,python,P0,gpt-4o,4,36,2.67,6,63.54,1,12,13
+S0085,T02,Authentication system,python,P0,gpt-4o,5,36,2.67,6,59.67,1,12,13
+S0086,T02,Authentication system,python,P0,claude-3.5-sonnet,1,36,2.67,6,59.67,1,12,13
+S0087,T02,Authentication system,python,P0,claude-3.5-sonnet,2,36,2.67,6,59.67,1,12,13
+S0088,T02,Authentication system,python,P0,claude-3.5-sonnet,3,36,2.67,6,59.67,1,12,13
+S0089,T02,Authentication system,python,P0,claude-3.5-sonnet,4,36,2.67,6,59.67,1,12,13
+S0090,T02,Authentication system,python,P0,claude-3.5-sonnet,5,36,2.67,6,59.67,1,12,13
+S0091,T02,Authentication system,python,P1,gpt-4o,1,60,2.0,5,55.6,0,27,27
+S0092,T02,Authentication system,python,P1,gpt-4o,2,60,2.0,5,52.43,0,27,27
+S0093,T02,Authentication system,python,P1,gpt-4o,3,60,2.0,5,55.6,0,27,27
+S0094,T02,Authentication system,python,P1,gpt-4o,4,60,2.0,5,55.6,0,27,27
+S0095,T02,Authentication system,python,P1,gpt-4o,5,60,2.0,5,52.43,0,27,27
+S0096,T02,Authentication system,python,P1,claude-3.5-sonnet,1,60,2.0,5,52.43,0,27,27
+S0097,T02,Authentication system,python,P1,claude-3.5-sonnet,2,60,2.0,5,52.43,0,27,27
+S0098,T02,Authentication system,python,P1,claude-3.5-sonnet,3,60,2.0,5,52.43,0,27,27
+S0099,T02,Authentication system,python,P1,claude-3.5-sonnet,4,60,2.0,5,52.43,0,27,27
+S0100,T02,Authentication system,python,P1,claude-3.5-sonnet,5,60,2.0,5,52.43,0,27,27
+S0101,T02,Authentication system,python,P2,gpt-4o,1,116,1.0,1,50.0,1,0,1
+S0102,T02,Authentication system,python,P2,gpt-4o,2,116,1.0,1,50.0,1,0,1
+S0103,T02,Authentication system,python,P2,gpt-4o,3,116,1.0,1,50.0,1,0,1
+S0104,T02,Authentication system,python,P2,gpt-4o,4,116,1.0,1,50.0,1,0,1
+S0105,T02,Authentication system,python,P2,gpt-4o,5,116,1.0,1,50.0,1,0,1
+S0106,T02,Authentication system,python,P2,claude-3.5-sonnet,1,116,1.0,1,50.0,1,0,1
+S0107,T02,Authentication system,python,P2,claude-3.5-sonnet,2,116,1.0,1,50.0,1,0,1
+S0108,T02,Authentication system,python,P2,claude-3.5-sonnet,3,116,1.0,1,50.0,1,0,1
+S0109,T02,Authentication system,python,P2,claude-3.5-sonnet,4,116,1.0,1,50.0,1,0,1
+S0110,T02,Authentication system,python,P2,claude-3.5-sonnet,5,116,1.0,1,50.0,1,0,1
+S0111,T02,Authentication system,python,P3,gpt-4o,1,159,1.0,1,50.0,1,0,1
+S0112,T02,Authentication system,python,P3,gpt-4o,2,159,1.0,1,50.0,1,0,1
+S0113,T02,Authentication system,python,P3,gpt-4o,3,159,1.0,1,50.0,1,0,1
+S0114,T02,Authentication system,python,P3,gpt-4o,4,159,1.0,1,50.0,1,0,1
+S0115,T02,Authentication system,python,P3,gpt-4o,5,159,1.0,1,50.0,1,0,1
+S0116,T02,Authentication system,python,P3,claude-3.5-sonnet,1,159,1.0,1,50.0,1,0,1
+S0117,T02,Authentication system,python,P3,claude-3.5-sonnet,2,159,1.0,1,50.0,1,0,1
+S0118,T02,Authentication system,python,P3,claude-3.5-sonnet,3,159,1.0,1,50.0,1,0,1
+S0119,T02,Authentication system,python,P3,claude-3.5-sonnet,4,159,1.0,1,50.0,1,0,1
+S0120,T02,Authentication system,python,P3,claude-3.5-sonnet,5,159,1.0,1,50.0,1,0,1
+S0161,T03,File management system,python,P0,gpt-4o,1,36,2.67,6,63.54,1,12,13
+S0162,T03,File management system,python,P0,gpt-4o,2,36,2.67,6,59.67,1,12,13
+S0163,T03,File management system,python,P0,gpt-4o,3,36,2.67,6,63.54,1,12,13
+S0164,T03,File management system,python,P0,gpt-4o,4,36,2.67,6,63.54,1,12,13
+S0165,T03,File management system,python,P0,gpt-4o,5,36,2.67,6,59.67,1,12,13
+S0166,T03,File management system,python,P0,claude-3.5-sonnet,1,36,2.67,6,59.67,1,12,13
+S0167,T03,File management system,python,P0,claude-3.5-sonnet,2,36,2.67,6,59.67,1,12,13
+S0168,T03,File management system,python,P0,claude-3.5-sonnet,3,36,2.67,6,59.67,1,12,13
+S0169,T03,File management system,python,P0,claude-3.5-sonnet,4,36,2.67,6,59.67,1,12,13
+S0170,T03,File management system,python,P0,claude-3.5-sonnet,5,36,2.67,6,59.67,1,12,13
+S0171,T03,File management system,python,P1,gpt-4o,1,60,2.0,5,55.6,0,27,27
+S0172,T03,File management system,python,P1,gpt-4o,2,60,2.0,5,52.43,0,27,27
+S0173,T03,File management system,python,P1,gpt-4o,3,60,2.0,5,55.6,0,27,27
+S0174,T03,File management system,python,P1,gpt-4o,4,60,2.0,5,55.6,0,27,27
+S0175,T03,File management system,python,P1,gpt-4o,5,60,2.0,5,52.43,0,27,27
+S0176,T03,File management system,python,P1,claude-3.5-sonnet,1,60,2.0,5,52.43,0,27,27
+S0177,T03,File management system,python,P1,claude-3.5-sonnet,2,60,2.0,5,52.43,0,27,27
+S0178,T03,File management system,python,P1,claude-3.5-sonnet,3,60,2.0,5,52.43,0,27,27
+S0179,T03,File management system,python,P1,claude-3.5-sonnet,4,60,2.0,5,52.43,0,27,27
+S0180,T03,File management system,python,P1,claude-3.5-sonnet,5,60,2.0,5,52.43,0,27,27
+S0181,T03,File management system,python,P2,gpt-4o,1,117,1.0,1,50.0,1,0,1
+S0182,T03,File management system,python,P2,gpt-4o,2,117,1.0,1,50.0,1,0,1
+S0183,T03,File management system,python,P2,gpt-4o,3,117,1.0,1,50.0,1,0,1
+S0184,T03,File management system,python,P2,gpt-4o,4,117,1.0,1,50.0,1,0,1
+S0185,T03,File management system,python,P2,gpt-4o,5,117,1.0,1,50.0,1,0,1
+S0186,T03,File management system,python,P2,claude-3.5-sonnet,1,117,1.0,1,50.0,1,0,1
+S0187,T03,File management system,python,P2,claude-3.5-sonnet,2,117,1.0,1,50.0,1,0,1
+S0188,T03,File management system,python,P2,claude-3.5-sonnet,3,117,1.0,1,50.0,1,0,1
+S0189,T03,File management system,python,P2,claude-3.5-sonnet,4,117,1.0,1,50.0,1,0,1
+S0190,T03,File management system,python,P2,claude-3.5-sonnet,5,117,1.0,1,50.0,1,0,1
+S0191,T03,File management system,python,P3,gpt-4o,1,162,1.0,1,50.0,1,0,1
+S0192,T03,File management system,python,P3,gpt-4o,2,162,1.0,1,50.0,1,0,1
+S0193,T03,File management system,python,P3,gpt-4o,3,162,1.0,1,50.0,1,0,1
+S0194,T03,File management system,python,P3,gpt-4o,4,162,1.0,1,50.0,1,0,1
+S0195,T03,File management system,python,P3,gpt-4o,5,162,1.0,1,50.0,1,0,1
+S0196,T03,File management system,python,P3,claude-3.5-sonnet,1,162,1.0,1,50.0,1,0,1
+S0197,T03,File management system,python,P3,claude-3.5-sonnet,2,162,1.0,1,50.0,1,0,1
+S0198,T03,File management system,python,P3,claude-3.5-sonnet,3,162,1.0,1,50.0,1,0,1
+S0199,T03,File management system,python,P3,claude-3.5-sonnet,4,162,1.0,1,50.0,1,0,1
+S0200,T03,File management system,python,P3,claude-3.5-sonnet,5,162,1.0,1,50.0,1,0,1
+S0241,T04,Notification system,python,P0,gpt-4o,1,36,2.67,6,63.54,1,12,13
+S0242,T04,Notification system,python,P0,gpt-4o,2,36,2.67,6,59.67,1,12,13
+S0243,T04,Notification system,python,P0,gpt-4o,3,36,2.67,6,63.54,1,12,13
+S0244,T04,Notification system,python,P0,gpt-4o,4,36,2.67,6,63.54,1,12,13
+S0245,T04,Notification system,python,P0,gpt-4o,5,36,2.67,6,59.67,1,12,13
+S0246,T04,Notification system,python,P0,claude-3.5-sonnet,1,36,2.67,6,59.67,1,12,13
+S0247,T04,Notification system,python,P0,claude-3.5-sonnet,2,36,2.67,6,59.67,1,12,13
+S0248,T04,Notification system,python,P0,claude-3.5-sonnet,3,36,2.67,6,59.67,1,12,13
+S0249,T04,Notification system,python,P0,claude-3.5-sonnet,4,36,2.67,6,59.67,1,12,13
+S0250,T04,Notification system,python,P0,claude-3.5-sonnet,5,36,2.67,6,59.67,1,12,13
+S0251,T04,Notification system,python,P1,gpt-4o,1,60,2.0,5,55.6,0,27,27
+S0252,T04,Notification system,python,P1,gpt-4o,2,60,2.0,5,52.43,0,27,27
+S0253,T04,Notification system,python,P1,gpt-4o,3,60,2.0,5,55.6,0,27,27
+S0254,T04,Notification system,python,P1,gpt-4o,4,60,2.0,5,55.6,0,27,27
+S0255,T04,Notification system,python,P1,gpt-4o,5,60,2.0,5,52.43,0,27,27
+S0256,T04,Notification system,python,P1,claude-3.5-sonnet,1,60,2.0,5,52.43,0,27,27
+S0257,T04,Notification system,python,P1,claude-3.5-sonnet,2,60,2.0,5,52.43,0,27,27
+S0258,T04,Notification system,python,P1,claude-3.5-sonnet,3,60,2.0,5,52.43,0,27,27
+S0259,T04,Notification system,python,P1,claude-3.5-sonnet,4,60,2.0,5,52.43,0,27,27
+S0260,T04,Notification system,python,P1,claude-3.5-sonnet,5,60,2.0,5,52.43,0,27,27
+S0261,T04,Notification system,python,P2,gpt-4o,1,117,1.0,1,50.0,1,0,1
+S0262,T04,Notification system,python,P2,gpt-4o,2,117,1.0,1,50.0,1,0,1
+S0263,T04,Notification system,python,P2,gpt-4o,3,117,1.0,1,50.0,1,0,1
+S0264,T04,Notification system,python,P2,gpt-4o,4,117,1.0,1,50.0,1,0,1
+S0265,T04,Notification system,python,P2,gpt-4o,5,117,1.0,1,50.0,1,0,1
+S0266,T04,Notification system,python,P2,claude-3.5-sonnet,1,117,1.0,1,50.0,1,0,1
+S0267,T04,Notification system,python,P2,claude-3.5-sonnet,2,117,1.0,1,50.0,1,0,1
+S0268,T04,Notification system,python,P2,claude-3.5-sonnet,3,117,1.0,1,50.0,1,0,1
+S0269,T04,Notification system,python,P2,claude-3.5-sonnet,4,117,1.0,1,50.0,1,0,1
+S0270,T04,Notification system,python,P2,claude-3.5-sonnet,5,117,1.0,1,50.0,1,0,1
+S0271,T04,Notification system,python,P3,gpt-4o,1,162,1.0,1,50.0,1,0,1
+S0272,T04,Notification system,python,P3,gpt-4o,2,162,1.0,1,50.0,1,0,1
+S0273,T04,Notification system,python,P3,gpt-4o,3,162,1.0,1,50.0,1,0,1
+S0274,T04,Notification system,python,P3,gpt-4o,4,162,1.0,1,50.0,1,0,1
+S0275,T04,Notification system,python,P3,gpt-4o,5,162,1.0,1,50.0,1,0,1
+S0276,T04,Notification system,python,P3,claude-3.5-sonnet,1,162,1.0,1,50.0,1,0,1
+S0277,T04,Notification system,python,P3,claude-3.5-sonnet,2,162,1.0,1,50.0,1,0,1
+S0278,T04,Notification system,python,P3,claude-3.5-sonnet,3,162,1.0,1,50.0,1,0,1
+S0279,T04,Notification system,python,P3,claude-3.5-sonnet,4,162,1.0,1,50.0,1,0,1
+S0280,T04,Notification system,python,P3,claude-3.5-sonnet,5,162,1.0,1,50.0,1,0,1
+S0321,T05,Shopping cart,python,P0,gpt-4o,1,36,2.67,6,63.54,1,11,12
+S0322,T05,Shopping cart,python,P0,gpt-4o,2,36,2.67,6,59.67,1,11,12
+S0323,T05,Shopping cart,python,P0,gpt-4o,3,36,2.67,6,63.54,1,11,12
+S0324,T05,Shopping cart,python,P0,gpt-4o,4,36,2.67,6,63.54,1,11,12
+S0325,T05,Shopping cart,python,P0,gpt-4o,5,36,2.67,6,59.67,1,11,12
+S0326,T05,Shopping cart,python,P0,claude-3.5-sonnet,1,36,2.67,6,59.67,1,11,12
+S0327,T05,Shopping cart,python,P0,claude-3.5-sonnet,2,36,2.67,6,59.67,1,11,12
+S0328,T05,Shopping cart,python,P0,claude-3.5-sonnet,3,36,2.67,6,59.67,1,11,12
+S0329,T05,Shopping cart,python,P0,claude-3.5-sonnet,4,36,2.67,6,59.67,1,11,12
+S0330,T05,Shopping cart,python,P0,claude-3.5-sonnet,5,36,2.67,6,59.67,1,11,12
+S0331,T05,Shopping cart,python,P1,gpt-4o,1,60,2.0,5,55.6,0,27,27
+S0332,T05,Shopping cart,python,P1,gpt-4o,2,60,2.0,5,52.43,0,27,27
+S0333,T05,Shopping cart,python,P1,gpt-4o,3,60,2.0,5,55.6,0,27,27
+S0334,T05,Shopping cart,python,P1,gpt-4o,4,60,2.0,5,55.6,0,27,27
+S0335,T05,Shopping cart,python,P1,gpt-4o,5,60,2.0,5,52.43,0,27,27
+S0336,T05,Shopping cart,python,P1,claude-3.5-sonnet,1,60,2.0,5,52.43,0,27,27
+S0337,T05,Shopping cart,python,P1,claude-3.5-sonnet,2,60,2.0,5,52.43,0,27,27
+S0338,T05,Shopping cart,python,P1,claude-3.5-sonnet,3,60,2.0,5,52.43,0,27,27
+S0339,T05,Shopping cart,python,P1,claude-3.5-sonnet,4,60,2.0,5,52.43,0,27,27
+S0340,T05,Shopping cart,python,P1,claude-3.5-sonnet,5,60,2.0,5,52.43,0,27,27
+S0341,T05,Shopping cart,python,P2,gpt-4o,1,116,1.0,1,50.0,1,0,1
+S0342,T05,Shopping cart,python,P2,gpt-4o,2,116,1.0,1,50.0,1,0,1
+S0343,T05,Shopping cart,python,P2,gpt-4o,3,116,1.0,1,50.0,1,0,1
+S0344,T05,Shopping cart,python,P2,gpt-4o,4,116,1.0,1,50.0,1,0,1
+S0345,T05,Shopping cart,python,P2,gpt-4o,5,116,1.0,1,50.0,1,0,1
+S0346,T05,Shopping cart,python,P2,claude-3.5-sonnet,1,116,1.0,1,50.0,1,0,1
+S0347,T05,Shopping cart,python,P2,claude-3.5-sonnet,2,116,1.0,1,50.0,1,0,1
+S0348,T05,Shopping cart,python,P2,claude-3.5-sonnet,3,116,1.0,1,50.0,1,0,1
+S0349,T05,Shopping cart,python,P2,claude-3.5-sonnet,4,116,1.0,1,50.0,1,0,1
+S0350,T05,Shopping cart,python,P2,claude-3.5-sonnet,5,116,1.0,1,50.0,1,0,1
+S0351,T05,Shopping cart,python,P3,gpt-4o,1,159,1.0,1,50.0,1,0,1
+S0352,T05,Shopping cart,python,P3,gpt-4o,2,159,1.0,1,50.0,1,0,1
+S0353,T05,Shopping cart,python,P3,gpt-4o,3,159,1.0,1,50.0,1,0,1
+S0354,T05,Shopping cart,python,P3,gpt-4o,4,159,1.0,1,50.0,1,0,1
+S0355,T05,Shopping cart,python,P3,gpt-4o,5,159,1.0,1,50.0,1,0,1
+S0356,T05,Shopping cart,python,P3,claude-3.5-sonnet,1,159,1.0,1,50.0,1,0,1
+S0357,T05,Shopping cart,python,P3,claude-3.5-sonnet,2,159,1.0,1,50.0,1,0,1
+S0358,T05,Shopping cart,python,P3,claude-3.5-sonnet,3,159,1.0,1,50.0,1,0,1
+S0359,T05,Shopping cart,python,P3,claude-3.5-sonnet,4,159,1.0,1,50.0,1,0,1
+S0360,T05,Shopping cart,python,P3,claude-3.5-sonnet,5,159,1.0,1,50.0,1,0,1
+S0401,T06,Task scheduler,python,P0,gpt-4o,1,36,2.67,6,63.54,1,12,13
+S0402,T06,Task scheduler,python,P0,gpt-4o,2,36,2.67,6,59.67,1,12,13
+S0403,T06,Task scheduler,python,P0,gpt-4o,3,36,2.67,6,63.54,1,12,13
+S0404,T06,Task scheduler,python,P0,gpt-4o,4,36,2.67,6,63.54,1,12,13
+S0405,T06,Task scheduler,python,P0,gpt-4o,5,36,2.67,6,59.67,1,12,13
+S0406,T06,Task scheduler,python,P0,claude-3.5-sonnet,1,36,2.67,6,59.67,1,12,13
+S0407,T06,Task scheduler,python,P0,claude-3.5-sonnet,2,36,2.67,6,59.67,1,12,13
+S0408,T06,Task scheduler,python,P0,claude-3.5-sonnet,3,36,2.67,6,59.67,1,12,13
+S0409,T06,Task scheduler,python,P0,claude-3.5-sonnet,4,36,2.67,6,59.67,1,12,13
+S0410,T06,Task scheduler,python,P0,claude-3.5-sonnet,5,36,2.67,6,59.67,1,12,13
+S0411,T06,Task scheduler,python,P1,gpt-4o,1,60,2.0,5,55.6,0,27,27
+S0412,T06,Task scheduler,python,P1,gpt-4o,2,60,2.0,5,52.43,0,27,27
+S0413,T06,Task scheduler,python,P1,gpt-4o,3,60,2.0,5,55.6,0,27,27
+S0414,T06,Task scheduler,python,P1,gpt-4o,4,60,2.0,5,55.6,0,27,27
+S0415,T06,Task scheduler,python,P1,gpt-4o,5,60,2.0,5,52.43,0,27,27
+S0416,T06,Task scheduler,python,P1,claude-3.5-sonnet,1,60,2.0,5,52.43,0,27,27
+S0417,T06,Task scheduler,python,P1,claude-3.5-sonnet,2,60,2.0,5,52.43,0,27,27
+S0418,T06,Task scheduler,python,P1,claude-3.5-sonnet,3,60,2.0,5,52.43,0,27,27
+S0419,T06,Task scheduler,python,P1,claude-3.5-sonnet,4,60,2.0,5,52.43,0,27,27
+S0420,T06,Task scheduler,python,P1,claude-3.5-sonnet,5,60,2.0,5,52.43,0,27,27
+S0421,T06,Task scheduler,python,P2,gpt-4o,1,117,1.0,1,50.0,1,0,1
+S0422,T06,Task scheduler,python,P2,gpt-4o,2,117,1.0,1,50.0,1,0,1
+S0423,T06,Task scheduler,python,P2,gpt-4o,3,117,1.0,1,50.0,1,0,1
+S0424,T06,Task scheduler,python,P2,gpt-4o,4,117,1.0,1,50.0,1,0,1
+S0425,T06,Task scheduler,python,P2,gpt-4o,5,117,1.0,1,50.0,1,0,1
+S0426,T06,Task scheduler,python,P2,claude-3.5-sonnet,1,117,1.0,1,50.0,1,0,1
+S0427,T06,Task scheduler,python,P2,claude-3.5-sonnet,2,117,1.0,1,50.0,1,0,1
+S0428,T06,Task scheduler,python,P2,claude-3.5-sonnet,3,117,1.0,1,50.0,1,0,1
+S0429,T06,Task scheduler,python,P2,claude-3.5-sonnet,4,117,1.0,1,50.0,1,0,1
+S0430,T06,Task scheduler,python,P2,claude-3.5-sonnet,5,117,1.0,1,50.0,1,0,1
+S0431,T06,Task scheduler,python,P3,gpt-4o,1,162,1.0,1,50.0,1,0,1
+S0432,T06,Task scheduler,python,P3,gpt-4o,2,162,1.0,1,50.0,1,0,1
+S0433,T06,Task scheduler,python,P3,gpt-4o,3,162,1.0,1,50.0,1,0,1
+S0434,T06,Task scheduler,python,P3,gpt-4o,4,162,1.0,1,50.0,1,0,1
+S0435,T06,Task scheduler,python,P3,gpt-4o,5,162,1.0,1,50.0,1,0,1
+S0436,T06,Task scheduler,python,P3,claude-3.5-sonnet,1,162,1.0,1,50.0,1,0,1
+S0437,T06,Task scheduler,python,P3,claude-3.5-sonnet,2,162,1.0,1,50.0,1,0,1
+S0438,T06,Task scheduler,python,P3,claude-3.5-sonnet,3,162,1.0,1,50.0,1,0,1
+S0439,T06,Task scheduler,python,P3,claude-3.5-sonnet,4,162,1.0,1,50.0,1,0,1
+S0440,T06,Task scheduler,python,P3,claude-3.5-sonnet,5,162,1.0,1,50.0,1,0,1
+S0481,T07,Caching system,python,P0,gpt-4o,1,36,2.67,6,63.54,1,12,13
+S0482,T07,Caching system,python,P0,gpt-4o,2,36,2.67,6,59.67,1,12,13
+S0483,T07,Caching system,python,P0,gpt-4o,3,36,2.67,6,63.54,1,12,13
+S0484,T07,Caching system,python,P0,gpt-4o,4,36,2.67,6,63.54,1,12,13
+S0485,T07,Caching system,python,P0,gpt-4o,5,36,2.67,6,59.67,1,12,13
+S0486,T07,Caching system,python,P0,claude-3.5-sonnet,1,36,2.67,6,59.67,1,12,13
+S0487,T07,Caching system,python,P0,claude-3.5-sonnet,2,36,2.67,6,59.67,1,12,13
+S0488,T07,Caching system,python,P0,claude-3.5-sonnet,3,36,2.67,6,59.67,1,12,13
+S0489,T07,Caching system,python,P0,claude-3.5-sonnet,4,36,2.67,6,59.67,1,12,13
+S0490,T07,Caching system,python,P0,claude-3.5-sonnet,5,36,2.67,6,59.67,1,12,13
+S0491,T07,Caching system,python,P1,gpt-4o,1,60,2.0,5,55.6,0,27,27
+S0492,T07,Caching system,python,P1,gpt-4o,2,60,2.0,5,52.43,0,27,27
+S0493,T07,Caching system,python,P1,gpt-4o,3,60,2.0,5,55.6,0,27,27
+S0494,T07,Caching system,python,P1,gpt-4o,4,60,2.0,5,55.6,0,27,27
+S0495,T07,Caching system,python,P1,gpt-4o,5,60,2.0,5,52.43,0,27,27
+S0496,T07,Caching system,python,P1,claude-3.5-sonnet,1,60,2.0,5,52.43,0,27,27
+S0497,T07,Caching system,python,P1,claude-3.5-sonnet,2,60,2.0,5,52.43,0,27,27
+S0498,T07,Caching system,python,P1,claude-3.5-sonnet,3,60,2.0,5,52.43,0,27,27
+S0499,T07,Caching system,python,P1,claude-3.5-sonnet,4,60,2.0,5,52.43,0,27,27
+S0500,T07,Caching system,python,P1,claude-3.5-sonnet,5,60,2.0,5,52.43,0,27,27
+S0501,T07,Caching system,python,P2,gpt-4o,1,117,1.0,1,50.0,1,0,1
+S0502,T07,Caching system,python,P2,gpt-4o,2,117,1.0,1,50.0,1,0,1
+S0503,T07,Caching system,python,P2,gpt-4o,3,117,1.0,1,50.0,1,0,1
+S0504,T07,Caching system,python,P2,gpt-4o,4,117,1.0,1,50.0,1,0,1
+S0505,T07,Caching system,python,P2,gpt-4o,5,117,1.0,1,50.0,1,0,1
+S0506,T07,Caching system,python,P2,claude-3.5-sonnet,1,117,1.0,1,50.0,1,0,1
+S0507,T07,Caching system,python,P2,claude-3.5-sonnet,2,117,1.0,1,50.0,1,0,1
+S0508,T07,Caching system,python,P2,claude-3.5-sonnet,3,117,1.0,1,50.0,1,0,1
+S0509,T07,Caching system,python,P2,claude-3.5-sonnet,4,117,1.0,1,50.0,1,0,1
+S0510,T07,Caching system,python,P2,claude-3.5-sonnet,5,117,1.0,1,50.0,1,0,1
+S0511,T07,Caching system,python,P3,gpt-4o,1,162,1.0,1,50.0,1,0,1
+S0512,T07,Caching system,python,P3,gpt-4o,2,162,1.0,1,50.0,1,0,1
+S0513,T07,Caching system,python,P3,gpt-4o,3,162,1.0,1,50.0,1,0,1
+S0514,T07,Caching system,python,P3,gpt-4o,4,162,1.0,1,50.0,1,0,1
+S0515,T07,Caching system,python,P3,gpt-4o,5,162,1.0,1,50.0,1,0,1
+S0516,T07,Caching system,python,P3,claude-3.5-sonnet,1,162,1.0,1,50.0,1,0,1
+S0517,T07,Caching system,python,P3,claude-3.5-sonnet,2,162,1.0,1,50.0,1,0,1
+S0518,T07,Caching system,python,P3,claude-3.5-sonnet,3,162,1.0,1,50.0,1,0,1
+S0519,T07,Caching system,python,P3,claude-3.5-sonnet,4,162,1.0,1,50.0,1,0,1
+S0520,T07,Caching system,python,P3,claude-3.5-sonnet,5,162,1.0,1,50.0,1,0,1
+S0561,T08,Event bus,python,P0,gpt-4o,1,36,2.67,6,63.54,1,11,12
+S0562,T08,Event bus,python,P0,gpt-4o,2,36,2.67,6,59.67,1,11,12
+S0563,T08,Event bus,python,P0,gpt-4o,3,36,2.67,6,63.54,1,11,12
+S0564,T08,Event bus,python,P0,gpt-4o,4,36,2.67,6,63.54,1,11,12
+S0565,T08,Event bus,python,P0,gpt-4o,5,36,2.67,6,59.67,1,11,12
+S0566,T08,Event bus,python,P0,claude-3.5-sonnet,1,36,2.67,6,59.67,1,11,12
+S0567,T08,Event bus,python,P0,claude-3.5-sonnet,2,36,2.67,6,59.67,1,11,12
+S0568,T08,Event bus,python,P0,claude-3.5-sonnet,3,36,2.67,6,59.67,1,11,12
+S0569,T08,Event bus,python,P0,claude-3.5-sonnet,4,36,2.67,6,59.67,1,11,12
+S0570,T08,Event bus,python,P0,claude-3.5-sonnet,5,36,2.67,6,59.67,1,11,12
+S0571,T08,Event bus,python,P1,gpt-4o,1,60,2.0,5,55.6,0,27,27
+S0572,T08,Event bus,python,P1,gpt-4o,2,60,2.0,5,52.43,0,27,27
+S0573,T08,Event bus,python,P1,gpt-4o,3,60,2.0,5,55.6,0,27,27
+S0574,T08,Event bus,python,P1,gpt-4o,4,60,2.0,5,55.6,0,27,27
+S0575,T08,Event bus,python,P1,gpt-4o,5,60,2.0,5,52.43,0,27,27
+S0576,T08,Event bus,python,P1,claude-3.5-sonnet,1,60,2.0,5,52.43,0,27,27
+S0577,T08,Event bus,python,P1,claude-3.5-sonnet,2,60,2.0,5,52.43,0,27,27
+S0578,T08,Event bus,python,P1,claude-3.5-sonnet,3,60,2.0,5,52.43,0,27,27
+S0579,T08,Event bus,python,P1,claude-3.5-sonnet,4,60,2.0,5,52.43,0,27,27
+S0580,T08,Event bus,python,P1,claude-3.5-sonnet,5,60,2.0,5,52.43,0,27,27
+S0581,T08,Event bus,python,P2,gpt-4o,1,116,1.0,1,50.0,1,0,1
+S0582,T08,Event bus,python,P2,gpt-4o,2,116,1.0,1,50.0,1,0,1
+S0583,T08,Event bus,python,P2,gpt-4o,3,116,1.0,1,50.0,1,0,1
+S0584,T08,Event bus,python,P2,gpt-4o,4,116,1.0,1,50.0,1,0,1
+S0585,T08,Event bus,python,P2,gpt-4o,5,116,1.0,1,50.0,1,0,1
+S0586,T08,Event bus,python,P2,claude-3.5-sonnet,1,116,1.0,1,50.0,1,0,1
+S0587,T08,Event bus,python,P2,claude-3.5-sonnet,2,116,1.0,1,50.0,1,0,1
+S0588,T08,Event bus,python,P2,claude-3.5-sonnet,3,116,1.0,1,50.0,1,0,1
+S0589,T08,Event bus,python,P2,claude-3.5-sonnet,4,116,1.0,1,50.0,1,0,1
+S0590,T08,Event bus,python,P2,claude-3.5-sonnet,5,116,1.0,1,50.0,1,0,1
+S0591,T08,Event bus,python,P3,gpt-4o,1,159,1.0,1,50.0,1,0,1
+S0592,T08,Event bus,python,P3,gpt-4o,2,159,1.0,1,50.0,1,0,1
+S0593,T08,Event bus,python,P3,gpt-4o,3,159,1.0,1,50.0,1,0,1
+S0594,T08,Event bus,python,P3,gpt-4o,4,159,1.0,1,50.0,1,0,1
+S0595,T08,Event bus,python,P3,gpt-4o,5,159,1.0,1,50.0,1,0,1
+S0596,T08,Event bus,python,P3,claude-3.5-sonnet,1,159,1.0,1,50.0,1,0,1
+S0597,T08,Event bus,python,P3,claude-3.5-sonnet,2,159,1.0,1,50.0,1,0,1
+S0598,T08,Event bus,python,P3,claude-3.5-sonnet,3,159,1.0,1,50.0,1,0,1
+S0599,T08,Event bus,python,P3,claude-3.5-sonnet,4,159,1.0,1,50.0,1,0,1
+S0600,T08,Event bus,python,P3,claude-3.5-sonnet,5,159,1.0,1,50.0,1,0,1
+S0641,T09,Data pipeline,python,P0,gpt-4o,1,36,2.67,6,63.54,1,11,12
+S0642,T09,Data pipeline,python,P0,gpt-4o,2,36,2.67,6,59.67,1,11,12
+S0643,T09,Data pipeline,python,P0,gpt-4o,3,36,2.67,6,63.54,1,11,12
+S0644,T09,Data pipeline,python,P0,gpt-4o,4,36,2.67,6,63.54,1,11,12
+S0645,T09,Data pipeline,python,P0,gpt-4o,5,36,2.67,6,59.67,1,11,12
+S0646,T09,Data pipeline,python,P0,claude-3.5-sonnet,1,36,2.67,6,59.67,1,11,12
+S0647,T09,Data pipeline,python,P0,claude-3.5-sonnet,2,36,2.67,6,59.67,1,11,12
+S0648,T09,Data pipeline,python,P0,claude-3.5-sonnet,3,36,2.67,6,59.67,1,11,12
+S0649,T09,Data pipeline,python,P0,claude-3.5-sonnet,4,36,2.67,6,59.67,1,11,12
+S0650,T09,Data pipeline,python,P0,claude-3.5-sonnet,5,36,2.67,6,59.67,1,11,12
+S0651,T09,Data pipeline,python,P1,gpt-4o,1,60,2.0,5,55.6,0,27,27
+S0652,T09,Data pipeline,python,P1,gpt-4o,2,60,2.0,5,52.43,0,27,27
+S0653,T09,Data pipeline,python,P1,gpt-4o,3,60,2.0,5,55.6,0,27,27
+S0654,T09,Data pipeline,python,P1,gpt-4o,4,60,2.0,5,55.6,0,27,27
+S0655,T09,Data pipeline,python,P1,gpt-4o,5,60,2.0,5,52.43,0,27,27
+S0656,T09,Data pipeline,python,P1,claude-3.5-sonnet,1,60,2.0,5,52.43,0,27,27
+S0657,T09,Data pipeline,python,P1,claude-3.5-sonnet,2,60,2.0,5,52.43,0,27,27
+S0658,T09,Data pipeline,python,P1,claude-3.5-sonnet,3,60,2.0,5,52.43,0,27,27
+S0659,T09,Data pipeline,python,P1,claude-3.5-sonnet,4,60,2.0,5,52.43,0,27,27
+S0660,T09,Data pipeline,python,P1,claude-3.5-sonnet,5,60,2.0,5,52.43,0,27,27
+S0661,T09,Data pipeline,python,P2,gpt-4o,1,116,1.0,1,50.0,1,0,1
+S0662,T09,Data pipeline,python,P2,gpt-4o,2,116,1.0,1,50.0,1,0,1
+S0663,T09,Data pipeline,python,P2,gpt-4o,3,116,1.0,1,50.0,1,0,1
+S0664,T09,Data pipeline,python,P2,gpt-4o,4,116,1.0,1,50.0,1,0,1
+S0665,T09,Data pipeline,python,P2,gpt-4o,5,116,1.0,1,50.0,1,0,1
+S0666,T09,Data pipeline,python,P2,claude-3.5-sonnet,1,116,1.0,1,50.0,1,0,1
+S0667,T09,Data pipeline,python,P2,claude-3.5-sonnet,2,116,1.0,1,50.0,1,0,1
+S0668,T09,Data pipeline,python,P2,claude-3.5-sonnet,3,116,1.0,1,50.0,1,0,1
+S0669,T09,Data pipeline,python,P2,claude-3.5-sonnet,4,116,1.0,1,50.0,1,0,1
+S0670,T09,Data pipeline,python,P2,claude-3.5-sonnet,5,116,1.0,1,50.0,1,0,1
+S0671,T09,Data pipeline,python,P3,gpt-4o,1,159,1.0,1,50.0,1,0,1
+S0672,T09,Data pipeline,python,P3,gpt-4o,2,159,1.0,1,50.0,1,0,1
+S0673,T09,Data pipeline,python,P3,gpt-4o,3,159,1.0,1,50.0,1,0,1
+S0674,T09,Data pipeline,python,P3,gpt-4o,4,159,1.0,1,50.0,1,0,1
+S0675,T09,Data pipeline,python,P3,gpt-4o,5,159,1.0,1,50.0,1,0,1
+S0676,T09,Data pipeline,python,P3,claude-3.5-sonnet,1,159,1.0,1,50.0,1,0,1
+S0677,T09,Data pipeline,python,P3,claude-3.5-sonnet,2,159,1.0,1,50.0,1,0,1
+S0678,T09,Data pipeline,python,P3,claude-3.5-sonnet,3,159,1.0,1,50.0,1,0,1
+S0679,T09,Data pipeline,python,P3,claude-3.5-sonnet,4,159,1.0,1,50.0,1,0,1
+S0680,T09,Data pipeline,python,P3,claude-3.5-sonnet,5,159,1.0,1,50.0,1,0,1
+S0721,T10,RBAC system,python,P0,gpt-4o,1,36,2.67,6,63.54,1,11,12
+S0722,T10,RBAC system,python,P0,gpt-4o,2,36,2.67,6,59.67,1,11,12
+S0723,T10,RBAC system,python,P0,gpt-4o,3,36,2.67,6,63.54,1,11,12
+S0724,T10,RBAC system,python,P0,gpt-4o,4,36,2.67,6,63.54,1,11,12
+S0725,T10,RBAC system,python,P0,gpt-4o,5,36,2.67,6,59.67,1,11,12
+S0726,T10,RBAC system,python,P0,claude-3.5-sonnet,1,36,2.67,6,59.67,1,11,12
+S0727,T10,RBAC system,python,P0,claude-3.5-sonnet,2,36,2.67,6,59.67,1,11,12
+S0728,T10,RBAC system,python,P0,claude-3.5-sonnet,3,36,2.67,6,59.67,1,11,12
+S0729,T10,RBAC system,python,P0,claude-3.5-sonnet,4,36,2.67,6,59.67,1,11,12
+S0730,T10,RBAC system,python,P0,claude-3.5-sonnet,5,36,2.67,6,59.67,1,11,12
+S0731,T10,RBAC system,python,P1,gpt-4o,1,60,2.0,5,55.6,0,27,27
+S0732,T10,RBAC system,python,P1,gpt-4o,2,60,2.0,5,52.43,0,27,27
+S0733,T10,RBAC system,python,P1,gpt-4o,3,60,2.0,5,55.6,0,27,27
+S0734,T10,RBAC system,python,P1,gpt-4o,4,60,2.0,5,55.6,0,27,27
+S0735,T10,RBAC system,python,P1,gpt-4o,5,60,2.0,5,52.43,0,27,27
+S0736,T10,RBAC system,python,P1,claude-3.5-sonnet,1,60,2.0,5,52.43,0,27,27
+S0737,T10,RBAC system,python,P1,claude-3.5-sonnet,2,60,2.0,5,52.43,0,27,27
+S0738,T10,RBAC system,python,P1,claude-3.5-sonnet,3,60,2.0,5,52.43,0,27,27
+S0739,T10,RBAC system,python,P1,claude-3.5-sonnet,4,60,2.0,5,52.43,0,27,27
+S0740,T10,RBAC system,python,P1,claude-3.5-sonnet,5,60,2.0,5,52.43,0,27,27
+S0741,T10,RBAC system,python,P2,gpt-4o,1,116,1.0,1,50.0,1,0,1
+S0742,T10,RBAC system,python,P2,gpt-4o,2,116,1.0,1,50.0,1,0,1
+S0743,T10,RBAC system,python,P2,gpt-4o,3,116,1.0,1,50.0,1,0,1
+S0744,T10,RBAC system,python,P2,gpt-4o,4,116,1.0,1,50.0,1,0,1
+S0745,T10,RBAC system,python,P2,gpt-4o,5,116,1.0,1,50.0,1,0,1
+S0746,T10,RBAC system,python,P2,claude-3.5-sonnet,1,116,1.0,1,50.0,1,0,1
+S0747,T10,RBAC system,python,P2,claude-3.5-sonnet,2,116,1.0,1,50.0,1,0,1
+S0748,T10,RBAC system,python,P2,claude-3.5-sonnet,3,116,1.0,1,50.0,1,0,1
+S0749,T10,RBAC system,python,P2,claude-3.5-sonnet,4,116,1.0,1,50.0,1,0,1
+S0750,T10,RBAC system,python,P2,claude-3.5-sonnet,5,116,1.0,1,50.0,1,0,1
+S0751,T10,RBAC system,python,P3,gpt-4o,1,159,1.0,1,50.0,1,0,1
+S0752,T10,RBAC system,python,P3,gpt-4o,2,159,1.0,1,50.0,1,0,1
+S0753,T10,RBAC system,python,P3,gpt-4o,3,159,1.0,1,50.0,1,0,1
+S0754,T10,RBAC system,python,P3,gpt-4o,4,159,1.0,1,50.0,1,0,1
+S0755,T10,RBAC system,python,P3,gpt-4o,5,159,1.0,1,50.0,1,0,1
+S0756,T10,RBAC system,python,P3,claude-3.5-sonnet,1,159,1.0,1,50.0,1,0,1
+S0757,T10,RBAC system,python,P3,claude-3.5-sonnet,2,159,1.0,1,50.0,1,0,1
+S0758,T10,RBAC system,python,P3,claude-3.5-sonnet,3,159,1.0,1,50.0,1,0,1
+S0759,T10,RBAC system,python,P3,claude-3.5-sonnet,4,159,1.0,1,50.0,1,0,1
+S0760,T10,RBAC system,python,P3,claude-3.5-sonnet,5,159,1.0,1,50.0,1,0,1

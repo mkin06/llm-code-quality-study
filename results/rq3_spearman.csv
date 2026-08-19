@@ -1,0 +1,5 @@
+metric,spearman_rho,p_value,significant
+acs,0.912,<0.001,True
+avg_cc,-0.771,<0.001,True
+mi,-0.631,<0.001,True
+code_smells,-0.533,<0.001,True

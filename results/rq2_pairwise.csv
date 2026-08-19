@@ -1,0 +1,4 @@
+pair,U_statistic,p_value_corrected,cliffs_delta,effect_size
+P1 vs P2,5.0,<0.001,1.0,large
+P1 vs P3,0.0,<0.001,1.0,large
+P2 vs P3,9162.0,<0.001,0.525,large

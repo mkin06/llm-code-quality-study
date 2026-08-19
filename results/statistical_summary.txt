@@ -1,0 +1,88 @@
+STATISTICAL ANALYSIS REPORT
+============================================================
+Study: Impact of Software Architecture Design Constraints
+       on LLM-Generated Code Quality
+============================================================
+
+Total samples collected: 800
+Invalid/filtered: 12
+Final dataset: 788 samples
+  Python: 396
+  Java: 392
+
+============================================================
+RQ1: Impact of Architectural Constraints
+============================================================
+
+Descriptive Statistics (Median [IQR]):
+           acs: P0=0.9[0.6]  P1=2.0[0.7]  P2=5.0[1.2]  P3=6.0[1.0]
+        avg_cc: P0=2.7[0.6]  P1=2.0[0.5]  P2=1.0[0.6]  P3=1.0[0.6]
+            mi: P0=59.7[3.1]  P1=52.4[4.2]  P2=50.0[4.2]  P3=50.0[2.8]
+   code_smells: P0=12.0[2.0]  P1=27.0[1.0]  P2=0.0[1.0]  P3=0.0[1.0]
+           loc: P0=42.0[11.0]  P1=69.0[21.0]  P2=137.0[39.0]  P3=194.5[57.0]
+
+  Kruskal-Wallis acs: H=669.89, p=<0.001
+
+  Kruskal-Wallis avg_cc: H=520.71, p=<0.001
+
+  Kruskal-Wallis mi: H=370.67, p=<0.001
+
+  Kruskal-Wallis code_smells: H=472.68, p=<0.001
+
+  Kruskal-Wallis loc: H=704.10, p=<0.001
+
+Pairwise Mann-Whitney U (ACS, Bonferroni corrected):
+  P0 vs P1: U=2219, p_corr=<0.001, δ=0.886 (large)
+  P0 vs P2: U=0, p_corr=<0.001, δ=1.000 (large)
+  P0 vs P3: U=0, p_corr=<0.001, δ=1.000 (large)
+  P1 vs P2: U=5, p_corr=<0.001, δ=1.000 (large)
+  P1 vs P3: U=0, p_corr=<0.001, δ=1.000 (large)
+  P2 vs P3: U=9162, p_corr=<0.001, δ=0.525 (large)
+
+============================================================
+RQ2: Most Effective Constraint Type
+============================================================
+
+ACS Medians: P0=0.9, P1=2.0, P2=5.0, P3=6.0
+Total ACS gain (P0→P3): 5.1 (570%)
+  P0→P1 contribution: 21.6%
+  P1→P2 contribution: 59.1%
+  P2→P3 contribution: 19.3%
+  P2 captures 80.7% of total improvement
+  P1 vs P2: δ=1.000 (large)
+  P1 vs P3: δ=1.000 (large)
+  P2 vs P3: δ=0.525 (large)
+
+============================================================
+RQ3: Specificity vs Quality Relationship
+============================================================
+  acs: ρ=0.912, p=<0.001
+  avg_cc: ρ=-0.771, p=<0.001
+  mi: ρ=-0.631, p=<0.001
+  code_smells: ρ=-0.533, p=<0.001
+
+============================================================
+RQ4: Quality Trade-offs
+============================================================
+
+Spearman Correlations with ACS:
+  ACS vs CC: ρ=-0.656***, p=<0.001
+  ACS vs MI: ρ=-0.670***, p=<0.001
+  ACS vs LOC: ρ=0.905***, p=<0.001
+  ACS vs CS: ρ=-0.417***, p=<0.001
+
+============================================================
+LLM Comparison: GPT-4o vs Claude 3.5 Sonnet
+============================================================
+  P0: GPT-4o Mdn=0.6, Claude Mdn=1.0, p=0.0080
+  P1: GPT-4o Mdn=2.0, Claude Mdn=2.0, p=0.0766
+  P2: GPT-4o Mdn=5.3, Claude Mdn=5.0, p=0.0065
+  P3: GPT-4o Mdn=6.0, Claude Mdn=6.0, p=0.3640
+
+============================================================
+Normality Tests (Shapiro-Wilk)
+============================================================
+  P0 ACS: W=0.9437, p=0.000001 (non-normal)
+  P1 ACS: W=0.9627, p=0.000043 (non-normal)
+  P2 ACS: W=0.8827, p=0.000000 (non-normal)
+  P3 ACS: W=0.8403, p=0.000000 (non-normal)
