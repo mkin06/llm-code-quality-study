@@ -6,7 +6,7 @@ Usage:
     python run_all.py
 
 Prerequisites:
-    pip install radon pylint scipy pandas numpy matplotlib seaborn
+    pip install -r requirements.txt
 
 Pipeline:
     Step 1: Generate prompt dataset (80 prompts, 800 sample configs)
@@ -14,6 +14,10 @@ Pipeline:
     Step 3: Run static analysis (Radon CC/MI + Pylint)
     Step 4: Compute Architecture Conformance Scores (AST-based)
     Step 5: Run statistical analysis + generate figures
+    Step 6: Dependence-aware re-analysis (review round 3): cell-level tests,
+            linear mixed-effects models, task-level cluster bootstrap,
+            stratified permutation test, paired LLM comparison
+    Step 7: Regenerate Fig. 1 with median labels and significance brackets
 """
 import os
 import sys
@@ -28,6 +32,8 @@ SCRIPT_ORDER = [
     ("03_static_analysis.py", "Running static analysis (Radon + Pylint)..."),
     ("04_acs_scorer.py", "Computing Architecture Conformance Scores..."),
     ("05_statistical_analysis.py", "Running statistical analysis + figures..."),
+    ("06_clustered_analysis.py", "Running dependence-aware re-analysis (cell-level, LMM, cluster bootstrap, permutation)..."),
+    ("07_figure1_annotated.py", "Regenerating annotated Fig. 1 (medians + significance brackets)..."),
 ]
 
 
@@ -92,7 +98,10 @@ def main():
     print("  results/rq3_*.csv                 - RQ3 analysis tables")
     print("  results/rq4_*.csv                 - RQ4 analysis tables")
     print("  results/statistical_summary.txt   - Full statistical report")
-    print("  results/figures/*.png             - 5 analysis figures")
+    print("  results/rq_clustered_*.csv        - Dependence-aware re-analysis tables (Sec. 4.5)")
+    print("  results/clustered_summary.txt     - Human-readable report of the re-analysis")
+    print("  results/rq3_spearman_with_loc.csv - Table 7 incl. LOC")
+    print("  results/figures/*.png             - analysis figures")
 
 
 if __name__ == "__main__":

@@ -1,0 +1,12 @@
+metric,test,observed,perm_p,perm_p_bonferroni
+ACS,Kruskal-Wallis H (omnibus),669.89,<0.001,
+CC,Kruskal-Wallis H (omnibus),520.71,<0.001,
+MI,Kruskal-Wallis H (omnibus),370.67,<0.001,
+CS,Kruskal-Wallis H (omnibus),472.68,<0.001,
+LOC,Kruskal-Wallis H (omnibus),704.1,<0.001,
+ACS,pairwise P0 vs P1 (rank-sum),1.11,<0.001,<0.001
+ACS,pairwise P0 vs P2 (rank-sum),4.12,<0.001,<0.001
+ACS,pairwise P0 vs P3 (rank-sum),5.11,<0.001,<0.001
+ACS,pairwise P1 vs P2 (rank-sum),3.02,<0.001,<0.001
+ACS,pairwise P1 vs P3 (rank-sum),4.0,<0.001,<0.001
+ACS,pairwise P2 vs P3 (rank-sum),0.98,<0.001,<0.001

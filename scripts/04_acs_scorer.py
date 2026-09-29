@@ -9,9 +9,10 @@ import os, json, csv, ast, random, math
 
 random.seed(42)
 
-SAMPLE_DIR = "/home/user/workspace/experiment/generated_code/python"
-MANIFEST = "/home/user/workspace/experiment/prompts/sample_manifest.json"
-OUT_FILE = "/home/user/workspace/experiment/data/acs_scores.csv"
+ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+SAMPLE_DIR = os.path.join(ROOT, "generated_code", "python")
+MANIFEST = os.path.join(ROOT, "prompts", "sample_manifest.json")
+OUT_FILE = os.path.join(ROOT, "data", "acs_scores.csv")
 
 
 class ACSAnalyzer:

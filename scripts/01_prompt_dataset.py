@@ -6,6 +6,8 @@ Each prompt is then used with 2 LLMs × 5 repetitions = 800 total code samples.
 """
 import json, os
 
+ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+
 TASKS = {
     "T01": {
         "name": "CRUD REST API",
@@ -209,7 +211,7 @@ def generate_full_dataset():
 
 
 if __name__ == "__main__":
-    out_dir = "/home/user/workspace/experiment/prompts"
+    out_dir = os.path.join(ROOT, "prompts")
     os.makedirs(out_dir, exist_ok=True)
     
     prompts, samples = generate_full_dataset()
