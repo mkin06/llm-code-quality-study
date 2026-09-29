@@ -16,8 +16,9 @@ import seaborn as sns
 random.seed(42)
 np.random.seed(42)
 
-DATA_DIR = "/home/user/workspace/experiment/data"
-RESULTS_DIR = "/home/user/workspace/experiment/results"
+ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+DATA_DIR = os.path.join(ROOT, "data")
+RESULTS_DIR = os.path.join(ROOT, "results")
 FIG_DIR = os.path.join(RESULTS_DIR, "figures")
 os.makedirs(FIG_DIR, exist_ok=True)
 os.makedirs(RESULTS_DIR, exist_ok=True)
@@ -39,7 +40,7 @@ def load_python_data():
 def generate_java_data(python_df):
     """Generate realistic Java sample data matching Python trends with slight offset."""
     java_rows = []
-    manifest_path = "/home/user/workspace/experiment/prompts/sample_manifest.json"
+    manifest_path = os.path.join(ROOT, "prompts", "sample_manifest.json")
     with open(manifest_path) as f:
         manifest = json.load(f)
     

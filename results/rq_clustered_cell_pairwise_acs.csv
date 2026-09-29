@@ -1,0 +1,7 @@
+pair,n_a,n_b,U,p_bonferroni,cliffs_delta,effect
+P0 vs P1,40,40,18,<0.001,0.977,large
+P0 vs P2,40,40,0,<0.001,1.0,large
+P0 vs P3,40,40,0,<0.001,1.0,large
+P1 vs P2,40,40,0,<0.001,1.0,large
+P1 vs P3,40,40,0,<0.001,1.0,large
+P2 vs P3,40,40,211,<0.001,0.736,large
