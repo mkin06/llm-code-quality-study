@@ -8,9 +8,10 @@ import os, json, csv, subprocess, sys
 from radon.complexity import cc_visit
 from radon.metrics import mi_visit
 
-SAMPLE_DIR = "/home/user/workspace/experiment/generated_code/python"
-OUT_FILE = "/home/user/workspace/experiment/data/static_analysis_python.csv"
-MANIFEST = "/home/user/workspace/experiment/prompts/sample_manifest.json"
+ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+SAMPLE_DIR = os.path.join(ROOT, "generated_code", "python")
+OUT_FILE = os.path.join(ROOT, "data", "static_analysis_python.csv")
+MANIFEST = os.path.join(ROOT, "prompts", "sample_manifest.json")
 
 def analyze_complexity(code_str):
     """Compute cyclomatic complexity using Radon."""

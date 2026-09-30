@@ -1,0 +1,8 @@
+radon
+pylint
+pandas
+numpy
+scipy
+statsmodels
+matplotlib
+seaborn
