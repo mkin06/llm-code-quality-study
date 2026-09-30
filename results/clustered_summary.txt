@@ -1,0 +1,170 @@
+DEPENDENCE-AWARE RE-ANALYSIS (review round 3)
+========================================================================
+Observations (generation samples): n = 788
+Tasks (top-level cluster): 10
+(task, llm, language) strata: 40
+(task, level, llm, language) conditions: 160
+Condition sizes: {4: np.int64(12), 5: np.int64(148)}
+
+========================================================================
+A. CELL-LEVEL RE-ANALYSIS (unit = (task, level, LLM, language) median; 40 cells / level)
+========================================================================
+
+ACS: cell medians  P0=0.8[0.5]  P1=2.0[0.4]  P2=5.0[0.4]  P3=6.0[0.4]
+  Kruskal-Wallis on 40 cells/level: H(3)=141.89, p=<0.001
+  Spearman(level, ACS) over 160 cells: rho=0.942, p=<0.001
+
+CC: cell medians  P0=2.7[0.5]  P1=2.2[0.4]  P2=1.1[0.5]  P3=1.0[0.5]
+  Kruskal-Wallis on 40 cells/level: H(3)=115.21, p=<0.001
+  Spearman(level, CC) over 160 cells: rho=-0.813, p=<0.001
+
+MI: cell medians  P0=59.7[3.3]  P1=52.4[5.6]  P2=48.9[2.9]  P3=50.0[1.7]
+  Kruskal-Wallis on 40 cells/level: H(3)=77.86, p=<0.001
+  Spearman(level, MI) over 160 cells: rho=-0.637, p=<0.001
+
+CS: cell medians  P0=12.0[1.0]  P1=27.0[0.0]  P2=0.0[0.6]  P3=0.0[0.6]
+  Kruskal-Wallis on 40 cells/level: H(3)=96.55, p=<0.001
+  Spearman(level, CS) over 160 cells: rho=-0.537, p=<0.001
+
+LOC: cell medians  P0=45.0[11.0]  P1=73.5[20.2]  P2=142.0[36.5]  P3=201.5[53.4]
+  Kruskal-Wallis on 40 cells/level: H(3)=144.11, p=<0.001
+  Spearman(level, LOC) over 160 cells: rho=0.952, p=<0.001
+  ACS P0 vs P1 (40 vs 40 cells): U=18, p_Bonf=<0.001, delta=0.977 (large)
+  ACS P0 vs P2 (40 vs 40 cells): U=0, p_Bonf=<0.001, delta=1.000 (large)
+  ACS P0 vs P3 (40 vs 40 cells): U=0, p_Bonf=<0.001, delta=1.000 (large)
+  ACS P1 vs P2 (40 vs 40 cells): U=0, p_Bonf=<0.001, delta=1.000 (large)
+  ACS P1 vs P3 (40 vs 40 cells): U=0, p_Bonf=<0.001, delta=1.000 (large)
+  ACS P2 vs P3 (40 vs 40 cells): U=212, p_Bonf=<0.001, delta=0.736 (large)
+
+Sample-level Spearman including LOC (n=788): ACS=0.912, CC=-0.771, MI=-0.631, CS=-0.533, LOC=0.945
+
+========================================================================
+B. LINEAR MIXED-EFFECTS MODELS
+   metric ~ C(level) + C(llm) + C(language), random intercept: task, task:llm:language
+========================================================================
+
+ACS [raw outcome]  converged=True  var(task)=0.241 var(cell)=0.000 var(resid)=0.515  ICC(task)=0.32 ICC(cell)=0.32  R2m=0.87 R2c=0.91
+    level P1                     est=   1.280  SE= 0.072  95%CI=[  1.138,  1.421]  p=<0.001
+    level P2                     est=   4.635  SE= 0.073  95%CI=[  4.493,  4.778]  p=<0.001
+    level P3                     est=   5.480  SE= 0.072  95%CI=[  5.339,  5.622]  p=<0.001
+    llm gpt-4o                   est=  -0.016  SE= 0.051  95%CI=[ -0.116,  0.084]  p=0.757
+    language python              est=  -0.295  SE= 0.051  95%CI=[ -0.396, -0.195]  p=<0.001
+
+ACS [rank outcome]  converged=True  var(task)=1126.567 var(cell)=0.000 var(resid)=6372.422  ICC(task)=0.15 ICC(cell)=0.15  R2m=0.86 R2c=0.88
+    level P1                     est= 175.076  SE= 8.034  95%CI=[159.329,190.822]  p=<0.001
+    level P2                     est= 429.701  SE= 8.065  95%CI=[413.894,445.508]  p=<0.001
+    level P3                     est= 532.840  SE= 8.034  95%CI=[517.094,548.586]  p=<0.001
+    llm gpt-4o                   est=  -3.627  SE= 5.689  95%CI=[-14.777,  7.522]  p=0.524
+    language python              est= -36.299  SE= 5.688  95%CI=[-47.448,-25.151]  p=<0.001
+
+CC [raw outcome]  converged=True  var(task)=0.203 var(cell)=0.000 var(resid)=0.123  ICC(task)=0.62 ICC(cell)=0.62  R2m=0.63 R2c=0.86
+    level P1                     est=  -0.802  SE= 0.035  95%CI=[ -0.871, -0.733]  p=<0.001
+    level P2                     est=  -1.753  SE= 0.035  95%CI=[ -1.823, -1.684]  p=<0.001
+    level P3                     est=  -1.734  SE= 0.035  95%CI=[ -1.803, -1.665]  p=<0.001
+    llm gpt-4o                   est=  -0.007  SE= 0.025  95%CI=[ -0.056,  0.042]  p=0.778
+    language python              est=  -0.378  SE= 0.025  95%CI=[ -0.427, -0.329]  p=<0.001
+
+CC [rank outcome]  converged=True  var(task)=7300.684 var(cell)=70.964 var(resid)=7813.783  ICC(task)=0.48 ICC(cell)=0.49  R2m=0.70 R2c=0.85
+    level P1                     est=-178.631  SE= 8.897  95%CI=[-196.069,-161.194]  p=<0.001
+    level P2                     est=-433.194  SE= 8.931  95%CI=[-450.698,-415.689]  p=<0.001
+    level P3                     est=-431.715  SE= 8.896  95%CI=[-449.151,-414.279]  p=<0.001
+    llm gpt-4o                   est=  -2.592  SE= 6.839  95%CI=[-15.997, 10.813]  p=0.705
+    language python              est=-101.145  SE= 6.839  95%CI=[-114.549,-87.741]  p=<0.001
+
+MI [raw outcome]  converged=True  var(task)=14.678 var(cell)=0.006 var(resid)=6.709  ICC(task)=0.69 ICC(cell)=0.69  R2m=0.48 R2c=0.84
+    level P1                     est=  -6.946  SE= 0.261  95%CI=[ -7.457, -6.435]  p=<0.001
+    level P2                     est= -11.081  SE= 0.262  95%CI=[-11.594,-10.568]  p=<0.001
+    level P3                     est=  -9.758  SE= 0.261  95%CI=[-10.268, -9.247]  p=<0.001
+    llm gpt-4o                   est=   1.094  SE= 0.186  95%CI=[  0.729,  1.459]  p=<0.001
+    language python              est=   1.966  SE= 0.186  95%CI=[  1.601,  2.331]  p=<0.001
+
+MI [rank outcome]  converged=True  var(task)=14282.250 var(cell)=79.200 var(resid)=11932.990  ICC(task)=0.54 ICC(cell)=0.55  R2m=0.50 R2c=0.77
+    level P1                     est=-200.868  SE=10.994  95%CI=[-222.417,-179.319]  p=<0.001
+    level P2                     est=-389.002  SE=11.037  95%CI=[-410.633,-367.370]  p=<0.001
+    level P3                     est=-362.083  SE=10.994  95%CI=[-383.631,-340.536]  p=<0.001
+    llm gpt-4o                   est=  27.643  SE= 8.278  95%CI=[ 11.419, 43.867]  p=<0.001
+    language python              est=  86.755  SE= 8.277  95%CI=[ 70.532,102.978]  p=<0.001
+
+CS [raw outcome]  converged=True  var(task)=78.425 var(cell)=0.001 var(resid)=45.056  ICC(task)=0.64 ICC(cell)=0.64  R2m=0.40 R2c=0.78
+    level P1                     est=  15.029  SE= 0.676  95%CI=[ 13.705, 16.353]  p=<0.001
+    level P2                     est=  -7.495  SE= 0.678  95%CI=[ -8.824, -6.166]  p=<0.001
+    level P3                     est=  -6.826  SE= 0.676  95%CI=[ -8.150, -5.502]  p=<0.001
+    llm gpt-4o                   est=   0.009  SE= 0.478  95%CI=[ -0.928,  0.947]  p=0.984
+    language python              est=  -0.287  SE= 0.478  95%CI=[ -1.225,  0.650]  p=0.548
+
+CS [rank outcome]  converged=True  var(task)=11892.472 var(cell)=0.001 var(resid)=8501.674  ICC(task)=0.58 ICC(cell)=0.58  R2m=0.59 R2c=0.83
+    level P1                     est= 197.877  SE= 9.280  95%CI=[179.689,216.065]  p=<0.001
+    level P2                     est=-215.372  SE= 9.314  95%CI=[-233.628,-197.117]  p=<0.001
+    level P3                     est=-214.406  SE= 9.279  95%CI=[-232.592,-196.219]  p=<0.001
+    llm gpt-4o                   est=   1.138  SE= 6.571  95%CI=[-11.739, 14.016]  p=0.862
+    language python              est= -36.508  SE= 6.570  95%CI=[-49.385,-23.632]  p=<0.001
+
+LOC [raw outcome]  converged=True  var(task)=197.581 var(cell)=0.022 var(resid)=160.864  ICC(task)=0.55 ICC(cell)=0.55  R2m=0.91 R2c=0.96
+    level P1                     est=  28.814  SE= 1.276  95%CI=[ 26.312, 31.316]  p=<0.001
+    level P2                     est=  93.996  SE= 1.281  95%CI=[ 91.484, 96.507]  p=<0.001
+    level P3                     est= 149.293  SE= 1.276  95%CI=[146.792,151.795]  p=<0.001
+    llm gpt-4o                   est=  -0.073  SE= 0.905  95%CI=[ -1.847,  1.701]  p=0.936
+    language python              est= -29.633  SE= 0.905  95%CI=[-31.406,-27.859]  p=<0.001
+
+LOC [rank outcome]  converged=True  var(task)=1926.012 var(cell)=10.571 var(resid)=1012.773  ICC(task)=0.65 ICC(cell)=0.66  R2m=0.94 R2c=0.98
+    level P1                     est= 182.219  SE= 3.203  95%CI=[175.941,188.497]  p=<0.001
+    level P2                     est= 395.883  SE= 3.215  95%CI=[389.580,402.185]  p=<0.001
+    level P3                     est= 567.441  SE= 3.203  95%CI=[561.164,573.718]  p=<0.001
+    llm gpt-4o                   est=  -0.028  SE= 2.490  95%CI=[ -4.908,  4.853]  p=0.991
+    language python              est=-103.001  SE= 2.490  95%CI=[-107.881,-98.121]  p=<0.001
+  LRT omnibus level effect, ACS: chi2(3)=1882.5, p=<0.001
+  LRT omnibus level effect, CC: chi2(3)=1313.2, p=<0.001
+  LRT omnibus level effect, MI: chi2(3)=1035.0, p=<0.001
+  LRT omnibus level effect, CS: chi2(3)=818.4, p=<0.001
+  LRT omnibus level effect, LOC: chi2(3)=2418.7, p=<0.001
+
+========================================================================
+C. CLUSTER BOOTSTRAP OVER TASKS (k = 10 clusters, B = 10000)
+========================================================================
+  gain_total             point=   5.105   95% cluster-bootstrap CI=[   5.000,    5.584]
+  diff_P0P1              point=   1.105   95% cluster-bootstrap CI=[   1.000,    1.351]
+  share_P0P1             point=  21.647   95% cluster-bootstrap CI=[  20.000,   24.778]
+  diff_P1P2              point=   3.017   95% cluster-bootstrap CI=[   3.000,    3.502]
+  share_P1P2             point=  59.096   95% cluster-bootstrap CI=[  56.271,   68.618]
+  diff_P2P3              point=   0.983   95% cluster-bootstrap CI=[   0.512,    1.001]
+  share_P2P3             point=  19.257   95% cluster-bootstrap CI=[  10.000,   20.000]
+  share_P2_of_total      point=  80.743   95% cluster-bootstrap CI=[  80.000,   90.000]
+  delta_P0P1             point=   0.886   95% cluster-bootstrap CI=[   0.840,    0.933]
+  delta_P0P2             point=   1.000   95% cluster-bootstrap CI=[   1.000,    1.000]
+  delta_P0P3             point=   1.000   95% cluster-bootstrap CI=[   1.000,    1.000]
+  delta_P1P2             point=   1.000   95% cluster-bootstrap CI=[   0.999,    1.000]
+  delta_P1P3             point=   1.000   95% cluster-bootstrap CI=[   1.000,    1.000]
+  delta_P2P3             point=   0.525   95% cluster-bootstrap CI=[   0.347,    0.734]
+  rho_acs                point=   0.912   95% cluster-bootstrap CI=[   0.896,    0.932]
+  rho_acs_acs            point=   1.000   95% cluster-bootstrap CI=[   1.000,    1.000]
+  rho_avg_cc             point=  -0.771   95% cluster-bootstrap CI=[  -0.844,   -0.685]
+  rho_acs_avg_cc         point=  -0.656   95% cluster-bootstrap CI=[  -0.786,   -0.510]
+  rho_mi                 point=  -0.631   95% cluster-bootstrap CI=[  -0.784,   -0.425]
+  rho_acs_mi             point=  -0.670   95% cluster-bootstrap CI=[  -0.759,   -0.570]
+  rho_code_smells        point=  -0.533   95% cluster-bootstrap CI=[  -0.706,   -0.199]
+  rho_acs_code_smells    point=  -0.417   95% cluster-bootstrap CI=[  -0.693,    0.039]
+  rho_loc                point=   0.945   95% cluster-bootstrap CI=[   0.923,    0.964]
+  rho_acs_loc            point=   0.905   95% cluster-bootstrap CI=[   0.894,    0.916]
+
+========================================================================
+D. STRATIFIED PERMUTATION TEST (10000 permutations of level within (task, llm, language))
+========================================================================
+  ACS: observed H=669.89, stratified permutation p=<0.001
+  CC: observed H=520.71, stratified permutation p=<0.001
+  MI: observed H=370.67, stratified permutation p=<0.001
+  CS: observed H=472.68, stratified permutation p=<0.001
+  LOC: observed H=704.10, stratified permutation p=<0.001
+     ACS P0 vs P1: median diff=1.11, stratified perm p=<0.001 (Bonf. <0.001)
+     ACS P0 vs P2: median diff=4.12, stratified perm p=<0.001 (Bonf. <0.001)
+     ACS P0 vs P3: median diff=5.11, stratified perm p=<0.001 (Bonf. <0.001)
+     ACS P1 vs P2: median diff=3.02, stratified perm p=<0.001 (Bonf. <0.001)
+     ACS P1 vs P3: median diff=4.00, stratified perm p=<0.001 (Bonf. <0.001)
+     ACS P2 vs P3: median diff=0.98, stratified perm p=<0.001 (Bonf. <0.001)
+
+========================================================================
+E. LLM COMPARISON (GPT-4o vs Claude) ON PAIRED CELL MEDIANS (20 pairs per level)
+========================================================================
+  P0: GPT-4o cell Mdn=0.56, Claude cell Mdn=1.00, n_pairs=20, Wilcoxon W=50.0, p=0.069
+  P1: GPT-4o cell Mdn=2.00, Claude cell Mdn=2.00, n_pairs=20, Wilcoxon W=41.5, p=0.292
+  P2: GPT-4o cell Mdn=5.30, Claude cell Mdn=5.00, n_pairs=20, Wilcoxon W=22.0, p=0.031
+  P3: GPT-4o cell Mdn=6.00, Claude cell Mdn=6.00, n_pairs=20, Wilcoxon W=36.0, p=0.299

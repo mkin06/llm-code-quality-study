@@ -57,19 +57,35 @@ Distributions are non-normal (verified with Shapiro-Wilk), so all tests are non-
 - **Kruskal-Wallis H** - omnibus test across the four constraint levels
 - **Mann-Whitney U** with **Bonferroni** correction - pairwise level comparisons
 - **Cliff's delta** - effect size, interpreted with the usual negligible/small/medium/large thresholds
-- **Spearman ρ** - monotonic association between constraint level and each metric, and between metrics
+- **Spearman ρ** - monotonic association between constraint level and each metric (ACS, CC, MI, CS **and LOC**), and between metrics
+
+### Dependence-aware re-analysis (`06_clustered_analysis.py`, review round 3)
+
+The 788 samples are not independent: every (task, level, LLM, language) condition is sampled 5 times and every task is reused across all levels, LLMs and languages. Section 4.5 of the paper therefore re-analyses the outcomes with:
+
+- **Cell-level analysis** - each condition collapsed to its median (160 cells, 40 per level); Kruskal-Wallis, Bonferroni Mann-Whitney U, Cliff's delta and Spearman recomputed on cells.
+- **Linear mixed-effects models** (`statsmodels` MixedLM, REML) - `metric ~ level + llm + language`, random intercepts for task and for the (task, llm, language) stratum; fixed-effect contrasts with 95 % CIs, variance components / ICC, Nakagawa R², LRT for the omnibus level effect, plus a rank-transformed refit.
+- **Task-level cluster bootstrap** (B = 10 000) - percentile CIs for median gains, transition shares, Cliff's delta and every Spearman coefficient.
+- **Stratified permutation test** (10 000 permutations of level within each (task, llm, language) stratum) - omnibus H and pairwise rank-sum p-values.
+- **Paired LLM comparison** - Wilcoxon signed-rank on the 20 (task, language) cell pairs per level.
+
+Outputs: `results/rq_clustered_*.csv`, `results/clustered_summary.txt`, `results/rq3_spearman_with_loc.csv`.
+
+`07_figure1_annotated.py` regenerates `results/figures/rq1_boxplot_acs.png` with the median printed above each box and `***` brackets for the six Bonferroni-corrected pairwise comparisons, as described in the Fig. 1 caption.
 
 ## Repository structure
 
 ```
 .
-├── run_all.py                  # Runs the 5 pipeline steps in order
+├── run_all.py                  # Runs the 7 pipeline steps in order
 ├── scripts/
 │   ├── 01_prompt_dataset.py    # Task × level × language → prompt set + sample manifest
 │   ├── 02_generate_code.py     # Produces the Python code samples
 │   ├── 03_static_analysis.py   # Radon (CC, MI) + Pylint over every sample
 │   ├── 04_acs_scorer.py        # AST-based Architecture Conformance Score
-│   └── 05_statistical_analysis.py  # RQ1-RQ4 tests, tables and figures
+│   ├── 05_statistical_analysis.py  # RQ1-RQ4 tests, tables and figures
+│   ├── 06_clustered_analysis.py    # Dependence-aware re-analysis (Sec. 4.5)
+│   └── 07_figure1_annotated.py     # Fig. 1 with medians + significance brackets
 ├── prompts/
 │   ├── prompt_dataset.json     # The prompt texts
 │   └── sample_manifest.json    # One entry per sample: task, level, language, model, repetition
@@ -81,6 +97,8 @@ Distributions are non-normal (verified with Shapiro-Wilk), so all tests are non-
     ├── full_dataset.csv            # Merged per-sample dataset used by all tests
     ├── rq1_*.csv, rq2_*.csv, ...   # Per-RQ result tables
     ├── statistical_summary.txt     # Human-readable report of every test
+    ├── rq_clustered_*.csv          # Cell-level, LMM, bootstrap, permutation tables
+    ├── clustered_summary.txt       # Report of the dependence-aware re-analysis
     └── figures/*.png               # Figures used in the paper
 ```
 
@@ -95,6 +113,8 @@ Each step reads the output of the previous one:
 | 3 | `03_static_analysis.py` | generated samples | `data/static_analysis_python.csv` |
 | 4 | `04_acs_scorer.py` | generated samples | `data/acs_scores.csv` |
 | 5 | `05_statistical_analysis.py` | both CSVs in `data/` | `results/` + `results/figures/` |
+| 6 | `06_clustered_analysis.py` | `results/full_dataset.csv` | `results/rq_clustered_*.csv`, `clustered_summary.txt` |
+| 7 | `07_figure1_annotated.py` | `results/full_dataset.csv`, `results/rq1_pairwise.csv` | `results/figures/rq1_boxplot_acs.png` |
 
 ## Requirements
 
@@ -105,6 +125,7 @@ pylint
 pandas
 numpy
 scipy
+statsmodels
 matplotlib
 seaborn
 ```
@@ -119,7 +140,6 @@ pip install -r requirements.txt
 python run_all.py
 ```
 
-`run_all.py` executes the five steps in sequence and aborts on the first non-zero exit code. Individual steps can also be run on their own, as long as the earlier steps have produced their outputs.
+`run_all.py` executes the seven steps in sequence and aborts on the first non-zero exit code. Individual steps can also be run on their own, as long as the earlier steps have produced their outputs.
 
 All scripts set `random.seed(42)` / `np.random.seed(42)`, so a rerun on the same inputs reproduces the same outputs.
-

@@ -8,7 +8,8 @@ import json, os, random, hashlib, textwrap
 
 random.seed(42)
 
-OUT_DIR = "/home/user/workspace/experiment/generated_code/python"
+ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+OUT_DIR = os.path.join(ROOT, "generated_code", "python")
 os.makedirs(OUT_DIR, exist_ok=True)
 
 # ─── Variation helpers ───────────────────────────────────────────
@@ -1272,7 +1273,7 @@ TASK_PARAMS = {
 
 def generate_all_samples():
     """Generate all 400 Python code samples."""
-    manifest_path = "/home/user/workspace/experiment/prompts/sample_manifest.json"
+    manifest_path = os.path.join(ROOT, "prompts", "sample_manifest.json")
     with open(manifest_path) as f:
         manifest = json.load(f)
     
@@ -1341,7 +1342,7 @@ if __name__ == "__main__":
     for level in ["P0", "P1", "P2", "P3"]:
         files = [f for f in os.listdir(OUT_DIR) if f.endswith(".py")]
         level_sizes = []
-        manifest_path = "/home/user/workspace/experiment/prompts/sample_manifest.json"
+        manifest_path = os.path.join(ROOT, "prompts", "sample_manifest.json")
         with open(manifest_path) as f:
             manifest = json.load(f)
         for s in manifest:
